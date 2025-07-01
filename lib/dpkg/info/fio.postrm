@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installinit/13.11.1
+if [ "$1" = "remove" ] && [ -x "/etc/init.d/fio" ] ; then
+	chmod -x "/etc/init.d/fio" >/dev/null || true
+fi
+if [ -z "${DPKG_ROOT:-}" ] && [ "$1" = "purge" ] ; then
+	update-rc.d fio remove >/dev/null
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.11.1
+if [ "$1" = remove ] && [ -d /run/systemd/system ] ; then
+	systemctl --system daemon-reload >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.11.1
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge 'fio.service' >/dev/null || true
+	fi
+fi
+# End automatically added section

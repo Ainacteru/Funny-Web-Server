@@ -1,0 +1,5 @@
+dda08a43fa86e0f4e2afe5ca30057a5e  usr/lib/aarch64-linux-gnu/libglusterfs.so.0.0.1
+10cf4abe26063ae4e1b014602a1da6e9  usr/share/doc/libglusterfs0/changelog.Debian.gz
+ebe7c26b14742e0930416917c8ec0e9e  usr/share/doc/libglusterfs0/changelog.gz
+522e22dc4f15515586658d48827e1a19  usr/share/doc/libglusterfs0/copyright
+952e3d917bef5197af539630431f4afd  usr/share/lintian/overrides/libglusterfs0

@@ -1,0 +1,7 @@
+961db30ff497a6c678891928967e37d0  usr/lib/aarch64-linux-gnu/libSDL_image-1.2.so.0.8.4
+dc8db3450c8698a4e79c9242487b4209  usr/share/doc/libsdl-image1.2/README
+17626afcf904d3b8be10daa4005aa8eb  usr/share/doc/libsdl-image1.2/changelog.Debian.arm64.gz
+02b1101f7ff213282b3b93eeeefbf55c  usr/share/doc/libsdl-image1.2/changelog.Debian.gz
+1f2deeffa475a49fced3a446c8e39e83  usr/share/doc/libsdl-image1.2/changelog.gz
+89aee9d54de6c2a67565a5da7c498651  usr/share/doc/libsdl-image1.2/copyright
+cd9d7d863d7dff97f36a62e97d010804  usr/share/lintian/overrides/libsdl-image1.2

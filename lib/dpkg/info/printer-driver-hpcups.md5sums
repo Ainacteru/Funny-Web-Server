@@ -1,0 +1,13 @@
+5f4abc18871dae06301d883d82b34803  usr/lib/cups/filter/hpcups
+b9ed11f2769d13a9e506d9b79c6bf8de  usr/lib/cups/filter/hpcupsfax
+21b3015ca208144dc7e4ea9ebee00826  usr/share/bug/printer-driver-hpcups/presubj
+adfd86fec92d60f6d9bdf7d4e950c663  usr/share/bug/printer-driver-hpcups/script
+650212b038f4ee7307c622838075207c  usr/share/cups/drv/hpcups.drv
+0b70d281a269eb1cab3b963e601b41e9  usr/share/cups/ppd-updaters/printer-driver-hpcups.ppd-updater
+85e0e67c028453f0935de99a6fd0a7d5  usr/share/doc/printer-driver-hpcups/NEWS.Debian.gz
+a8c950acc5c9863955bb378f714b294c  usr/share/doc/printer-driver-hpcups/changelog.Debian.gz
+9d4a225de604f852daec83732d0aac5a  usr/share/doc/printer-driver-hpcups/copyright
+f832c9d068473a43b9de2589860e72db  usr/share/ppd/hplip/HP/HP-Fax-hpcups.ppd.gz
+ad5adf281ea338cc566803731ccbbe8e  usr/share/ppd/hplip/HP/HP-Fax2-hpcups.ppd.gz
+a123bf469eb2022d9cbe43720ce8ed1a  usr/share/ppd/hplip/HP/HP-Fax3-hpcups.ppd.gz
+5c1dfe40a9430dad516a479cde76c2b6  usr/share/ppd/hplip/HP/HP-Fax4-hpcups.ppd.gz

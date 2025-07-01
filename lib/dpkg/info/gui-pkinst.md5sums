@@ -1,0 +1,14 @@
+9bc73d6ce4d24f6b352f382c9af6da3c  usr/bin/gui-pkinst
+8e05bd9baf81d853f92e20788964ee13  usr/share/doc/gui-pkinst/changelog.gz
+ace90ca619e3e5fe3e8f0d6d0cb46cd1  usr/share/doc/gui-pkinst/copyright
+c8ec0b1b2890c069fc51c69471ba1f46  usr/share/gui-pkinst/gui-pkinst.ui
+2d0559f5a56025dabd6053781e851ca4  usr/share/gui-pkinst/inst.wav
+3f7929218b1ed0571ddc7dc0136dc91a  usr/share/gui-pkinst/instcomp.wav
+8cb9408b9151ae5e1f93600687b9055f  usr/share/gui-pkinst/instcompr.wav
+412095b7745e45d72149e524816680d1  usr/share/gui-pkinst/instfail.wav
+f8fbdf19db8e9ed27a7d4453d1c50c9a  usr/share/gui-pkinst/whitelist.conf
+15fdafa4038858520fe75bc6fb2f1ff4  usr/share/locale/en_GB/LC_MESSAGES/gui-pkinst.mo
+704fe9e2b6e094701071699d1564e8bd  usr/share/locale/it/LC_MESSAGES/gui-pkinst.mo
+921b1e235942a65038b887c671ef058a  usr/share/locale/ko/LC_MESSAGES/gui-pkinst.mo
+55a92663eeb2f13d1f3789d38fe09146  usr/share/locale/zh_CN/LC_MESSAGES/gui-pkinst.mo
+60b1ab9d93832a6ea78be016698c9b03  usr/share/polkit-1/rules.d/10-gui-pkinst.rules

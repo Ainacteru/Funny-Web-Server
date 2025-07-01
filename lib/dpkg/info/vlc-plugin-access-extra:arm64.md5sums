@@ -1,0 +1,9 @@
+e2b02322558f6483e6295ab0a10592fc  usr/lib/aarch64-linux-gnu/vlc/plugins/access/libaccess_srt_plugin.so
+85fa3243954c0bcc05194b54e4250125  usr/lib/aarch64-linux-gnu/vlc/plugins/access/libvnc_plugin.so
+21163e6db7609e501d39f481dc0ce2f7  usr/lib/aarch64-linux-gnu/vlc/plugins/access/libxcb_screen_plugin.so
+8a82b18ad282bb40f8839b2b0c29e645  usr/lib/aarch64-linux-gnu/vlc/plugins/access_output/libaccess_output_srt_plugin.so
+143dd060cd683f7da6fa97b4de08f0bc  usr/share/bug/vlc-plugin-access-extra/control
+db5a9ef7d588ac8bafe061d1968be5cd  usr/share/bug/vlc-plugin-access-extra/presubj
+f91b5d7ef18ae35e96e25e235fb262a7  usr/share/doc/vlc-plugin-access-extra/changelog.Debian.gz
+74d2a6ffba1591ec4daa33e6025689a6  usr/share/doc/vlc-plugin-access-extra/changelog.gz
+2cf769622e05d506a35a12f5cbc6c24b  usr/share/doc/vlc-plugin-access-extra/copyright

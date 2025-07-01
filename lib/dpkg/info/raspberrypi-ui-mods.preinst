@@ -1,0 +1,34 @@
+#! /bin/sh
+
+set -e
+
+case "${1}" in
+  upgrade)
+	    UFILE="/etc/xdg/labwc/environment"
+	    if [ -e $UFILE ] ; then
+	      if grep -q XKB_DEFAULT_MODEL $UFILE ; then sed -i s/XKB_DEFAULT_MODEL.*/XKB_DEFAULT_MODEL=pc105/ $UFILE ; fi
+	      if grep -q XKB_DEFAULT_LAYOUT $UFILE ; then sed -i s/XKB_DEFAULT_LAYOUT.*/XKB_DEFAULT_LAYOUT=gb/ $UFILE ; fi
+	      if grep -q XKB_DEFAULT_VARIANT $UFILE ; then sed -i /XKB_DEFAULT_VARIANT/d $UFILE ; fi
+	      if grep -q XKB_DEFAULT_OPTIONS $UFILE ; then sed -i /XKB_DEFAULT_OPTIONS/d $UFILE ; fi
+	    fi
+	    if [ -e /usr/share/labwc/environment ] ; then
+	      mkdir -p /etc/xdg/labwc-greeter/
+	      mv /usr/share/labwc/* /etc/xdg/labwc-greeter/
+	    fi
+    ;;
+
+  *)
+    ;;
+esac
+
+# Automatically added by dh_installdeb/13.11.4
+dpkg-maintscript-helper rm_conffile /etc/X11/Xsession.d/90xmodmap 1.0-7 -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/xdg/autostart/lxkeymap.desktop 1.20180328 -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/xdg/lxpanel/profile/LXDE-pi/panels/panel 1.20180926 -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/xdg/lxpanel/profile/LXDE-pi/config 1.20180926 -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/xdg/lxsession/LXDE-pi/autokey.sh 1.20180926 -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/polkit-1/localauthority.conf.d/60-desktop-policy.conf 1.20201210 -- "$@"
+# End automatically added section
+
+
+exit 0

@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/bin
+/usr/bin/zenoty
+/usr/share
+/usr/share/applications
+/usr/share/applications/zenoty-dialog-error.desktop
+/usr/share/applications/zenoty-dialog-information.desktop
+/usr/share/applications/zenoty-dialog-question.desktop
+/usr/share/applications/zenoty-dialog-warning.desktop
+/usr/share/doc
+/usr/share/doc/zenoty
+/usr/share/doc/zenoty/changelog.gz
+/usr/share/doc/zenoty/copyright
+/usr/share/zenoty
+/usr/share/zenoty/ui
+/usr/share/zenoty/ui/zenoty.ui

@@ -1,0 +1,13 @@
+82e0a8a4f6a4429e5995b421ef3c7844  usr/bin/piclone
+29e4e6402d86e5bff94032a3d62e7e44  usr/share/applications/piclone.desktop
+58ed33619aa95b5c338f40f5d90aca99  usr/share/doc/piclone/changelog.gz
+c1d01f013c4c09a346951edde1b99b2a  usr/share/doc/piclone/copyright
+7e31dd87a73b036b01be6f5e6947e7e8  usr/share/locale/de/LC_MESSAGES/piclone.mo
+21ba31afee5f468558686d28da44de39  usr/share/locale/en_GB/LC_MESSAGES/piclone.mo
+c4b93700462106130cb47e3363ecd90a  usr/share/locale/hy/LC_MESSAGES/piclone.mo
+bffb20cb9490d2791ab097c5bacee27c  usr/share/locale/it/LC_MESSAGES/piclone.mo
+d38a2ea50936d61e726b5b6be304ac9d  usr/share/locale/ko/LC_MESSAGES/piclone.mo
+d8527873da21645b2d5fe322d867c79f  usr/share/locale/nb/LC_MESSAGES/piclone.mo
+f3163ac52b45db61673fe03a6e2f3d0a  usr/share/locale/sk/LC_MESSAGES/piclone.mo
+b8c26688b5464fb3058ab714adcf32e5  usr/share/locale/zh_CN/LC_MESSAGES/piclone.mo
+77f29dde764138b43f2d6bf5405f2021  usr/share/piclone/piclone.ui

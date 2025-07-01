@@ -1,0 +1,9 @@
+6cc2d1e3d96e711730af1f0c22054b88  usr/lib/aarch64-linux-gnu/wf-panel-pi/libgpu.so
+4a4ae3b48f4837939c6cb899379c780a  usr/share/doc/wfplug-gpu/changelog.gz
+86a22d6afef3f9aab8951df4a6bd97fd  usr/share/doc/wfplug-gpu/copyright
+2ff431f1da9c41853de49acee3a756f5  usr/share/locale/en_GB/LC_MESSAGES/wfplug_gpu.mo
+e7f194d908a0b4258898ffcc5b87dfcf  usr/share/locale/hy/LC_MESSAGES/wfplug_gpu.mo
+f317616e30bbe3089d24803e402146ca  usr/share/locale/it/LC_MESSAGES/wfplug_gpu.mo
+0cea7cf1735463d361148534bca7b718  usr/share/locale/ja/LC_MESSAGES/wfplug_gpu.mo
+2b711980a99a486399ecd23aeff79d77  usr/share/locale/sk/LC_MESSAGES/wfplug_gpu.mo
+9db0f6816a06d80d4172466f729dc43a  usr/share/wf-panel-pi/metadata/gpu.xml

@@ -1,0 +1,5 @@
+a186b28358fa43b1a1ba38989b654758  usr/lib/aarch64-linux-gnu/libsrtp2.so.1
+ed0c2a479c79b3fa6c038788bc3a9582  usr/share/doc/libsrtp2-1/changelog.Debian.gz
+22b51c4d31647bb7284f3d355110f9bf  usr/share/doc/libsrtp2-1/changelog.gz
+9e66d26977dcd719593043043e888397  usr/share/doc/libsrtp2-1/copyright
+fa5486b188e73ef18e0731c1763f9ba4  usr/share/lintian/overrides/libsrtp2-1

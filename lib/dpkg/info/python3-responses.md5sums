@@ -1,0 +1,17 @@
+ad99f42786a332e2db91400821e6fc44  usr/lib/python3/dist-packages/responses-0.18.0.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/responses-0.18.0.egg-info/dependency_links.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/responses-0.18.0.egg-info/not-zip-safe
+74287d3087d791992bb508cbf6e07e7e  usr/lib/python3/dist-packages/responses-0.18.0.egg-info/requires.txt
+9c3d0064431924eeba5be7dcdd681950  usr/lib/python3/dist-packages/responses-0.18.0.egg-info/top_level.txt
+b8c215be8e334db2b466f9c13fb2b7d5  usr/lib/python3/dist-packages/responses/__init__.py
+f9fe90e33946cef9806a564de15f0b52  usr/lib/python3/dist-packages/responses/__init__.pyi
+88efbec91b2d1e929ebac7ba28bc22c0  usr/lib/python3/dist-packages/responses/matchers.py
+14b9ae76c3bcd63e8566f8a43f307c14  usr/lib/python3/dist-packages/responses/matchers.pyi
+192baefdc2a7735fc652b0d84abb3967  usr/lib/python3/dist-packages/responses/registries.py
+601bb7577bfd73fe7c54a3bb93d1bffe  usr/lib/python3/dist-packages/responses/test_matchers.py
+546fcacbc6d16f5e9edf6a7eda76a32c  usr/lib/python3/dist-packages/responses/test_registries.py
+f23481a42c5ef33863ec10b0e67a2e36  usr/lib/python3/dist-packages/responses/test_responses.py
+869a37e281ba71c86ae8781ea564740a  usr/share/doc/python3-responses/README.rst.gz
+a56c03b99821f8a28717c39cce9d4705  usr/share/doc/python3-responses/changelog.Debian.gz
+4846aa0bb8570f7f726ad78a433d421a  usr/share/doc/python3-responses/changelog.gz
+ca65a5efd61a0978f04602014bcd9d86  usr/share/doc/python3-responses/copyright

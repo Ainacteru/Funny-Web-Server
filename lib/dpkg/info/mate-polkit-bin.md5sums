@@ -1,0 +1,8 @@
+8ac6d49882e40ed955e6596a31c672ab  usr/bin/mate-polkit
+416f1b320974d09d9914e96f840ac485  usr/share/doc/mate-polkit-bin/AUTHORS
+fb4c9ada93f26c8c48874663b2d7a4ef  usr/share/doc/mate-polkit-bin/HACKING
+24831414e7ed545c04e24536df7ee2f4  usr/share/doc/mate-polkit-bin/README
+42eadc68c1410451efe5c404f77a9e7a  usr/share/doc/mate-polkit-bin/changelog.Debian.gz
+ec9c95b138e43b7044e4f4e80ca2d0a3  usr/share/doc/mate-polkit-bin/changelog.gz
+b749c35a876a34dc190d09be042f4a36  usr/share/doc/mate-polkit-bin/copyright
+7571a82e925d0e7e2694f7a9c40574ef  usr/share/man/man1/mate-polkit.1.gz

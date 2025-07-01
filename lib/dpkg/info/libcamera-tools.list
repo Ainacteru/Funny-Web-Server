@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/bin
+/usr/bin/cam
+/usr/bin/ipa_verify
+/usr/bin/lc-compliance
+/usr/bin/libcamerify
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcamera-tools
+/usr/share/doc/libcamera-tools/changelog.Debian.gz
+/usr/share/doc/libcamera-tools/copyright

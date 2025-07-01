@@ -1,0 +1,7 @@
+491893cc16e84936deb07bdcf008af2d  usr/lib/aarch64-linux-gnu/libgallium-24.2.8-1~bpo12+rpt2.so
+7f0d95ab544ef194372363bb93229ede  usr/share/bug/mesa-libgallium/control
+114f277e413ffae0a725cc024a955b47  usr/share/bug/mesa-libgallium/script
+95e0c8bc24798378e6ac2a3310927d64  usr/share/doc/mesa-libgallium/changelog.Debian.gz
+db59eee4b30d73f42644550d2b917478  usr/share/doc/mesa-libgallium/changelog.gz
+d63634382a6104b7ac6e8d0fb50ebc17  usr/share/doc/mesa-libgallium/copyright
+d14cb11f66becfc9acd521b48b1be2bc  usr/share/lintian/overrides/mesa-libgallium

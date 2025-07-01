@@ -1,0 +1,8 @@
+d2b81dbf53fbd945f314c96b4c8504fc  usr/lib/systemd/user/pipewire-pulse.service
+b660d51bdce25da1e205c701fef52d65  usr/lib/systemd/user/pipewire-pulse.socket
+37718c6dfad27e5b02a0cf3a16698a4d  usr/share/doc/pipewire-pulse/changelog.Debian.gz
+664b40d25bdb0d6e4f58fde3af0e58e3  usr/share/doc/pipewire-pulse/copyright
+5b3333bce5d3d9bb13fcb71bca2a57fa  usr/share/glib-2.0/schemas/org.freedesktop.pulseaudio.gschema.xml
+fdc4f2ca292b20b4fa4a18f5159e23b5  usr/share/lintian/overrides/pipewire-pulse
+2a517f8f47b1ea1d9fc0c9cc978516ef  usr/share/man/man1/pipewire-pulse.1.gz
+df1a9e35f2bd79fdb2c31586ad5579ee  usr/share/pipewire/pipewire-pulse.conf

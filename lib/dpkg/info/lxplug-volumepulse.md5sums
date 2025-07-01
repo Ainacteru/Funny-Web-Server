@@ -1,0 +1,10 @@
+18a08585ee022efc61355738e1dc50b6  usr/lib/aarch64-linux-gnu/lxpanel/plugins/volumepulse.so
+5ab1f34c02681866065a3318a2aa60c5  usr/share/doc/lxplug-volumepulse/changelog.gz
+1ea2262e9f5d956e8d5b47953256dae1  usr/share/doc/lxplug-volumepulse/copyright
+6f6fcd071a2ce3556026a3b5ca519a06  usr/share/locale/en_GB/LC_MESSAGES/lxplug_volumepulse.mo
+d87b3360ec5c3759e7f51f94d96d2abc  usr/share/locale/hy/LC_MESSAGES/lxplug_volumepulse.mo
+9984ae960c97f0b8c24595c8dcd11fc5  usr/share/locale/is/LC_MESSAGES/lxplug_volumepulse.mo
+2dbe4022e296ad2fc8737e989474e9af  usr/share/locale/it/LC_MESSAGES/lxplug_volumepulse.mo
+80526939381b033988ade408eed87e49  usr/share/locale/ko/LC_MESSAGES/lxplug_volumepulse.mo
+929cf73d77f64897c85d6b5924fb3d3c  usr/share/locale/sk/LC_MESSAGES/lxplug_volumepulse.mo
+0abe2a6243bcd3560ae14df43335bc6c  usr/share/lxpanel/ui/lxplug-volumepulse.ui

@@ -1,0 +1,4 @@
+e67601a2f248e07502aea747b6cb9bad  usr/libexec/gvfsd-fuse
+5798e22e604ed36b12d2c161c75896bf  usr/share/doc/gvfs-fuse/changelog.Debian.gz
+528290130c1c3d81871b26638c2e2583  usr/share/doc/gvfs-fuse/copyright
+f9557cc66284132e8c15aa4dc455c445  usr/share/lintian/overrides/gvfs-fuse

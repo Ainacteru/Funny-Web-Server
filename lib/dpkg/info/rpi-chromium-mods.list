@@ -1,0 +1,12 @@
+/.
+/etc
+/etc/chromium
+/etc/chromium/master_preferences
+/etc/chromium.d
+/etc/chromium.d/00-rpi-vars
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/rpi-chromium-mods
+/usr/share/doc/rpi-chromium-mods/changelog.gz
+/usr/share/doc/rpi-chromium-mods/copyright

@@ -1,0 +1,8 @@
+ab79583173c7b9eb1c563a95adae8897  usr/bin/zenoty
+f60f893764c50d92875444efe5395421  usr/share/applications/zenoty-dialog-error.desktop
+9a5f2769d651da2704f06c2696f69dbe  usr/share/applications/zenoty-dialog-information.desktop
+aa063f76f3cfa53ffdd2d377a7045b9e  usr/share/applications/zenoty-dialog-question.desktop
+43d7eb36b7c94e7283ed8a3735b244fc  usr/share/applications/zenoty-dialog-warning.desktop
+1e03afbadbde5bb12735e5513210a30d  usr/share/doc/zenoty/changelog.gz
+70ec4a5f7bde046cb7659bef48953756  usr/share/doc/zenoty/copyright
+38886a9881032e448b8a84ce3fd11fee  usr/share/zenoty/ui/zenoty.ui

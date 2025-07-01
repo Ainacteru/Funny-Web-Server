@@ -1,0 +1,9 @@
+1028a2c92d12115212e4c3586cf4b3d2  usr/lib/aarch64-linux-gnu/wf-panel-pi/libcpu.so
+90b24171c052aea5630550fa1237fec6  usr/share/doc/wfplug-cpu/changelog.gz
+3afa718eee8b17aeab7dcc030de5338d  usr/share/doc/wfplug-cpu/copyright
+bfe89d0fb51104448a08725c79021276  usr/share/locale/en_GB/LC_MESSAGES/wfplug_cpu.mo
+e7f194d908a0b4258898ffcc5b87dfcf  usr/share/locale/hy/LC_MESSAGES/wfplug_cpu.mo
+f317616e30bbe3089d24803e402146ca  usr/share/locale/it/LC_MESSAGES/wfplug_cpu.mo
+d2e97616aaad5cafe9689bf2ec08259f  usr/share/locale/ja/LC_MESSAGES/wfplug_cpu.mo
+e4604dbcd1b1060a838a75883a769209  usr/share/locale/sk/LC_MESSAGES/wfplug_cpu.mo
+0a03993a783c007b4bf3500547d3f9b5  usr/share/wf-panel-pi/metadata/cpu.xml

@@ -1,0 +1,12 @@
+60f49f4ea2ad8731e4fd198877444e1c  usr/lib/aarch64-linux-gnu/wf-panel-pi/libbluetooth.so
+715e9140f90ec8c037e2e97d2bc01e72  usr/share/doc/wfplug-bluetooth/changelog.gz
+66541d1ada126ad99ccb1c439a7593e0  usr/share/doc/wfplug-bluetooth/copyright
+ca9e200e259684222a45a63544a0b890  usr/share/locale/en_GB/LC_MESSAGES/wfplug_bluetooth.mo
+32e0c21689fe5157c21f926d05c296ba  usr/share/locale/hy/LC_MESSAGES/wfplug_bluetooth.mo
+6fa4165fe05b4d4b49032e3830f30124  usr/share/locale/is/LC_MESSAGES/wfplug_bluetooth.mo
+127b5a51bdcbcba64245875f19029d57  usr/share/locale/it/LC_MESSAGES/wfplug_bluetooth.mo
+3d70340f43945773019e45140c478db3  usr/share/locale/ja/LC_MESSAGES/wfplug_bluetooth.mo
+c283112fcc78c71edaa7b62d8fc32327  usr/share/locale/ko/LC_MESSAGES/wfplug_bluetooth.mo
+4ae8597db2d9c27402d0fda11981cd30  usr/share/locale/nb/LC_MESSAGES/wfplug_bluetooth.mo
+d7c9eba1678c7376ba9c94dcad8f80ce  usr/share/locale/sk/LC_MESSAGES/wfplug_bluetooth.mo
+8ecf98de0f7d45955b055dc15522bc91  usr/share/wf-panel-pi/ui/lxplug-bluetooth.ui

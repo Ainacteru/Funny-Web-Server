@@ -1,0 +1,14 @@
+046b5fd690d06436b1c980000fb7f31c  usr/lib/python3/dist-packages/asttokens-2.2.1.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/asttokens-2.2.1.egg-info/dependency_links.txt
+d72820c063a36664d4d6f5ed25875913  usr/lib/python3/dist-packages/asttokens-2.2.1.egg-info/requires.txt
+7ba6772a2bcaed37607cad4d3771fb76  usr/lib/python3/dist-packages/asttokens-2.2.1.egg-info/top_level.txt
+71d07b566c060bd5aa15c9ec7539e40c  usr/lib/python3/dist-packages/asttokens/__init__.py
+d8494ea513fbc1ed047530638f9f8d94  usr/lib/python3/dist-packages/asttokens/astroid_compat.py
+231977dec892a826b7b8eac5d8e4624f  usr/lib/python3/dist-packages/asttokens/asttokens.py
+3b7d546535619f7b910f796fa794c713  usr/lib/python3/dist-packages/asttokens/line_numbers.py
+1cf0955bccca15f8e45980ce10fde757  usr/lib/python3/dist-packages/asttokens/mark_tokens.py
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/asttokens/py.typed
+754261f7889fb097a06ce79c989685c6  usr/lib/python3/dist-packages/asttokens/util.py
+c3790e5fb981b30ff20b3449b4f52012  usr/lib/python3/dist-packages/asttokens/version.py
+993589ae7b2d1a3f6a6055e63f427cec  usr/share/doc/python3-asttokens/changelog.Debian.gz
+9526587f9ad4983e5470a7e3b66c15d1  usr/share/doc/python3-asttokens/copyright

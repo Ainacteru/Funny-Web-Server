@@ -1,0 +1,81 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    configure)
+        if [ -z "$2" ] ; then
+          raspi-config nonint update_squeekboard
+          pwdlines=$(getent passwd)
+          while read line
+          do
+            USHELL=$(echo "$line" | cut -d: -f7)
+            if grep -q "$USHELL" /etc/shells ; then
+              HOME_DIR=$(echo "$line" | cut -d: -f6)/
+              if [ -e "$HOME_DIR/.config/wf-panel-pi.ini" ] ; then
+                if ! grep -q -w squeek "$HOME_DIR/.config/wf-panel-pi.ini" ; then
+                  sed "$HOME_DIR/.config/wf-panel-pi.ini" -i -e '/^widgets_right/ s/$/ squeek/'
+                fi
+              fi
+            fi
+          done <<EOF
+          $pwdlines
+EOF
+          cat > /etc/xdg/autostart/squeekboard.desktop << EOF
+[Desktop Entry]
+Name=Squeekboard
+Comment=Launch the on-screen keyboard
+Exec=/usr/bin/sbtest
+Terminal=false
+Type=Application
+NoDisplay=true
+EOF
+          if [ -e /usr/share/labwc/autostart ] ; then
+            sed -i '/squeekboard/d' /usr/share/labwc/autostart
+            if ! grep -q sbtest /usr/share/labwc/autostart ; then
+              echo "/usr/bin/sbtest &" >> /usr/share/labwc/autostart
+            fi
+          fi
+          if [ -e /etc/xdg/labwc-greeter/autostart ] ; then
+            sed -i '/squeekboard/d' /etc/xdg/labwc-greeter/autostart
+            if ! grep -q sbtest /etc/xdg/labwc-greeter/autostart ; then
+              echo "/usr/bin/sbtest &" >> /etc/xdg/labwc-greeter/autostart
+            fi
+          fi
+          sbtest > /dev/null 2> /dev/null &
+        else
+          if [ -e /usr/share/labwc/autostart ] ; then
+            if grep squeekboard /usr/share/labwc/autostart ; then
+              sed -i 's/squeekboard/sbout/' /usr/share/labwc/autostart
+            fi
+          fi
+          if [ -e /etc/xdg/labwc-greeter/autostart ] ; then
+            if grep squeekboard /etc/xdg/labwc-greeter/autostart ; then
+              sed -i 's/squeekboard/sbout/' /etc/xdg/labwc-greeter/autostart
+            fi
+          fi
+          if [ -e /etc/xdg/autostart/squeekboard.desktop ] ; then
+            if grep squeekboard /etc/xdg/autostart/squeekboard.desktop ; then
+              sed -i 's/squeekboard/sbout/' /etc/xdg/autostart/squeekboard.desktop
+            fi
+          fi
+        fi
+        ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+        ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+        ;;
+esac
+
+# Automatically added by dh_installalternatives/13.11.4
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ]; then
+        update-alternatives --install /usr/share/applications/sm.puri.OSK0.desktop Phosh-OSK /usr/share/applications/sm.puri.Squeekboard.desktop 50
+fi
+# End automatically added section
+
+
+exit 0

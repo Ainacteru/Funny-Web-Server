@@ -1,0 +1,13 @@
+/etc/default/raspberrypi-sys-mods
+/etc/issue.d/IP.issue
+/etc/modprobe.d/blacklist-8192cu.conf
+/etc/modprobe.d/rfkill_default.conf
+/etc/profile.d/at-dbus-fix.sh
+/etc/profile.d/dpkg-limit.sh
+/etc/sudoers.d/010_at-export
+/etc/sudoers.d/010_dpkg-threads
+/etc/sudoers.d/010_global-tty
+/etc/sudoers.d/010_pi-nopasswd
+/etc/sysctl.d/98-rpi.conf
+/etc/tmpfiles.d/sys-kernel-debug.conf
+/etc/udev/rules.d/99-com.rules

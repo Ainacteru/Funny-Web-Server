@@ -1,0 +1,6 @@
+86843b1a274ca7c4ebd1b26c4550e849  lib/systemd/system/glamor-test.service
+254d5d52eeefaeba71be9722c3c7722d  lib/systemd/system/rp1-test.service
+f29dd17dc6ff6077ba833492fcc65b10  usr/lib/systemd/scripts/glamor_test.sh
+f0fe469b47be3819d0510da827670d3d  usr/lib/systemd/scripts/rp1_test.sh
+5d859244c6073bd4c9a4c4ccf7dfa761  usr/share/doc/gldriver-test/changelog.gz
+3d381881cf6ff1cfd3747bcef7b76633  usr/share/doc/gldriver-test/copyright

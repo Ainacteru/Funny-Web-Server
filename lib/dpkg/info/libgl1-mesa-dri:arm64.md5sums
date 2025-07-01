@@ -1,0 +1,7 @@
+48c5e788be9152eec22bee4a1876c752  usr/lib/aarch64-linux-gnu/dri/libdril_dri.so
+7f0d95ab544ef194372363bb93229ede  usr/share/bug/libgl1-mesa-dri/control
+114f277e413ffae0a725cc024a955b47  usr/share/bug/libgl1-mesa-dri/script
+0015bd1a4e60161ee1dcca3eb4c80c3d  usr/share/doc/libgl1-mesa-dri/changelog.Debian.gz
+db59eee4b30d73f42644550d2b917478  usr/share/doc/libgl1-mesa-dri/changelog.gz
+d63634382a6104b7ac6e8d0fb50ebc17  usr/share/doc/libgl1-mesa-dri/copyright
+424e5e1337bc8c05db47fbe9a5f2ad8e  usr/share/drirc.d/00-mesa-defaults.conf

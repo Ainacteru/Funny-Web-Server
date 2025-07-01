@@ -1,0 +1,17 @@
+a8ea7b5fe80686cfe45b0f3e751e1947  usr/bin/wayvnc
+305800606acedcf577f442ba6210b093  usr/bin/wayvncctl
+2af1deec56844fc271df1dd81744ed24  usr/lib/systemd/system/wayvnc-control.service
+60fe95d3639d0c944091ec2b550991b4  usr/lib/systemd/system/wayvnc-generate-keys.service
+3b1ae1a1959fd4828abf987f50c0c86a  usr/lib/systemd/system/wayvnc.service
+30e193e1dc8bf92a2b3744f338e1f773  usr/lib/sysusers.d/vnc.conf
+a445a5b8f035b08d80be3459e31ac428  usr/sbin/wayvnc-control.py
+9dcb8717b25798fd3ebebf8f2163c582  usr/sbin/wayvnc-generate-keys.sh
+cb75c083900b5878080360f4d2f203e7  usr/sbin/wayvnc-run.sh
+bf8fc884c0c6017d78c1053d4d7f5f62  usr/share/doc/wayvnc/changelog.Debian.gz
+a85affc65f40a8bc74a41e5a1f1c036f  usr/share/doc/wayvnc/copyright
+b9bc4edc325e61e0103833330e6b2da8  usr/share/doc/wayvnc/examples/README.md
+c4d5fc7510db65ab2aaaa1e6ebf709f8  usr/share/doc/wayvnc/examples/auto-attach.py
+2869da9ce4be803ea962a27b36713cce  usr/share/doc/wayvnc/examples/event-watcher
+5be9fb8efe562151617cdee0018b5e79  usr/share/doc/wayvnc/examples/single-output-sway
+bd330f6166beba06616b93c032036d3c  usr/share/man/man1/wayvnc.1.gz
+92e1681ec08bf5390fd99e19f0f1a155  usr/share/man/man1/wayvncctl.1.gz

@@ -1,0 +1,7 @@
+ff82d3cbbf6bca9d1843dbb4ef82f7ef  usr/lib/systemd/user/xdg-desktop-portal-wlr.service
+f227d81cbd8475091e5e96b356a27526  usr/libexec/xdg-desktop-portal-wlr
+d0694873afc37aa50626877656dcdbbf  usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.wlr.service
+572414f98809d77e41c5a6299cfbaf7a  usr/share/doc/xdg-desktop-portal-wlr/changelog.Debian.gz
+210612a38bdffcf24aa23ad3279b7c3f  usr/share/doc/xdg-desktop-portal-wlr/copyright
+dd2b5bf7efbabbb585181f9442866bec  usr/share/man/man5/xdg-desktop-portal-wlr.5.gz
+75184bc0e90e73465b4e5e4256ae55a1  usr/share/xdg-desktop-portal/portals/wlr.portal

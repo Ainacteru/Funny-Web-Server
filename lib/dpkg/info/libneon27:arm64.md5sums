@@ -1,0 +1,10 @@
+15d248be9a5bc2f379f9a8d8b2344f29  usr/lib/aarch64-linux-gnu/libneon.so.27.5.5
+aa192e4dfc75ea883e3fda1a0854c9eb  usr/share/doc/libneon27/AUTHORS
+3c09f4070505918e62b6d44c817b2910  usr/share/doc/libneon27/BUGS
+a5dd737cd4b2196b8dd36852c6105d59  usr/share/doc/libneon27/NEWS.gz
+be25f088579f56985ecc606c0fef8851  usr/share/doc/libneon27/THANKS
+418cd1e5f8098158025beab6ae564325  usr/share/doc/libneon27/TODO
+87f6ec90442588779f072ea6e8b99ba2  usr/share/doc/libneon27/changelog.Debian.gz
+6d4310a3f76192d5b7eeadacba8aacca  usr/share/doc/libneon27/changelog.gz
+ddda28f04eb18d3a43bd89d3aee7fb52  usr/share/doc/libneon27/copyright
+2a821aaceb07908d3276b512c436a818  usr/share/lintian/overrides/libneon27

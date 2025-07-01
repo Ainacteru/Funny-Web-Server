@@ -1,0 +1,9 @@
+0a0b2fce81f99e7dc51588fa4a022ca1  usr/lib/aarch64-linux-gnu/libimobiledevice-1.0.so.6.0.0
+54bbb7a48b414962856f3f98c7f1a8d2  usr/share/doc/libimobiledevice6/AUTHORS
+5598e4f7d8e35e8bfb69fb1fdac55ff9  usr/share/doc/libimobiledevice6/NEWS.Debian.gz
+ed83429196c7f00cb12dc98b23a8ab43  usr/share/doc/libimobiledevice6/NEWS.gz
+62e9b3dc0ca5674bbaa3714a4dafa106  usr/share/doc/libimobiledevice6/README.md.gz
+4f0335e574a17e9d4be8132844e98421  usr/share/doc/libimobiledevice6/changelog.Debian.arm64.gz
+39420e0d9121ff32067fc2def129c82b  usr/share/doc/libimobiledevice6/changelog.Debian.gz
+bf000d11c51dd687fd1798abb2168959  usr/share/doc/libimobiledevice6/copyright
+8166d53bbd555827efb11fcaa5267028  usr/share/lintian/overrides/libimobiledevice6

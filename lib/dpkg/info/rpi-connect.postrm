@@ -1,0 +1,38 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "purge" ]; then
+  # Remove all user-enabled systemd units
+  getent passwd | while IFS=: read -r _name _passwd _uid _gid _gecos dir shell ; do
+    if grep -q "$shell" /etc/shells ; then
+      if [ -L "$dir/.config/systemd/user/default.target.wants/rpi-connect.service" ] ; then
+        rm "$dir/.config/systemd/user/default.target.wants/rpi-connect.service" || true
+      fi
+
+      if [ -L "$dir/.config/systemd/user/rpi-connect.service.wants/rpi-connect-wayvnc.service" ] ; then
+        rm "$dir/.config/systemd/user/rpi-connect.service.wants/rpi-connect-wayvnc.service" || true
+      fi
+
+      if [ -L "$dir/.config/systemd/user/rpi-connect.service.wants/rpi-connect-wayvnc-watcher.path" ] ; then
+        rm "$dir/.config/systemd/user/rpi-connect.service.wants/rpi-connect-wayvnc-watcher.path" || true
+      fi
+
+      if [ -d "$dir/.config/systemd/user/rpi-connect.service.wants" ] ; then
+        rmdir --ignore-fail-on-non-empty "$dir/.config/systemd/user/rpi-connect.service.wants" || true
+      fi
+    fi
+  done
+fi
+
+if [ "$1" = "remove" ] || [ "$1" = "purge" ] ; then
+  if [ -z "${DPKG_ROOT:-}" ] && [ -d /run/systemd/system ] ; then
+    # Backport init-system-helpers 1.67's "deb-systemd-invoke --user
+    # --no-dbus daemon-reload" command to ensure the latest unit files
+    # are loaded
+    systemctl --quiet kill --kill-whom=main --signal SIGHUP 'user@*.service' >/dev/null || true
+  fi
+
+  if [ -e /usr/bin/wfpanelctl ] ; then
+    wfpanelctl connect uninstall >/dev/null || true
+  fi
+fi

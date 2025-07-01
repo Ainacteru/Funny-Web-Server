@@ -1,0 +1,6 @@
+435c28805760343f1a2712e5551057c6  lib/udev/rules.d/56-hpmud.rules
+e2af99b8e0d0ec88ccabb14f75ac2a9f  usr/lib/aarch64-linux-gnu/sane/libsane-hpaio.so.1.0.0
+7eb3f25b25de92a7ebb68451597eaa9a  usr/share/doc/libsane-hpaio/changelog.Debian.gz
+9d4a225de604f852daec83732d0aac5a  usr/share/doc/libsane-hpaio/copyright
+cc617d76dd358bf74a499d9660924800  usr/share/doc/libsane-hpaio/hpaio.desc.gz
+f3200dfce6d00877322adaf45d25068c  usr/share/hplip/data/models/models.dat

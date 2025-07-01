@@ -1,0 +1,11 @@
+bb0bf0f89c572741402cf7a9bd5b87f1  usr/lib/aarch64-linux-gnu/spa-0.2/bluez5/libspa-bluez5.so
+331d29f9ec180a9fe294dc24f096e66a  usr/lib/aarch64-linux-gnu/spa-0.2/bluez5/libspa-codec-bluez5-aptx.so
+77c7f89b03ae388dff8178551b68b261  usr/lib/aarch64-linux-gnu/spa-0.2/bluez5/libspa-codec-bluez5-faststream.so
+164b8461e3a5d1ab7774096dccd7a641  usr/lib/aarch64-linux-gnu/spa-0.2/bluez5/libspa-codec-bluez5-lc3.so
+d16d7b4b05569bfac47c2f60a64ee8c8  usr/lib/aarch64-linux-gnu/spa-0.2/bluez5/libspa-codec-bluez5-ldac.so
+9dde1ba331953393eb64311af29167be  usr/lib/aarch64-linux-gnu/spa-0.2/bluez5/libspa-codec-bluez5-opus-g.so
+c16da0757436abbf795e992f6f7c2aa4  usr/lib/aarch64-linux-gnu/spa-0.2/bluez5/libspa-codec-bluez5-opus.so
+c6727ab05300fe958fd2a671bf639247  usr/lib/aarch64-linux-gnu/spa-0.2/bluez5/libspa-codec-bluez5-sbc.so
+345d4c69df973f7ed00250a718c4e380  usr/share/doc/libspa-0.2-bluetooth/changelog.Debian.gz
+664b40d25bdb0d6e4f58fde3af0e58e3  usr/share/doc/libspa-0.2-bluetooth/copyright
+0bb89bf348f46349dc53e53eaeed88be  usr/share/spa-0.2/bluez5/bluez-hardware.conf

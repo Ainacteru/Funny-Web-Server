@@ -1,0 +1,14 @@
+8e72c40109c6d6efb25c75afbaf9c65a  usr/lib/python3/dist-packages/sense_hat-2.6.0.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/sense_hat-2.6.0.egg-info/dependency_links.txt
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/sense_hat-2.6.0.egg-info/requires.txt
+d485d30aa3a3f58b8b0db6e71f19ce20  usr/lib/python3/dist-packages/sense_hat-2.6.0.egg-info/top_level.txt
+d50e4cd5f0c09df362f2a7fc91a8ae34  usr/lib/python3/dist-packages/sense_hat/__init__.py
+a265649adafc0274716dbd2e43c53e2b  usr/lib/python3/dist-packages/sense_hat/colour.py
+f5c3a3917f650357e438582a1a6ace95  usr/lib/python3/dist-packages/sense_hat/exceptions.py
+c307f09305000befdc09db4b8b460ef3  usr/lib/python3/dist-packages/sense_hat/sense_hat.py
+bd371d4b94aa4ee39f9cda7ac6728353  usr/lib/python3/dist-packages/sense_hat/sense_hat_text.png
+ea665cb6f674eea5244a3e39051e45cf  usr/lib/python3/dist-packages/sense_hat/sense_hat_text.txt
+aecf59111307ec7eafb6192e8fbd1429  usr/lib/python3/dist-packages/sense_hat/stick.py
+adf6819dca5842df5611e2f13a53df7f  usr/share/doc/python3-sense-hat/changelog.Debian.gz
+72fdddd67c2efa5b950aa5dbf34ae213  usr/share/doc/python3-sense-hat/changelog.gz
+ca593700544765aae69f76ecf48ec56b  usr/share/doc/python3-sense-hat/copyright

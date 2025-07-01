@@ -1,0 +1,16 @@
+e849a87f5bf927385472ab3bed0940a7  usr/lib/python3/dist-packages/lazy_object_proxy-1.9.0.dist-info/AUTHORS.rst
+458a2c26319a3d88a4fb685c9297b24e  usr/lib/python3/dist-packages/lazy_object_proxy-1.9.0.dist-info/METADATA
+5792eed02487ec44112c80977ba12dcf  usr/lib/python3/dist-packages/lazy_object_proxy-1.9.0.dist-info/RECORD
+ab31ee6d96b936ce7b6af82f48f970a1  usr/lib/python3/dist-packages/lazy_object_proxy-1.9.0.dist-info/WHEEL
+a420b6ed7e7c748c3c7b4209b64a8e7f  usr/lib/python3/dist-packages/lazy_object_proxy-1.9.0.dist-info/top_level.txt
+ca2fb5bdada2cea0c1133c5642639537  usr/lib/python3/dist-packages/lazy_object_proxy/__init__.py
+978a862a81efa9ecea618f63dbfd0b8a  usr/lib/python3/dist-packages/lazy_object_proxy/_version.py
+742ca439111953b49262390c971c138a  usr/lib/python3/dist-packages/lazy_object_proxy/cext.cpython-311-aarch64-linux-gnu.so
+7f36d84683c19ec5ebb5ad2a1a0e57e1  usr/lib/python3/dist-packages/lazy_object_proxy/compat.py
+9cfbe9f13d148e2ca30b1f833708c725  usr/lib/python3/dist-packages/lazy_object_proxy/simple.py
+99532c498e26e1c95a30fe2bb3e9b448  usr/lib/python3/dist-packages/lazy_object_proxy/slots.py
+f0553b03eb96b877a13b76f7522f8338  usr/lib/python3/dist-packages/lazy_object_proxy/utils.py
+5957598c736b118ece43ccc883345813  usr/share/doc/python3-lazy-object-proxy/changelog.Debian.arm64.gz
+18eeea70b9840dd1319645df7681ef83  usr/share/doc/python3-lazy-object-proxy/changelog.Debian.gz
+3c88cff86ee74669286ff141d24ffc93  usr/share/doc/python3-lazy-object-proxy/changelog.gz
+d987cdd117dc261563bd3bc09be84eda  usr/share/doc/python3-lazy-object-proxy/copyright

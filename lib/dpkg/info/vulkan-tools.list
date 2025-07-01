@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/bin
+/usr/bin/vkcube
+/usr/bin/vkcube-wayland
+/usr/bin/vkcubepp
+/usr/bin/vulkaninfo
+/usr/share
+/usr/share/doc
+/usr/share/doc/vulkan-tools
+/usr/share/doc/vulkan-tools/changelog.Debian.gz
+/usr/share/doc/vulkan-tools/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/vulkaninfo.1.gz

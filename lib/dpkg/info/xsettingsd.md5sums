@@ -1,0 +1,7 @@
+7b8cbdd212e7832d4121b17d646378df  usr/bin/dump_xsettings
+37797bebe8d3ba3bdd8c719d88423a8d  usr/bin/xsettingsd
+59ad5435dbed66920504a4d192ca3b7b  usr/share/doc/xsettingsd/README.md
+41189d513aef93585880a5c5f9b97a54  usr/share/doc/xsettingsd/changelog.Debian.gz
+fef0672c82c3303da5efa181f0549bfe  usr/share/doc/xsettingsd/copyright
+5e52cf3e14a0ac3bc99d3922a3e0dd94  usr/share/man/man1/dump_xsettings.1.gz
+8a755d3e795233521229d1e44dc59f50  usr/share/man/man1/xsettingsd.1.gz

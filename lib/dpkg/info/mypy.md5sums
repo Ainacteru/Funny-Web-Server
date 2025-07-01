@@ -1,0 +1,11 @@
+843180b85e2770ec11ee1ee0a6bda797  usr/bin/dmypy
+d1ffe363507ac662c9a9a4a5b4a5015c  usr/bin/mypy
+ddb943619f677a7701f01955954c24b4  usr/bin/mypyc
+9d84f288f7b3d8d194e6fe9771c3bb97  usr/bin/stubgen
+5f4dcf9a97a88394eaf4860913743f51  usr/bin/stubtest
+dbbdb223a7525eed05d916611efb41c1  usr/share/doc/mypy/README.md.gz
+67fbf82be82b767344aa5dc9279c6357  usr/share/doc/mypy/changelog.Debian.gz
+0d5c2510c697b665ba566d1d19b42bbc  usr/share/doc/mypy/copyright
+f8c224430831fdcf74e9208a5fe2aa97  usr/share/man/man1/dmypy.1.gz
+69d7d72a70d0538aeb2d9b97efdd58a7  usr/share/man/man1/mypy.1.gz
+ce1072403a5f21e5b0bce0d92146cd5e  usr/share/man/man1/stubgen.1.gz

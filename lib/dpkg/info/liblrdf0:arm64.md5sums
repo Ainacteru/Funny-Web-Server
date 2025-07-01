@@ -1,0 +1,9 @@
+80849ea5e97f780f98774cc1920504a1  usr/lib/aarch64-linux-gnu/liblrdf.so.0.0.0
+0c374b8a90e81669f947cfc3cd039c9c  usr/share/doc/liblrdf0/AUTHORS
+9275d7a57a4dddd0b2081145966bd810  usr/share/doc/liblrdf0/NEWS.gz
+f0ca475e5b7ea4962dc0a525a86d2707  usr/share/doc/liblrdf0/README
+3ec70f2cd291f2a5c730e0b8a9706f64  usr/share/doc/liblrdf0/buildinfo_arm64.gz
+224ea450ff70552b994e9b0bcd561016  usr/share/doc/liblrdf0/changelog.Debian.gz
+17b3e818af5a23162c6e53f3da2643a0  usr/share/doc/liblrdf0/changelog.gz
+9678b399a3ca67ca110ef4b660333c4f  usr/share/doc/liblrdf0/copyright
+b3ced31e5e2bd1e3ace815faf2dacaff  usr/share/ladspa/rdf/ladspa.rdfs

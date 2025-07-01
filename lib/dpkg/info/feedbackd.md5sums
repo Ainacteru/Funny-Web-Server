@@ -1,0 +1,14 @@
+367ab23f0dd320128d6b18cd06305470  lib/udev/rules.d/90-feedbackd.rules
+842b3beb6a70b5fa9e46fa84f3617ee0  usr/bin/fbcli
+be014103387179b4a4b952ae7b7e363d  usr/bin/fbd-theme-validate
+f028d510a5820744065554e004f8e6cb  usr/libexec/fbd-ledctrl
+6f96adf15ab60e85eb2f8eafdbeffda7  usr/libexec/feedbackd
+ebf5bca4fede38bcb4dd734f5605a26c  usr/share/dbus-1/interfaces/org.sigxcpu.Feedback.xml
+7aaa04e280a40a2518708d0f2e80475b  usr/share/dbus-1/services/org.sigxcpu.Feedback.service
+a92d07d734e505dfb7cf29b585744320  usr/share/doc/feedbackd/changelog.Debian.gz
+bf70670fbe25b000e1134ee2f55d61ef  usr/share/doc/feedbackd/copyright
+cf38ed53ddf1c2a5bd7a1f4409bcb8b0  usr/share/feedbackd/themes/default.json
+f5a5d375b535991d842a7ec336472820  usr/share/lintian/overrides/feedbackd
+763475c4a10c16f9c4e742b20310b611  usr/share/man/man1/fbcli.1.gz
+3ae4b4e767ea0b6eb75ad36303b10c49  usr/share/man/man1/fbd-theme-validate.1.gz
+9508b5afb5f5846d790f4b350bc8b268  usr/share/man/man8/feedbackd.8.gz

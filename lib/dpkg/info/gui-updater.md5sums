@@ -1,0 +1,9 @@
+c9c879ce1c7a15e7df53f1ff40073fca  usr/bin/gui-updater
+49bf325b1f3afa3225d6a38ee59363e1  usr/share/doc/gui-updater/changelog.gz
+a1c15faecdf0b3517b18a3c9717a3991  usr/share/doc/gui-updater/copyright
+6dcfc70594656cdf8b6ca6cb5276c08e  usr/share/gui-updater/gui-updater.ui
+3354ff390f95e097bce2a3c8df7f89d8  usr/share/locale/en_GB/LC_MESSAGES/gui-updater.mo
+7cd0aadf537e420ccef5fc80eea92651  usr/share/locale/hy/LC_MESSAGES/gui-updater.mo
+668fc56547e0bc437e655c3e531bb162  usr/share/locale/it/LC_MESSAGES/gui-updater.mo
+e12103525286ea25c0d17ba50bee8b6c  usr/share/locale/ko/LC_MESSAGES/gui-updater.mo
+c11ced4edd519392ece40e4e7947fc1e  usr/share/polkit-1/rules.d/10-gui-updater.rules

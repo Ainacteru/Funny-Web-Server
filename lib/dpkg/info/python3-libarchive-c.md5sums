@@ -1,0 +1,13 @@
+da089662dca190bb0a84bb916e800242  usr/lib/python3/dist-packages/libarchive/__init__.py
+90bd3bd0433d3a1fd942dda522da55ec  usr/lib/python3/dist-packages/libarchive/entry.py
+a78ffb83dbf9f2049812578c975c7cee  usr/lib/python3/dist-packages/libarchive/exception.py
+c5551d8cf6f11dfb8b34a4d965782efe  usr/lib/python3/dist-packages/libarchive/extract.py
+3f158aa4835a552c120cc1d60e23b8da  usr/lib/python3/dist-packages/libarchive/ffi.py
+ad673428212da472ce51738dcd9ba142  usr/lib/python3/dist-packages/libarchive/flags.py
+b7ca1ec6fc909e60ced7302c466fd2ea  usr/lib/python3/dist-packages/libarchive/read.py
+492117d834968d1e63695cdb965a1d17  usr/lib/python3/dist-packages/libarchive/write.py
+05ca70f79cea970af0ef493a227ea507  usr/lib/python3/dist-packages/libarchive_c-2.9.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/libarchive_c-2.9.egg-info/dependency_links.txt
+772a24d63d0913e13f9363709e44f5c3  usr/lib/python3/dist-packages/libarchive_c-2.9.egg-info/top_level.txt
+a7133bae3e6e8ed55df95d3348c744b9  usr/share/doc/python3-libarchive-c/changelog.Debian.gz
+4a19d1c28f09c58243b9c6fd75b76f2d  usr/share/doc/python3-libarchive-c/copyright

@@ -1,0 +1,12 @@
+4147c3c7ccfb07b31c666ccc83111653  lib/systemd/system/ipp-usb.service
+b3154d328ab31979a7459e5588a60360  lib/udev/rules.d/71-ipp-usb.rules
+c649aef92e168e363e228ac0791c2988  sbin/ipp-usb
+a55a252c54a71c2548bc6605105dec2c  usr/share/doc/ipp-usb/NEWS.Debian.gz
+8435775d073b15e56e86efe19c03a5f2  usr/share/doc/ipp-usb/changelog.Debian.arm64.gz
+09b438cf50820e5009bf02472c001cfe  usr/share/doc/ipp-usb/changelog.Debian.gz
+e08a2c7756abbe19bc334a4a53ba4935  usr/share/doc/ipp-usb/copyright
+fd0c9fa27a93ad6f84b4961d4fa3ba23  usr/share/ipp-usb/quirks/HP.conf
+537d32fa66badfd1dcc301d093978830  usr/share/ipp-usb/quirks/README
+a881ec0ab5c96d2364264fe0736bf2f9  usr/share/ipp-usb/quirks/blacklist.conf
+ee8648f92c177f1805dd46977678537d  usr/share/ipp-usb/quirks/default.conf
+530a7cfc215eea2bd8b83ba8cc6275aa  usr/share/man/man8/ipp-usb.8.gz

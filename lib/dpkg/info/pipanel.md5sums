@@ -1,0 +1,17 @@
+ab35a043573c29de0bb8c6c69374d89d  usr/bin/pipanel
+0fe965b8541b5f38c265c72137ee6038  usr/share/applications/pipanel.desktop
+4fe4b0544b7bc2db89cbde98bed461b8  usr/share/doc/pipanel/changelog.gz
+175a461d78e7842465c902a93e9ff0b0  usr/share/doc/pipanel/copyright
+10f88b7c2a8232fb5e8af85074178570  usr/share/lintian/overrides/pipanel
+101aa841a7da9b774aaf0becfdfec11b  usr/share/locale/de/LC_MESSAGES/pipanel.mo
+7b77f2abc22962f5a952a274c125c3c9  usr/share/locale/en_GB/LC_MESSAGES/pipanel.mo
+046813baadaee96f0c4ef9a1fcdabf92  usr/share/locale/hy/LC_MESSAGES/pipanel.mo
+08d0959eae3802fb468c110ca652eec9  usr/share/locale/is/LC_MESSAGES/pipanel.mo
+5d3510fe4c7e9cbd0196a956e3afae36  usr/share/locale/it/LC_MESSAGES/pipanel.mo
+0a3cbd67998e1e91dd8ba76bd4a49f79  usr/share/locale/ja/LC_MESSAGES/pipanel.mo
+d5291780d06770b7102795fbbd55aaad  usr/share/locale/ko/LC_MESSAGES/pipanel.mo
+92b9d56d88404c3abc66961a589d35e8  usr/share/locale/nb/LC_MESSAGES/pipanel.mo
+282eeb9496d34a1e3e81515502799ed1  usr/share/locale/sk/LC_MESSAGES/pipanel.mo
+9e306d9c3b054e6a84749c070d5a3c44  usr/share/locale/zh_CN/LC_MESSAGES/pipanel.mo
+f2b208eb060f339bb97de269d629ec1c  usr/share/locale/zh_TW/LC_MESSAGES/pipanel.mo
+50c68e820f570355c1e737e3490567e9  usr/share/pipanel/ui/pipanel.ui

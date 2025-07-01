@@ -1,0 +1,6 @@
+8e30533c9f8b965375b24d13efa2d4e3  usr/lib/aarch64-linux-gnu/libpmem.so.1.0.0
+f243d92bc40cf3cbedbac3ddf2231e2e  usr/share/doc/libpmem1/changelog.Debian.gz
+e9ad79bedd322cdb6afb02048457caea  usr/share/doc/libpmem1/changelog.gz
+1f3568b312e372a20825164e526cde20  usr/share/doc/libpmem1/copyright
+1e491f2bac6859115ccdc06b988acd86  usr/share/man/man5/poolset.5.gz
+f78da69bffefc2ffccdcd6e7de3ef662  usr/share/pmdk/pmdk.magic

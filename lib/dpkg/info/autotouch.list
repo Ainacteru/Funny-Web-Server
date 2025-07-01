@@ -1,0 +1,13 @@
+/.
+/etc
+/etc/xdg
+/etc/xdg/autostart
+/etc/xdg/autostart/autotouch.desktop
+/usr
+/usr/bin
+/usr/bin/autotouch
+/usr/share
+/usr/share/doc
+/usr/share/doc/autotouch
+/usr/share/doc/autotouch/changelog.gz
+/usr/share/doc/autotouch/copyright

@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/libexec
+/usr/libexec/polkit-mate-authentication-agent-1
+/usr/share
+/usr/share/doc
+/usr/share/doc/mate-polkit
+/usr/share/doc/mate-polkit/AUTHORS
+/usr/share/doc/mate-polkit/HACKING
+/usr/share/doc/mate-polkit/README
+/usr/share/doc/mate-polkit/changelog.Debian.gz
+/usr/share/doc/mate-polkit/changelog.gz
+/usr/share/doc/mate-polkit/copyright

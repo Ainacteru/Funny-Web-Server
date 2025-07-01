@@ -1,0 +1,15 @@
+/.
+/opt
+/opt/WidevineCdm
+/opt/WidevineCdm/_platform_specific
+/opt/WidevineCdm/gmp-widevinecdm
+/opt/WidevineCdm/gmp-widevinecdm/latest
+/opt/WidevineCdm/gmp-widevinecdm/latest/libwidevinecdm.so
+/opt/WidevineCdm/manifest.json
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libwidevinecdm0
+/usr/share/doc/libwidevinecdm0/changelog.gz
+/opt/WidevineCdm/_platform_specific/linux_arm64
+/opt/WidevineCdm/gmp-widevinecdm/latest/manifest.json

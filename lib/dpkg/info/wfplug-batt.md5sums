@@ -1,0 +1,11 @@
+63443376b36dff6286618c6fa82d7d96  usr/lib/aarch64-linux-gnu/wf-panel-pi/libbatt.so
+07e9b1e7b891383289854cbb232117ae  usr/share/doc/wfplug-batt/changelog.gz
+d1e22e09d2c87b3a8635ab6e686db39e  usr/share/doc/wfplug-batt/copyright
+6476148082e022b998f5caeca318c487  usr/share/locale/en_GB/LC_MESSAGES/wfplug_batt.mo
+02040cdafc5303be9e09aad290fd1edf  usr/share/locale/hy/LC_MESSAGES/wfplug_batt.mo
+80b8145ec5c47335deeed2b906ec9740  usr/share/locale/it/LC_MESSAGES/wfplug_batt.mo
+390179f51691e7e305176540cb3d9460  usr/share/locale/ko/LC_MESSAGES/wfplug_batt.mo
+f1164b71411ea19971eda6f556ac1eb5  usr/share/locale/sk/LC_MESSAGES/wfplug_batt.mo
+faa2ea4dec6826be24289e3b7323d180  usr/share/wf-panel-pi/images/flash.png
+d8e60f5a48a6b9fbbcce1a6cb9317d43  usr/share/wf-panel-pi/images/plug.png
+7fae50b9f8a516264528fadb17c78052  usr/share/wf-panel-pi/metadata/batt.xml

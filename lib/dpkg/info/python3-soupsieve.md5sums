@@ -1,0 +1,15 @@
+d25806ff7ae1ba7f8eb1d48784418841  usr/lib/python3/dist-packages/soupsieve-2.3.2.dist-info/METADATA
+df88075e1ecead45cfcc42e6cecdef5f  usr/lib/python3/dist-packages/soupsieve-2.3.2.dist-info/RECORD
+98b49cdc1053ac7ff554d8ce314efb02  usr/lib/python3/dist-packages/soupsieve-2.3.2.dist-info/WHEEL
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/soupsieve-2.3.2.dist-info/entry_points.txt
+8465c5d82c30ee2e973fa630813aeecb  usr/lib/python3/dist-packages/soupsieve/__init__.py
+b7ffa7d6005cb92c0c74ebdab2387b0c  usr/lib/python3/dist-packages/soupsieve/__meta__.py
+86267aaf662617d739848fc5e739ab30  usr/lib/python3/dist-packages/soupsieve/css_match.py
+f9435e694e5c657a4b2e5ebc6c94fa8f  usr/lib/python3/dist-packages/soupsieve/css_parser.py
+639ae73b05ccbdd7db4393eeff49c2bc  usr/lib/python3/dist-packages/soupsieve/css_types.py
+53a67b2bdc255ff634e2b7f735427b83  usr/lib/python3/dist-packages/soupsieve/pretty.py
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/soupsieve/py.typed
+f896010191bf9d75ee1c6451b7f5bb42  usr/lib/python3/dist-packages/soupsieve/util.py
+9b368d0da51f8f5717d461ef07392e99  usr/share/doc/python3-soupsieve/changelog.Debian.gz
+7ca28d953ca09eeb829058f03d478a41  usr/share/doc/python3-soupsieve/changelog.gz
+a3df4bb16904cbe75fdf838f6d44fe92  usr/share/doc/python3-soupsieve/copyright

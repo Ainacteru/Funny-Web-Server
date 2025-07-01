@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/bin
+/usr/bin/mate-polkit
+/usr/share
+/usr/share/doc
+/usr/share/doc/mate-polkit-bin
+/usr/share/doc/mate-polkit-bin/AUTHORS
+/usr/share/doc/mate-polkit-bin/HACKING
+/usr/share/doc/mate-polkit-bin/README
+/usr/share/doc/mate-polkit-bin/changelog.Debian.gz
+/usr/share/doc/mate-polkit-bin/changelog.gz
+/usr/share/doc/mate-polkit-bin/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/mate-polkit.1.gz

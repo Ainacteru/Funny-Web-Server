@@ -1,0 +1,11 @@
+747c9ac3f147fb8f646a4e01507cd449  usr/lib/python3/dist-packages/RPi/GPIO/__init__.py
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/RPi/__init__.py
+dccf7845f5e43a0a996a0fce8bbafb9d  usr/lib/python3/dist-packages/rpi_lgpio-0.6.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/rpi_lgpio-0.6.egg-info/dependency_links.txt
+26fe88dbbfa6e8b91e96e6413117976e  usr/lib/python3/dist-packages/rpi_lgpio-0.6.egg-info/requires.txt
+6cf9349836e7466c0b8addf9cf39a3f2  usr/lib/python3/dist-packages/rpi_lgpio-0.6.egg-info/top_level.txt
+10a1f024ab54c55df5c7d1977af69e90  usr/share/doc/python3-rpi-lgpio/LICENSE.txt
+9ac99a39d5fd069651a925b421adb876  usr/share/doc/python3-rpi-lgpio/README.rst
+f81777cf6aa5ca0f4db5a11f4815024b  usr/share/doc/python3-rpi-lgpio/changelog.Debian.gz
+5c75a81687d7a6f0c9853d9c27ba3341  usr/share/doc/python3-rpi-lgpio/changelog.gz
+c5b1319bde929a5e3229106545357393  usr/share/doc/python3-rpi-lgpio/copyright

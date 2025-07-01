@@ -1,0 +1,13 @@
+04ff0f13829959b05a9c091b88545870  usr/bin/pinctrl
+8686c9a9d1cbeb07a87e53893240e063  usr/bin/vcgencmd
+7631e8d93aeea8d8b9f7c2174479ec67  usr/bin/vclog
+96681788f0263c074dc8ccafc7d6c20b  usr/bin/vcmailbox
+a594de0c91db234a077fc62e86f31274  usr/share/bash-completion/completions/pinctrl
+a6a7ba5e0253a3a8c8c556808258eca0  usr/share/bash-completion/completions/vcgencmd
+bd1d3c1e468b1ba410f27af49e70376e  usr/share/doc/raspi-utils-core/changelog.Debian.gz
+407702e738f13553143dfd3ff952fb8a  usr/share/doc/raspi-utils-core/copyright
+b7b209f03f21594e401a1664c92f4b22  usr/share/man/man1/vcgencmd.1.gz
+ba313d0d95fe7320144020269eb5501e  usr/share/man/man1/vcmailbox.1.gz
+5e6c531e5b6fa216d6b535f0a5b3813d  usr/share/man/man7/raspiotp.7.gz
+3a7a7566c480f41877c513eba5e5ee7b  usr/share/man/man7/raspirev.7.gz
+c54f5292dfb186c965729ea9878cfbb5  usr/share/man/man7/vcmailbox.7.gz

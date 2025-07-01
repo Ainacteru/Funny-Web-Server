@@ -1,0 +1,11 @@
+9780e34a0b25746405ab11e802566528  usr/bin/dtmerge
+116faecf7d7ebc702c227e6e5b01c3be  usr/bin/dtoverlay
+33d2f4bf1e8f3f0d2e7358152a0a6a75  usr/bin/kdtc
+f5097329835ca82e2f6d9d2feb478dcd  usr/bin/overlaycheck
+05dc6536444352e660e15fd205685d31  usr/bin/ovmerge
+bd1d3c1e468b1ba410f27af49e70376e  usr/share/doc/raspi-utils-dt/changelog.Debian.gz
+407702e738f13553143dfd3ff952fb8a  usr/share/doc/raspi-utils-dt/copyright
+7c77f84a88cb9ed2b87ef89a95ea09bb  usr/share/man/man1/dtmerge.1.gz
+e966687d7f9efe8ee590d4eec3be66d2  usr/share/man/man1/dtoverlay.1.gz
+4c1a73aad775cea944204d9c7e71c78b  usr/share/man/man1/dtparam.1.gz
+896b3bcfa1837faa36a0d2dd376784d3  usr/share/raspi-utils/overlaycheck_exclusions.txt

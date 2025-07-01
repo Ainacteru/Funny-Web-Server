@@ -1,0 +1,10 @@
+07f88e521ceecdd23680ccf84593096d  usr/lib/aarch64-linux-gnu/wf-panel-pi/libupdater.so
+bc6055e8515e68a97216af7f761eb5fe  usr/share/doc/wfplug-updater/changelog.gz
+1ae0edcb1ccfc1e0c4a00a0a5109b574  usr/share/doc/wfplug-updater/copyright
+6e1326a26c2762a33699e7c53af33d19  usr/share/locale/en_GB/LC_MESSAGES/wfplug_updater.mo
+db11e5b1afbc3a28e1f0bad26255d91b  usr/share/locale/hy/LC_MESSAGES/wfplug_updater.mo
+a87d797df518108fceca68781b472808  usr/share/locale/it/LC_MESSAGES/wfplug_updater.mo
+b85823613d35735d5412f4cc3a81d7c9  usr/share/locale/ko/LC_MESSAGES/wfplug_updater.mo
+01086ea7f93da7e9272fd692a1bc2901  usr/share/locale/sk/LC_MESSAGES/wfplug_updater.mo
+d9f300815232a1f1aeeb162df5a8f987  usr/share/wf-panel-pi/metadata/updater.xml
+6bb57d32ff19e222986178eec6112d2c  usr/share/wf-panel-pi/ui/lxplug-updater.ui

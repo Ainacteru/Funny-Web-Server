@@ -1,0 +1,7 @@
+b85d3acbd2c2c9725793443c14c0adbd  usr/bin/vkcube
+41808c7ff46c7a773ca2021525e6657c  usr/bin/vkcube-wayland
+f19d4e67de900c8d230af4fbbfc91d00  usr/bin/vkcubepp
+52ff6d4dcc8b4ed3e6b115f8c47715bc  usr/bin/vulkaninfo
+fbeaef664282edafe212b3409f8a229f  usr/share/doc/vulkan-tools/changelog.Debian.gz
+425c99040613e0461866188e02b41357  usr/share/doc/vulkan-tools/copyright
+c4505562ace5ff85447010864dbfafb2  usr/share/man/man1/vulkaninfo.1.gz

@@ -1,0 +1,3 @@
+remove-on-upgrade /etc/init.d/raspi-config
+remove-on-upgrade /etc/default/cpu_governor
+/etc/sudoers.d/010_proxy

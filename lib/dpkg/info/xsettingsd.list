@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/bin
+/usr/bin/dump_xsettings
+/usr/bin/xsettingsd
+/usr/share
+/usr/share/doc
+/usr/share/doc/xsettingsd
+/usr/share/doc/xsettingsd/README.md
+/usr/share/doc/xsettingsd/changelog.Debian.gz
+/usr/share/doc/xsettingsd/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/dump_xsettings.1.gz
+/usr/share/man/man1/xsettingsd.1.gz

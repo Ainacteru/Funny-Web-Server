@@ -1,0 +1,19 @@
+Package: libopenh264-cisco7
+Source: openh264
+Version: 2.3.1+dfsg-3+deb12u1
+Installed-Size: 23
+Maintainer: Bastian Germann <bage@debian.org>
+Architecture: armhf
+Provides: libopenh264-7
+Depends: bzip2, libstdc++6, wget
+Conflicts: libopenh264-7
+Description: OpenH264 Video Codec provided by Cisco Systems, Inc.
+Homepage: https://www.openh264.org
+Description-md5: dff704a43d485eb325e4bc04bd302a1e
+Multi-Arch: same
+Section: contrib/libs
+Priority: optional
+Filename: pool/updates/contrib/o/openh264/libopenh264-cisco7_2.3.1+dfsg-3+deb12u1_armhf.deb
+Size: 9844
+SHA256: d0691a1372e96ef3c94597eb68c44387690876e7f93c022e2d9b957253686edb
+

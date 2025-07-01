@@ -1,0 +1,12 @@
+b10d78d14a66e1965c836b0aba0a45b7  usr/lib/aarch64-linux-gnu/lxpanel/plugins/bluetooth.so
+0a827a2d5d6015e371d5e8d35d9c8edf  usr/share/doc/lxplug-bluetooth/changelog.gz
+66541d1ada126ad99ccb1c439a7593e0  usr/share/doc/lxplug-bluetooth/copyright
+ca9e200e259684222a45a63544a0b890  usr/share/locale/en_GB/LC_MESSAGES/lxplug_bluetooth.mo
+32e0c21689fe5157c21f926d05c296ba  usr/share/locale/hy/LC_MESSAGES/lxplug_bluetooth.mo
+6fa4165fe05b4d4b49032e3830f30124  usr/share/locale/is/LC_MESSAGES/lxplug_bluetooth.mo
+127b5a51bdcbcba64245875f19029d57  usr/share/locale/it/LC_MESSAGES/lxplug_bluetooth.mo
+3d70340f43945773019e45140c478db3  usr/share/locale/ja/LC_MESSAGES/lxplug_bluetooth.mo
+c283112fcc78c71edaa7b62d8fc32327  usr/share/locale/ko/LC_MESSAGES/lxplug_bluetooth.mo
+4ae8597db2d9c27402d0fda11981cd30  usr/share/locale/nb/LC_MESSAGES/lxplug_bluetooth.mo
+d7c9eba1678c7376ba9c94dcad8f80ce  usr/share/locale/sk/LC_MESSAGES/lxplug_bluetooth.mo
+8ecf98de0f7d45955b055dc15522bc91  usr/share/lxpanel/ui/lxplug-bluetooth.ui

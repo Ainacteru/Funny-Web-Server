@@ -1,0 +1,10 @@
+51eda5b800ed8f2aebc19525da1ada7f  usr/lib/aarch64-linux-gnu/libfm/modules/gtk-fileprop-x-desktop.so
+528fb4c74f44dbaedea9cda4a4c1751d  usr/lib/aarch64-linux-gnu/libfm/modules/gtk-fileprop-x-shortcut.so
+4d42d755df160aa309e1acaa6a583206  usr/lib/aarch64-linux-gnu/libfm/modules/gtk-menu-actions.so
+590b027e2d63899a60b5a034ce48b01a  usr/lib/aarch64-linux-gnu/libfm/modules/gtk-menu-trash.so
+9b7b697e2cbb370d1baaecd7ab1b7bcc  usr/lib/aarch64-linux-gnu/libfm/modules/vfs-menu.so
+97ef8890cdbdf8be52e612e48aa2ed25  usr/lib/aarch64-linux-gnu/libfm/modules/vfs-search.so
+4fb29a25901eddeee9922188a5c2cb38  usr/share/doc/libfm-modules/changelog.Debian.gz
+43d7e0dcb0761c77d3c22e5a3391e9cc  usr/share/doc/libfm-modules/changelog.gz
+9b3f011e0c71dcd15962a05e4de359e4  usr/share/doc/libfm-modules/copyright
+deadc8dcff8deb5d2c7228e32522cc67  usr/share/lintian/overrides/libfm-modules

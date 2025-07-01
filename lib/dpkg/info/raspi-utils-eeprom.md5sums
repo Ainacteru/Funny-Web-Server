@@ -1,0 +1,5 @@
+df12267f928ba3955375bf00e1d2f132  usr/bin/eepdump
+314c7fe99b21663475c369693162ce6a  usr/bin/eepflash.sh
+79bc558a8ad82fb8ae8d7643b2f5a755  usr/bin/eepmake
+bd1d3c1e468b1ba410f27af49e70376e  usr/share/doc/raspi-utils-eeprom/changelog.Debian.gz
+407702e738f13553143dfd3ff952fb8a  usr/share/doc/raspi-utils-eeprom/copyright

@@ -1,0 +1,12 @@
+auto
+/usr/bin/gnome-www-browser
+gnome-www-browser.1.gz
+/usr/share/man/man1/gnome-www-browser.1.gz
+
+/usr/bin/chromium
+90
+
+/usr/bin/firefox
+70
+/usr/share/man/man1/firefox.1.gz
+

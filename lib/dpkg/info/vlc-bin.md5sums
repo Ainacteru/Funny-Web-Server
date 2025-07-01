@@ -1,0 +1,13 @@
+0995f7bc841e3e623cdd6197578cca48  usr/bin/cvlc
+f620068e2d5a72a11050698d3fbc2efb  usr/bin/nvlc
+94b0abf0e07ed7a7e392c82f16b7bc39  usr/bin/rvlc
+ca4f845c450530e16b0dc348f3fd03ac  usr/bin/vlc
+b215bb55b8b6c9c0b3eee52b3e076beb  usr/bin/vlc-wrapper
+143dd060cd683f7da6fa97b4de08f0bc  usr/share/bug/vlc-bin/control
+db5a9ef7d588ac8bafe061d1968be5cd  usr/share/bug/vlc-bin/presubj
+4a16d6e92a02e34520cb600b15a60eae  usr/share/doc/vlc-bin/changelog.Debian.gz
+74d2a6ffba1591ec4daa33e6025689a6  usr/share/doc/vlc-bin/changelog.gz
+2cf769622e05d506a35a12f5cbc6c24b  usr/share/doc/vlc-bin/copyright
+1e90d5b216b849f3b6447ef8857f419c  usr/share/man/man1/vlc-wrapper.1.gz
+dcf51cf95c0c601bc504498c43005f5f  usr/share/man/man1/vlc.1.gz
+29dc6e16ccd88131725aa7e5676e9e45  usr/share/zsh/vendor-completions/_vlc

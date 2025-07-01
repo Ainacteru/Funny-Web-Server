@@ -1,0 +1,53 @@
+#! /bin/sh
+
+set -e
+
+case "$1" in
+    remove|deconfigure)
+        if [ -e /etc/xdg/autostart/squeekboard.desktop ] ; then
+          rm -f /etc/xdg/autostart/squeekboard.desktop
+        fi
+        if [ -e /usr/share/labwc/autostart ] ; then
+          sed -i '/sbtest/d' /usr/share/labwc/autostart
+          sed -i '/squeekboard/d' /usr/share/labwc/autostart
+        fi
+        if [ -e /etc/xdg/labwc-greeter/autostart ] ; then
+          sed -i '/sbtest/d' /etc/xdg/labwc-greeter/autostart
+          sed -i '/squeekboard/d' /etc/xdg/labwc-greeter/autostart
+        fi
+        pwdlines=$(getent passwd)
+        while read line
+        do
+          USHELL=$(echo "$line" | cut -d: -f7)
+          if grep -q "$USHELL" /etc/shells ; then
+            HOME_DIR=$(echo "$line" | cut -d: -f6)/
+            if [ -e $HOME_DIR/.config/ ] ; then
+              if [ -e $HOME_DIR/.config/wf-panel-pi.ini ] ; then
+                if grep -q squeek $HOME_DIR/.config/wf-panel-pi.ini ; then
+                  sed -i -E 's/(widgets_right.*) squeek(.*)/\1\2/' $HOME_DIR/.config/wf-panel-pi.ini
+                fi
+              fi
+            fi
+          fi
+        done <<EOF
+        $pwdlines
+EOF
+        ;;
+
+    upgrade|failed-upgrade)
+        ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+        ;;
+esac
+
+# Automatically added by dh_installalternatives/13.11.4
+if [ "$1" = "remove" ]; then
+	update-alternatives --remove Phosh-OSK /usr/share/applications/sm.puri.Squeekboard.desktop
+fi
+# End automatically added section
+
+
+exit 0

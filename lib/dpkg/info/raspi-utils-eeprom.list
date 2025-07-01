@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/bin
+/usr/bin/eepdump
+/usr/bin/eepflash.sh
+/usr/bin/eepmake
+/usr/share
+/usr/share/doc
+/usr/share/doc/raspi-utils-eeprom
+/usr/share/doc/raspi-utils-eeprom/changelog.Debian.gz
+/usr/share/doc/raspi-utils-eeprom/copyright

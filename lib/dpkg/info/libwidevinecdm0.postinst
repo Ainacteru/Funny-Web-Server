@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/13.11.4
+dpkg-maintscript-helper dir_to_symlink /opt/WidevineCdm/_platform_specific/linux_arm64 ../gmp-widevinecdm/latest 4.10.2662.3\+1 -- "$@"
+# End automatically added section

@@ -1,0 +1,6 @@
+f683dbd40dad16c076d2b5cbb8a9ff7a  usr/lib/aarch64-linux-gnu/libplist-2.0.so.3.3.0
+a33d928dc4c96cbda093ad9d28fbb8b3  usr/share/doc/libplist3/NEWS.Debian.gz
+07b8aca537d0d3e0e541c38df029241a  usr/share/doc/libplist3/changelog.Debian.arm64.gz
+9f7166f9846527233e6220ebc7a3cf8e  usr/share/doc/libplist3/changelog.Debian.gz
+5d92c21da712488287ce181966f242a1  usr/share/doc/libplist3/copyright
+0ef2ee09f2e43982dfbbbc7795da5a0a  usr/share/lintian/overrides/libplist3

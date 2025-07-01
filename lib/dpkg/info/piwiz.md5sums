@@ -1,0 +1,16 @@
+628948b7cfdb6be1268950f8a53e8377  usr/bin/hdmi-audio-select
+0e0b024f7fc9ba3018b020622708a748  usr/bin/piwiz
+8b84c0d3f993d5d24b497f54a70eb1bb  usr/share/doc/piwiz/changelog.gz
+def4fc0d320dc98a0917199ce85a331d  usr/share/doc/piwiz/copyright
+501d95a62fb82f08b025414fcc6b1639  usr/share/locale/en_GB/LC_MESSAGES/piwiz.mo
+fd462e1b2f0e15d015dc7f60a6f5d47f  usr/share/locale/es_PE/LC_MESSAGES/piwiz.mo
+c49300a46faa9dcca2ca070d012a88d6  usr/share/locale/hu/LC_MESSAGES/piwiz.mo
+4af80ac254be77111f322e583df845b5  usr/share/locale/hy/LC_MESSAGES/piwiz.mo
+39447df421b4a5aee3105afed30c39b5  usr/share/locale/it/LC_MESSAGES/piwiz.mo
+43abab1aff31ab7ef446576d3eb2d9c3  usr/share/locale/ko/LC_MESSAGES/piwiz.mo
+c59ddba7a57e306ee262100291cccec1  usr/share/locale/sk/LC_MESSAGES/piwiz.mo
+cefa1e04212654e57ab6111b924c8ac4  usr/share/locale/zh_CN/LC_MESSAGES/piwiz.mo
+7f02764bf4cd029ee27100cccfecabf6  usr/share/piwiz/piwiz.ui
+e74d5a2915ee3db0e1752c13f4987375  usr/share/piwiz/raspberry-pi-logo.png
+63b3b6be48d6732764c647483320128f  usr/share/piwiz/srprompt.wav
+1af7a0c8f163d0ee1c0f9a79b136ec97  usr/share/polkit-1/rules.d/10-piwiz.rules

@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installinit/13.11.1
+if [ "$1" = "install" ] && [ -n "$2" ] && [ -e "/etc/init.d/fio" ] ; then
+	chmod +x "/etc/init.d/fio" >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.11.1
+if [ -z "${DPKG_ROOT:-}" ] && [ "$1" = upgrade ] && [ -d /run/systemd/system ] ; then
+	deb-systemd-invoke stop 'fio.service' >/dev/null || true
+fi
+# End automatically added section

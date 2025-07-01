@@ -1,0 +1,5 @@
+045fc972cce1df7e20749b0845a17ebc  usr/lib/aarch64-linux-gnu/ceph/libceph-common.so.2
+23d93acd47b8c96b87c2e098bc684290  usr/lib/aarch64-linux-gnu/librados.so.2.0.0
+c995c32b6638d9d71cfbd5c0dbec41c9  usr/share/doc/librados2/changelog.Debian.gz
+84c05a85bfed8e8f20ae217fc3684351  usr/share/doc/librados2/copyright
+75e6a87de11914b03ec3efd075dd4898  usr/share/lintian/overrides/librados2

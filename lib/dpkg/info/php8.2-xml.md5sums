@@ -1,0 +1,15 @@
+48d1b8d328ca718a14287ee81f3a5f73  usr/lib/php/20220829/dom.so
+6215235d0be7bc2b0fb3505e7d64dcbf  usr/lib/php/20220829/simplexml.so
+09918aac4d3ed4f80e32870701ddde0e  usr/lib/php/20220829/xml.so
+65d8dc5f4c2b8c406b0f3fd60c4fd4de  usr/lib/php/20220829/xmlreader.so
+7ccbe09e930e8fdf27e0a36bfde8eaee  usr/lib/php/20220829/xmlwriter.so
+06b9ebf5c4520ff16bdfc9410916ddda  usr/lib/php/20220829/xsl.so
+77bd9ec9de72d42b8fb6436a964c26ee  usr/share/bug/php8.2-xml/control
+06abb923ff39a81e3d728eb64ce3ced0  usr/share/bug/php8.2-xml/script
+261f12db938ea5259c6f8174afc1bfd5  usr/share/lintian/overrides/php8.2-xml
+e88bd9b3d32d3ce6ae86ce23758b7fb3  usr/share/php8.2-xml/xml/dom.ini
+d59ce88cfda1c4161044ca85d33f9293  usr/share/php8.2-xml/xml/simplexml.ini
+148d7029bf667c8b3eeb4a2180431062  usr/share/php8.2-xml/xml/xml.ini
+ce6be61dbe2d23cbb9fbe76e76131997  usr/share/php8.2-xml/xml/xmlreader.ini
+0850b6a32fea855c178b1bceb6572d0b  usr/share/php8.2-xml/xml/xmlwriter.ini
+74ea439610ac4f9c28abbfbc8cd4cbf3  usr/share/php8.2-xml/xml/xsl.ini

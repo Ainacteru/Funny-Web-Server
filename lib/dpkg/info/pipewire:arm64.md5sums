@@ -1,0 +1,7 @@
+7c653b1ed426c934bcd3410e18a6fa90  usr/lib/systemd/user/filter-chain.service
+55822af7956972ce760654e94eb71b0d  usr/lib/systemd/user/pipewire.service
+1094f9a5371e9539da19ae6c12a626b3  usr/lib/systemd/user/pipewire.socket
+20c59e0437b7b62bf923eb2536b98a65  usr/share/doc/pipewire/NEWS.gz
+4f910cce2baaa7deaf4f284fabfffd9f  usr/share/doc/pipewire/README.Debian.gz
+01d07bba33c4f88764c0b072fc274c04  usr/share/doc/pipewire/changelog.Debian.gz
+664b40d25bdb0d6e4f58fde3af0e58e3  usr/share/doc/pipewire/copyright

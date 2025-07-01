@@ -1,0 +1,7 @@
+6b3c5bc9b68520f394772d8d4bbe5c8d  usr/bin/rpi-imager
+9d14d84b583b508b110e423e65edd315  usr/share/applications/org.raspberrypi.rpi-imager.desktop
+218a7600e9c67079afd8d3beed7ed8e4  usr/share/doc/rpi-imager/changelog.gz
+0a260e2e43f985b076d44480c1b378f6  usr/share/doc/rpi-imager/copyright
+8c7826f73970f8136e62c61df4ae0737  usr/share/icons/hicolor/128x128/apps/rpi-imager.png
+92568b4ca7fe1c08f7f386ce3ece8aec  usr/share/man/man1/rpi-imager.1.gz
+981b53e544694a3c4a612fc19dc21a05  usr/share/metainfo/rpi-imager.metainfo.xml

@@ -1,0 +1,6 @@
+4f1663228777000c57aa0e48555bc600  usr/lib/aarch64-linux-gnu/lxhotkey/gtk.so
+3753a205b8ee07dd6b0d7537a19b3d7d  usr/share/applications/lxhotkey-gtk.desktop
+6c9cc0e90cd646adcb3799e7b636bd50  usr/share/doc/lxhotkey-gtk/changelog.Debian.gz
+e8d840c9589da76a2df0188f2af486c2  usr/share/doc/lxhotkey-gtk/changelog.gz
+3f6d9e341716b807fd27627ce5e9984a  usr/share/doc/lxhotkey-gtk/copyright
+b2b07f95c8d6f734ee204bf9e6bca152  usr/share/lintian/overrides/lxhotkey-gtk

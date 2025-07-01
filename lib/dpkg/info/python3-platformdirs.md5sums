@@ -1,0 +1,16 @@
+0e6466340370ddc9cbaaf02189c7c1ca  usr/lib/python3/dist-packages/platformdirs-2.6.0.dist-info/METADATA
+a72e791b662ac9beae3cd8c9c717d106  usr/lib/python3/dist-packages/platformdirs-2.6.0.dist-info/RECORD
+5461206bfe54a5c37fe4da450de96283  usr/lib/python3/dist-packages/platformdirs-2.6.0.dist-info/WHEEL
+418f985e1a6cf5e68992fa982e25d189  usr/lib/python3/dist-packages/platformdirs/__init__.py
+fe6a189d364bd36d9ea8dffeb2f57f4d  usr/lib/python3/dist-packages/platformdirs/__main__.py
+b9b19dd00cbef22dea346dc3c1e0f090  usr/lib/python3/dist-packages/platformdirs/android.py
+c1ac4f7cf8c77e8969bf2e977a7d67d2  usr/lib/python3/dist-packages/platformdirs/api.py
+54c58c4d486f880354e7eedae135f11f  usr/lib/python3/dist-packages/platformdirs/macos.py
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/platformdirs/py.typed
+0f9f031cf3c3c4b0629f12a4951de80e  usr/lib/python3/dist-packages/platformdirs/unix.py
+595a8813feb414902a85c77ef90e6dcd  usr/lib/python3/dist-packages/platformdirs/version.py
+f3c0afd331cbf291fbc236857d26a1c1  usr/lib/python3/dist-packages/platformdirs/windows.py
+d3bd1e8d097d1ac808ac5a933001b7df  usr/share/doc/python3-platformdirs/changelog.Debian.gz
+c2904cacb5bd490b7a37c597813f5265  usr/share/doc/python3-platformdirs/changelog.gz
+fbd73285b185693783ed05e5d4e7bf2c  usr/share/doc/python3-platformdirs/copyright
+b85307105137b262a7d9f800a9a43b41  usr/share/python3/dist/python3-platformdirs

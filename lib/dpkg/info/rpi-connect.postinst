@@ -1,0 +1,97 @@
+#!/bin/sh
+set -e
+
+create_user_dir()
+{
+	_create_user_dir_dir=$1
+	_create_user_dir_name=$2
+	_create_user_dir_gid=$3
+	_create_user_dir_mode=$4
+
+	if [ ! -d "$_create_user_dir_dir" ] ; then
+		if mkdir "$_create_user_dir_dir" 2> /dev/null ; then
+			if chown "$_create_user_dir_name":"$_create_user_dir_gid" "$_create_user_dir_dir"; then
+				chmod "$_create_user_dir_mode" "$_create_user_dir_dir" || true
+			fi
+		fi
+	fi
+}
+
+migrate_global_services_to_user_services()
+{
+	if [ -z "${DPKG_ROOT:-}" ] && [ -x "/usr/bin/deb-systemd-helper" ] ; then
+		if deb-systemd-helper --user -q is-enabled 'rpi-connect.service' >/dev/null ; then
+			echo "Replacing globally-enabled rpi-connect services with user-enabled ones..."
+
+			getent passwd | while IFS=: read -r name _passwd _uid gid _gecos dir shell ; do
+				if grep -q "$shell" /etc/shells ; then
+					create_user_dir "$dir/.config" "$name" "$gid" 700
+					create_user_dir "$dir/.config/systemd" "$name" "$gid" 755
+					create_user_dir "$dir/.config/systemd/user" "$name" "$gid" 755
+					create_user_dir "$dir/.config/systemd/user/default.target.wants" "$name" "$gid" 755
+					create_user_dir "$dir/.config/systemd/user/rpi-connect.service.wants" "$name" "$gid" 755
+
+					if [ ! -e "$dir/.config/systemd/user/default.target.wants/rpi-connect.service" ] ; then
+						ln -s /usr/lib/systemd/user/rpi-connect.service "$dir/.config/systemd/user/default.target.wants/rpi-connect.service"
+						chown --no-dereference "$name":"$gid" "$dir/.config/systemd/user/default.target.wants/rpi-connect.service"
+					fi
+
+					if [ ! -e "$dir/.config/systemd/user/rpi-connect.service.wants/rpi-connect-wayvnc.service" ] ; then
+						ln -s /usr/lib/systemd/user/rpi-connect-wayvnc.service "$dir/.config/systemd/user/rpi-connect.service.wants/rpi-connect-wayvnc.service"
+						chown --no-dereference "$name":"$gid" "$dir/.config/systemd/user/rpi-connect.service.wants/rpi-connect-wayvnc.service"
+					fi
+
+					if [ ! -e "$dir/.config/systemd/user/rpi-connect.service.wants/rpi-connect-wayvnc-watcher.path" ] ; then
+						ln -s /usr/lib/systemd/user/rpi-connect-wayvnc-watcher.path "$dir/.config/systemd/user/rpi-connect.service.wants/rpi-connect-wayvnc-watcher.path"
+						chown --no-dereference "$name":"$gid" "$dir/.config/systemd/user/rpi-connect.service.wants/rpi-connect-wayvnc-watcher.path"
+					fi
+
+					echo "Enabled rpi-connect for $name"
+				fi
+			done
+		fi
+
+		deb-systemd-helper --user purge 'rpi-connect.service' 'rpi-connect-wayvnc.service' 'rpi-connect-wayvnc-watcher.path' >/dev/null || true
+	fi
+}
+
+if [ "$1" = "configure" ] ; then
+	if dpkg --compare-versions "$2" lt-nl "2.0.0" ; then
+		migrate_global_services_to_user_services
+	fi
+
+	if [ -e /usr/bin/wfpanelctl ] ; then
+		wfpanelctl connect install >/dev/null || true
+	fi
+
+	echo
+	echo "For Raspberry Pi OS Lite, enable user lingering for your user:"
+	echo
+	echo "    loginctl enable-linger"
+	echo
+	echo "This allows users who are not logged in to run long-running services."
+	echo
+	if [ -z "$2" ] ; then
+		echo "Start Raspberry Pi Connect by running:"
+		echo
+		echo "    rpi-connect on"
+		echo
+	fi
+	echo "For information on getting started with Raspberry Pi Connect, please see the official documentation:"
+	echo
+	echo "    https://rptl.io/rpi-connect"
+	echo
+fi
+
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if [ -z "${DPKG_ROOT:-}" ] && [ -d /run/systemd/system ]; then
+		# Backport init-system-helpers 1.67's "deb-systemd-invoke --user
+		# daemon-reload" command to ensure the latest unit files are
+		# loaded for every user before restarting
+		systemctl --no-legend --quiet list-units 'user@*' | sed -n -r 's/.*user@([0-9]+).service.*/\1/p' | while IFS= read -r instance ; do
+			systemctl --quiet --user --machine "$instance@" daemon-reload >/dev/null || true
+		done
+
+		deb-systemd-invoke --user restart 'rpi-connect.service' 'rpi-connect-wayvnc.service' 'rpi-connect-wayvnc-watcher.path' >/dev/null || true
+	fi
+fi

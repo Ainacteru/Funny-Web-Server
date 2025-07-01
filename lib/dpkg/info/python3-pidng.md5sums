@@ -1,0 +1,17 @@
+0f0644ffd2e886d7350c5f43a07b3646  usr/lib/python3/dist-packages/ljpegCompress.cpython-311-aarch64-linux-gnu.so
+025a5f2dd91e9dc4905deec756364f49  usr/lib/python3/dist-packages/pidng-4.0.9.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/pidng-4.0.9.egg-info/dependency_links.txt
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/pidng-4.0.9.egg-info/requires.txt
+c12449b82be06a8925cd1f186511944c  usr/lib/python3/dist-packages/pidng-4.0.9.egg-info/top_level.txt
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/pidng/__init__.py
+337459a60614c2b372efa45980d173f6  usr/lib/python3/dist-packages/pidng/bitunpack.c
+3bbdb95ee1bf12ef62b7931ac0f61f83  usr/lib/python3/dist-packages/pidng/camdefs.py
+ef853279ee6f8f5bc12f44ab4b26f1f6  usr/lib/python3/dist-packages/pidng/core.py
+7b5e8344d76a2869df97d04040033af9  usr/lib/python3/dist-packages/pidng/defs.py
+fb42003d79efb852591cc4028dcbc8de  usr/lib/python3/dist-packages/pidng/dng.py
+c9ff6bce07843c4e6ce5fcd9b2fe6ab9  usr/lib/python3/dist-packages/pidng/legacy.py
+4cfceb2c82349e0c8cd651bea85d511a  usr/lib/python3/dist-packages/pidng/liblj92/lj92.c
+8fdd525a0efc83a36086166b4f02d357  usr/lib/python3/dist-packages/pidng/liblj92/lj92.h
+f42dc6096c647e66a32b7b2025045080  usr/lib/python3/dist-packages/pidng/packing.py
+c9a43adb3750c42dc1b7ccfab408c0ab  usr/share/doc/python3-pidng/changelog.Debian.gz
+7b2996448f2a2355d95bb90972f845f4  usr/share/doc/python3-pidng/copyright

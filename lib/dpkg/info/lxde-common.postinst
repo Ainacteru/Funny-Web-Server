@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/13.3.3
+dpkg-maintscript-helper mv_conffile /etc/xdg/lxpanel/profile/LXDE/panels/panel /etc/xdg/lxpanel/LXDE/panels/panel 0.5.6-1 lxde-common -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/xdg/lxpanel/profile/LXDE/config /etc/xdg/lxpanel/LXDE/config 0.5.6-1 lxde-common -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/xdg/lxsession/LXDE/autostart -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/xdg/lxsession/LXDE/desktop.conf -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/xdg/openbox/LXDE/menu.xml -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/xdg/openbox/LXDE/rc.xml -- "$@"
+# End automatically added section
