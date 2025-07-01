@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>.NET API Demo</title>
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>.NET C# Backend Demo</h1>
