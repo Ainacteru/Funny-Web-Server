@@ -538,10 +538,6 @@ Package: libparted2
 Architecture: arm64
 Auto-Installed: 1
 
-Package: libunwind8
-Architecture: arm64
-Auto-Installed: 1
-
 Package: libmatroska7
 Architecture: arm64
 Auto-Installed: 1

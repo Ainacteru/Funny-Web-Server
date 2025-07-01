@@ -1,5 +1,5 @@
 [+0.00s] DEBUG: Logging to /var/log/lightdm/lightdm.log
-[+0.00s] DEBUG: Starting Light Display Manager 1.26.0, UID=0 PID=861
+[+0.00s] DEBUG: Starting Light Display Manager 1.26.0, UID=0 PID=843
 [+0.00s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
 [+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/01_debian.conf
 [+0.00s] DEBUG: Loading configuration dirs from /usr/local/share/lightdm/lightdm.conf.d
@@ -9,35 +9,34 @@
 [+0.00s] DEBUG: Registered seat module xremote
 [+0.00s] DEBUG: Registered seat module unity
 [+0.00s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
-[+0.00s] DEBUG: Using cross-namespace EXTERNAL authentication (this will deadlock if server is GDBus < 2.73.3)
 [+0.01s] DEBUG: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
-[+0.01s] DEBUG: Monitoring logind for seats
-[+0.01s] DEBUG: New seat added from logind: seat0
-[+0.01s] DEBUG: Seat seat0: Loading properties from config section Seat:*
-[+0.01s] DEBUG: Seat seat0 has property CanMultiSession=no
-[+0.01s] DEBUG: Seat seat0: Starting
-[+0.01s] DEBUG: Seat seat0: Creating user session
-[+0.02s] DEBUG: Loading users from org.freedesktop.Accounts
-[+0.02s] DEBUG: User /org/freedesktop/Accounts/User1000 added
-[+0.19s] DEBUG: Seat seat0: Creating display server of type wayland
-[+0.23s] DEBUG: Seat seat0: Plymouth is running on VT 1, but this is less than the configured minimum of 7 so not replacing it
-[+0.23s] DEBUG: Quitting Plymouth
-[+0.31s] DEBUG: Using VT 7
-[+0.31s] DEBUG: Launching process 883: /usr/share/dispsetup.sh
-[+0.31s] DEBUG: Process 883 exited with return value 0
-[+0.31s] DEBUG: Seat seat0: Exit status of /usr/share/dispsetup.sh: 0
-[+0.31s] DEBUG: Seat seat0: Display server ready, starting session authentication
-[+0.32s] DEBUG: Session pid=886: Started with service 'lightdm-autologin', username 'rpi4'
-[+0.32s] WARNING: Could not enumerate user data directory /var/lib/lightdm/data: Error opening directory '/var/lib/lightdm/data': No such file or directory
-[+0.32s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
-[+0.32s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
-[+0.50s] DEBUG: Session pid=886: Authentication complete with return value 0: Success
-[+0.50s] DEBUG: Seat seat0: Session authenticated, running command
-[+0.50s] DEBUG: Registering session with bus path /org/freedesktop/DisplayManager/Session0
-[+0.50s] DEBUG: Session pid=886: Running command /etc/X11/Xsession /usr/bin/labwc-pi
-[+0.50s] DEBUG: Creating shared data directory /var/lib/lightdm/data/rpi4
-[+0.50s] DEBUG: Session pid=886: Logging to .xsession-errors
-[+1.00s] DEBUG: Activating VT 7
-[+1.03s] DEBUG: Activating login1 session 1
-[+1.03s] DEBUG: Seat seat0 changes active session to 1
-[+1.03s] DEBUG: Session 1 is already active
+[+0.01s] DEBUG: Using cross-namespace EXTERNAL authentication (this will deadlock if server is GDBus < 2.73.3)
+[+0.03s] DEBUG: Monitoring logind for seats
+[+0.03s] DEBUG: New seat added from logind: seat0
+[+0.03s] DEBUG: Seat seat0: Loading properties from config section Seat:*
+[+0.03s] DEBUG: Seat seat0 has property CanMultiSession=no
+[+0.03s] DEBUG: Seat seat0: Starting
+[+0.03s] DEBUG: Seat seat0: Creating user session
+[+0.04s] DEBUG: Loading users from org.freedesktop.Accounts
+[+0.04s] DEBUG: User /org/freedesktop/Accounts/User1000 added
+[+0.25s] DEBUG: Seat seat0: Creating display server of type wayland
+[+0.26s] DEBUG: Seat seat0: Plymouth is running on VT 1, but this is less than the configured minimum of 7 so not replacing it
+[+0.26s] DEBUG: Quitting Plymouth
+[+0.34s] DEBUG: Using VT 7
+[+0.34s] DEBUG: Launching process 868: /usr/share/dispsetup.sh
+[+0.34s] DEBUG: Process 868 exited with return value 0
+[+0.34s] DEBUG: Seat seat0: Exit status of /usr/share/dispsetup.sh: 0
+[+0.34s] DEBUG: Seat seat0: Display server ready, starting session authentication
+[+0.34s] DEBUG: Session pid=871: Started with service 'lightdm-autologin', username 'rpi4'
+[+0.34s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+0.34s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+0.45s] DEBUG: Session pid=871: Authentication complete with return value 0: Success
+[+0.45s] DEBUG: Seat seat0: Session authenticated, running command
+[+0.45s] DEBUG: Registering session with bus path /org/freedesktop/DisplayManager/Session0
+[+0.45s] DEBUG: Session pid=871: Running command /etc/X11/Xsession /usr/bin/labwc-pi
+[+0.45s] DEBUG: Creating shared data directory /var/lib/lightdm/data/rpi4
+[+0.45s] DEBUG: Session pid=871: Logging to .xsession-errors
+[+1.11s] DEBUG: Activating VT 7
+[+1.13s] DEBUG: Activating login1 session 1
+[+1.14s] DEBUG: Seat seat0 changes active session to 1
+[+1.14s] DEBUG: Session 1 is already active

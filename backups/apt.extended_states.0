@@ -538,10 +538,6 @@ Package: libparted2
 Architecture: arm64
 Auto-Installed: 1
 
-Package: libunwind8
-Architecture: arm64
-Auto-Installed: 1
-
 Package: libmatroska7
 Architecture: arm64
 Auto-Installed: 1
@@ -5090,10 +5086,6 @@ Package: apache2-utils
 Architecture: arm64
 Auto-Installed: 1
 
-Package: apache2
-Architecture: arm64
-Auto-Installed: 1
-
 Package: php8.2-cli
 Architecture: arm64
 Auto-Installed: 1
@@ -5103,6 +5095,18 @@ Architecture: arm64
 Auto-Installed: 1
 
 Package: libaprutil1-ldap
+Architecture: arm64
+Auto-Installed: 1
+
+Package: nginx-common
+Architecture: arm64
+Auto-Installed: 1
+
+Package: libonig5
+Architecture: arm64
+Auto-Installed: 1
+
+Package: libzip4
 Architecture: arm64
 Auto-Installed: 1
 

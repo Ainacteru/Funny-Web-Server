@@ -3909,6 +3909,24 @@ Description: fast and lightweight IDE -- common files
  This package contains arch independent files.
 Homepage: http://www.geany.org
 
+Package: gettext
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 6552
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: arm64
+Multi-Arch: foreign
+Version: 0.21-12
+Depends: gettext-base, libc6 (>= 2.34), libgomp1 (>= 6), libunistring2 (>= 1.0), libxml2 (>= 2.9.1)
+Recommends: curl | wget | lynx
+Suggests: autopoint, gettext-doc, libasprintf-dev, libgettextpo-dev
+Breaks: autopoint (<= 0.17-11)
+Description: GNU Internationalization utilities
+ Interesting for authors or maintainers of other packages or programs
+ which they want to see internationalized.
+Homepage: https://www.gnu.org/software/gettext/
+
 Package: gettext-base
 Status: install ok installed
 Priority: standard

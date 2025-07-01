@@ -264,3 +264,20 @@
 2025-07-01 02:20:04 trigproc php8.2-fpm:arm64 8.2.28-1~deb12u1 <none>
 2025-07-01 02:20:04 status half-configured php8.2-fpm:arm64 8.2.28-1~deb12u1
 2025-07-01 02:20:05 status installed php8.2-fpm:arm64 8.2.28-1~deb12u1
+2025-07-01 21:24:48 startup archives unpack
+2025-07-01 21:24:48 install gettext:arm64 <none> 0.21-12
+2025-07-01 21:24:48 status triggers-pending libc-bin:arm64 2.36-9+rpt2+deb12u10
+2025-07-01 21:24:48 status half-installed gettext:arm64 0.21-12
+2025-07-01 21:24:49 status triggers-pending man-db:arm64 2.11.2-2
+2025-07-01 21:24:49 status unpacked gettext:arm64 0.21-12
+2025-07-01 21:24:49 startup packages configure
+2025-07-01 21:24:49 configure gettext:arm64 0.21-12 <none>
+2025-07-01 21:24:49 status unpacked gettext:arm64 0.21-12
+2025-07-01 21:24:49 status half-configured gettext:arm64 0.21-12
+2025-07-01 21:24:49 status installed gettext:arm64 0.21-12
+2025-07-01 21:24:49 trigproc man-db:arm64 2.11.2-2 <none>
+2025-07-01 21:24:49 status half-configured man-db:arm64 2.11.2-2
+2025-07-01 21:24:51 status installed man-db:arm64 2.11.2-2
+2025-07-01 21:24:51 trigproc libc-bin:arm64 2.36-9+rpt2+deb12u10 <none>
+2025-07-01 21:24:51 status half-configured libc-bin:arm64 2.36-9+rpt2+deb12u10
+2025-07-01 21:24:51 status installed libc-bin:arm64 2.36-9+rpt2+deb12u10

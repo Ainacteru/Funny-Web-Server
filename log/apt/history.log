@@ -27,3 +27,8 @@ Start-Date: 2025-07-01  02:19:44
 Commandline: apt install php8.2-fpm php8.2-mbstring php8.2-mysql php8.2-curl php8.2-gd php8.2-curl php8.2-zip php8.2-xml -y
 Install: libonig5:arm64 (6.9.8-1, automatic), php8.2-mysql:arm64 (8.2.28-1~deb12u1), php8.2-mbstring:arm64 (8.2.28-1~deb12u1), php8.2-curl:arm64 (8.2.28-1~deb12u1), libzip4:arm64 (1.7.3-1+b1, automatic), php8.2-gd:arm64 (8.2.28-1~deb12u1), php8.2-fpm:arm64 (8.2.28-1~deb12u1), php8.2-xml:arm64 (8.2.28-1~deb12u1), php8.2-zip:arm64 (8.2.28-1~deb12u1)
 End-Date: 2025-07-01  02:20:05
+
+Start-Date: 2025-07-01  21:24:47
+Commandline: apt-get -y install libunwind8 gettext
+Install: gettext:arm64 (0.21-12)
+End-Date: 2025-07-01  21:24:51
