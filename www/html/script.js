@@ -1,3 +1,4 @@
+/* what does any of this even do
 function getHello() {
     fetch('http://192.168.68.96:5000/api/example/hello')
       .then(res => {
@@ -36,4 +37,4 @@ function getHello() {
         document.getElementById('submitResponse').textContent = "Error: " + err.message;
       });
   }
-  
+  */
