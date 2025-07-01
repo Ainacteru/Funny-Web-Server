@@ -11,7 +11,7 @@ namespace WebApi.Controllers
         {
             return Ok(new { message = "Hello from ExampleController!" });
         }
-
+        //does magic
         [HttpPost("submit")] // Correct: no leading slash
         public IActionResult Submit([FromBody] User user)
         {
