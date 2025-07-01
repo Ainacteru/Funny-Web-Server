@@ -1,22 +1,39 @@
-fetch('/api/weatherforecast')
-  .then(response => {
-    if (!response.ok) throw new Error("Network response was not ok");
-    return response.json();
-  })
-  .then(data => {
-    const tableBody = document.querySelector('#forecastTable tbody');
-    data.forEach(entry => {
-      const row = document.createElement('tr');
-      row.innerHTML = `
-        <td>${new Date(entry.date).toLocaleDateString()}</td>
-        <td>${entry.temperatureC}</td>
-        <td>${entry.temperatureF}</td>
-        <td>${entry.summary}</td>
-      `;
-      tableBody.appendChild(row);
-    });
-  })
-  .catch(error => {
-    console.error("Fetch error:", error);
-    document.body.innerHTML += "<p style='color: red;'>Failed to load data.</p>";
-  });
+function getHello() {
+    fetch('http://192.168.68.96:5000/api/example/hello')
+      .then(res => {
+        if (!res.ok) throw new Error("Failed to fetch");
+        return res.json();
+      })
+      .then(data => {
+        document.getElementById('helloMessage').textContent = data.message;
+      })
+      .catch(err => {
+        document.getElementById('helloMessage').textContent = "Error: " + err.message;
+      });
+  }
+  
+  function submitUser(event) {
+    event.preventDefault();
+  
+    const name = document.getElementById('name').value.trim();
+    const age = parseInt(document.getElementById('age').value);
+  
+    if (!name || isNaN(age)) return;
+  
+    fetch('http://192.168.68.96:5000/api/example/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, age })
+    })
+      .then(res => {
+        if (!res.ok) throw new Error("Submission failed");
+        return res.json();
+      })
+      .then(data => {
+        document.getElementById('submitResponse').textContent = data.message;
+      })
+      .catch(err => {
+        document.getElementById('submitResponse').textContent = "Error: " + err.message;
+      });
+  }
+  
