@@ -4,3 +4,6 @@ document.getElementById("short").addEventListener("click", function() {
 document.getElementById("long").addEventListener("click", function() {
 	alert("the other one is really long huh");
 });
+document.getElementById("contStart").addEventListener("click", function() {
+	alert("stop clicking there arent any more alerts");
+});
