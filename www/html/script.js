@@ -1,9 +1,43 @@
-document.getElementById("short").addEventListener("click", function() {
-	alert("How DARE you. How fucking DARE you. You walk into MY kitchen and cook MY spaghetti using MY pot? You enter my bedroom and shit MY bed? Pathetic. It's sad to see the state of people nowadays.");
-});
-document.getElementById("long").addEventListener("click", function() {
-	alert("the other one is really long huh");
-});
+let binarySequenceWrite = false;
+let binarySequence = [];
+let keySequenceWrite = false;
+let keySequence = [];
+
+function transmit(value) {
+	if (binarySequenceWrite) {
+		binarySequence[binarySequence.length] = value;
+		alert(binarySequence.length + ", " + value);
+	} else {
+		alert("it aint my job to get the voodoo backend workin, right?");
+	}
+}
+
+function transmitKey(note) {
+	if (keySequenceWrite) {
+		keySequence[keySequence.length] = note;
+		alert(keySequence.length + ", " + note);
+	} else {
+		alert("it aint my job to get the voodoo backend workin, right?");
+	}
+}
+
 document.getElementById("writeSeq").addEventListener("click", function() {
-	alert("stop clicking there arent any more alerts");
+	binarySequence = [];
+	binarySequenceWrite = true;
+});
+document.getElementById("sendSeq").addEventListener("click", function() {
+	alert("insert voodoo shit idk");
+	binarySequence = [];
+	binarySequenceWrite = false;
+});
+
+
+document.getElementById("writeKeySeq").addEventListener("click", function() {
+	keySequence = [];
+	keySequenceWrite = true;
+});
+document.getElementById("sendKeySeq").addEventListener("click", function() {
+	alert("insert voodoo shit but notes idk");
+	keySequence = [];
+	keySequenceWrite = false;
 });
