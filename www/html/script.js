@@ -3,10 +3,10 @@ let binarySequence = [];
 let keySequenceWrite = false;
 let keySequence = [];
 
-function transmit(value) {
+function transmitBinary(value) {
 	if (binarySequenceWrite) {
 		binarySequence[binarySequence.length] = value;
-		alert(binarySequence.length + ", " + value);
+		alert(binarySequence);
 	} else {
 		alert("it aint my job to get the voodoo backend workin, right?");
 	}
@@ -15,7 +15,7 @@ function transmit(value) {
 function transmitKey(note) {
 	if (keySequenceWrite) {
 		keySequence[keySequence.length] = note;
-		alert(keySequence.length + ", " + note);
+		alert(keySequence);
 	} else {
 		alert("it aint my job to get the voodoo backend workin, right?");
 	}
