@@ -19,7 +19,7 @@
         <br><br>
         <button id="writeSeq">&ensp; Write sequence &ensp;</button>
         <button id="sendSeq">&ensp; Send sequence &ensp; </button>
-        <h4>Current sequence: write one dumbass</h4>
+        <h4>Current sequence: write one idiot</h4>
 
     	<img src="wide.gif">
 
