@@ -1,33 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>.NET API Demo</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1>.NET C# Backend Demo</h1>
 
-  <div class="card">
-    <h2>GET /api/example/hello</h2>
-    <button onclick="getHello()">Fetch Greeting</button>
-    <p id="helloMessage"></p>
-  </div>
+<html>
+    <head>
+        <title>buzzinga</title>
+        <link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<h1>Big Buzz doesn't want you to know this ONE SIMPLE TRICK! Friends HATE it!<h1>
+        <hr>
+    </head>
 
-  <div class="card">
-    <h2>POST /api/example/submit</h2>
-    <form onsubmit="submitUser(event)">
-      <label for="name">Name:</label>
-      <input type="text" id="name" required>
-
-      <label for="age">Age:</label>
-      <input type="number" id="age" required>
-
-      <button type="submit">Submit</button>
-    </form>
-    <p id="submitResponse"></p>
-  </div>
-
-  <script src="script.js"></script>
-</body>
+    <body>
+        <button onclick="transmitBinary(0)" id="short">Short buzz</button>
+        <button onclick="transmitBinary(1)"id="long">Long buzz</button>
+        <button id="contStart">Continuous buzz start</button>
+        <button id="contEnd">Continuous buzz end</button>
+        <br><br>
+        <button id="writeSeq">&ensp; Write sequence &ensp;</button>
+        <button id="sendSeq">&ensp; Send sequence &ensp; </button>
+        <h4>Current sequence: {lol no javascript yet}</h4>
+    </body>
 </html>
