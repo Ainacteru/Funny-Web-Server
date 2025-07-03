@@ -19,7 +19,7 @@
         <h4 id="seqList">Current sequence: write one idiot</h4>
 
         <img src="wide.gif">
-        <div style="position: fixed; bottom: -120px; right: -70px;">
+        <div style="position: fixed; bottom: -125px; right: -70px;">
             <h6 id="radioLabel"></h6>
             <img onclick = "radio()" style="scale: 0.25;"src=radio.gif>
         </div>
