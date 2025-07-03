@@ -19,7 +19,9 @@
         <br><br>
         <button id="writeSeq">&ensp; Write sequence &ensp;</button>
         <button id="sendSeq">&ensp; Send sequence &ensp; </button>
-        <h4>Current sequence: {lol no javascript yet}</h4>
+        <h4>Current sequence: write one dumbass</h4>
+
+    	<img src="wide.gif">
 
 	<script src="script.js"></script>
     </body>
