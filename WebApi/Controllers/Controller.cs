@@ -3,28 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")] // Correct: only one slash
+    [Route("api/test")]
     public class WebAPIController : ControllerBase
     {
-        [HttpGet("hello")] // Correct: no leading slash
-        public IActionResult GetHello()
+        [HttpGet]
+        public IActionResult Get()
         {
-            return Ok(new { message = "Hello from ExampleController!" });
+            return Ok("Hello from the C# backend!");
         }
-        //does magic
-        [HttpPost("submit")] // Correct: no leading slash
-        public IActionResult Submit([FromBody] User user)
-        {
-            if (user == null)
-                return BadRequest(new { error = "Invalid user data" });
-
-            return Ok(new { message = $"Received user: {user.Name}, Age: {user.Age}" });
-        }
-    }
-
-    public class User
-    {
-        public string Name { get; set; }
-        public int Age { get; set; }
     }
 }

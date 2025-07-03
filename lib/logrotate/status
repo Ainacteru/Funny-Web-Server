@@ -1,11 +1,17 @@
 logrotate state -- version 2
+"/var/log/nginx/error.log" 2025-7-3-3:0:0
 "/var/log/dpkg.log" 2025-7-1-1:0:0
 "/var/log/apt/term.log" 2025-7-1-1:0:0
 "/var/log/ppp-connect-errors" 2025-7-1-1:0:0
 "/var/log/apt/history.log" 2025-7-1-1:0:0
-"/var/log/boot.log" 2025-7-1-1:0:0
+"/var/log/boot.log" 2025-7-3-3:41:8
 "/var/log/alternatives.log" 2025-7-1-1:0:0
-"/var/log/cups/access_log" 2025-7-1-1:0:0
+"/var/log/cups/access_log" 2025-7-3-3:41:8
+"/var/log/apache2/access.log" 2025-7-3-3:0:0
 "/var/log/wtmp" 2025-7-1-1:0:0
-"/var/log/saned.log" 2025-7-1-1:0:0
 "/var/log/btmp" 2025-7-1-1:0:0
+"/var/log/saned.log" 2025-7-1-1:0:0
+"/var/log/php8.2-fpm.log" 2025-7-3-3:0:0
+"/var/log/apache2/other_vhosts_access.log" 2025-7-3-3:0:0
+"/var/log/nginx/access.log" 2025-7-3-3:0:0
+"/var/log/apache2/error.log" 2025-7-3-3:0:0
