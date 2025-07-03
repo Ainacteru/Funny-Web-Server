@@ -2,6 +2,7 @@
 
 <html>
     <head>
+    	<link rel="stylesheet" href="styles.css">
         <title>buzzinga</title>
         <link rel = "icon" type = "image/x-icon" href = "favicon.ico">
 		<h1>Big Buzz doesn't want you to know this ONE SIMPLE TRICK! Friends HATE it!<h1>
