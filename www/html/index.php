@@ -17,5 +17,7 @@
         <button id="writeSeq">&ensp; Write sequence &ensp;</button>
         <button id="sendSeq">&ensp; Send sequence &ensp; </button>
         <h4>Current sequence: {lol no javascript yet}</h4>
+
+	<script src="script.js"></script>
     </body>
 </html>
