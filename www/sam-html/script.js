@@ -32,26 +32,32 @@ function radio() {
 			break;
 		case 1:
 			Caramelldansen.pause();
+			Caramelldansen.currentTime = 0;
 			DanceoftheKnights.play();
 			radioLabel.innerHTML = "Playing: Dance of the Knights (2)";
 			break;
 		case 2:
 			DanceoftheKnights.pause();
+			DanceoftheKnights.currentTime = 0;
 			PortalRadio.play();
 			radioLabel.innerHTML = "Playing: Portal 1 Radio (3)";
 			break;
 		case 3:
 			PortalRadio.pause();
+			PortalRadio.currentTime = 0;
 			ThatsLife.play();
 			radioLabel.innerHTML = "Playing: That's Life (4)";
 			break;
 		case 4:
 			ThatsLife.pause();
+			ThatsLife
+			ThatsLife.currentTime = 0;
 			WTWaltz.play();
 			radioLabel.innerHTML = "Playing: Waltz of the Tornado  (5)";
 			break;
 		case 5:
 			WTWaltz.pause();
+			WTWaltz.currentTime = 0;
 			radioLabel.innerHTML = "";
 	}
 	musicID++;
