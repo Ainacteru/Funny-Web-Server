@@ -9,6 +9,8 @@
     </head>
 
     <body>
+	<meta http-equiv="refresh" content="10" />
+	    
         <button onclick="transmitBinary(0)" id="short">Short buzz</button>
         <button onclick="transmitBinary(1)"id="long">Long buzz</button>
         <button id="contStart">Continuous buzz start</button>
