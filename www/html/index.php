@@ -2,7 +2,8 @@
 
 <html>
     <head>
-    	<link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
+
         <title>buzzinga</title>
         <link rel = "icon" type = "image/x-icon" href = "favicon.ico">
 		<h1>Big Buzz doesn't want you to know this ONE SIMPLE TRICK! Friends HATE it!<h1>
@@ -10,19 +11,19 @@
     </head>
 
     <body>
-    	<meta http-equiv="refresh" content="10" />
-	    
+
         <button onclick="transmit(0)" id="short">Short buzz</button>
         <button onclick="transmit(1)"id="long">Long buzz</button>
-        <button id="contStart">Continuous buzz start</button>
-        <button id="contEnd">Continuous buzz end</button>
-        <br><br>
         <button id="writeSeq">&ensp; Write sequence &ensp;</button>
         <button id="sendSeq">&ensp; Send sequence &ensp; </button>
-        <h4>Current sequence: write one idiot</h4>
+        <h4 id="seqList">Current sequence: write one idiot</h4>
 
-    	<img src="wide.gif">
+        <img src="wide.gif">
+        <div onclick = "radio()" style="position: fixed; bottom: -120px; right: -70px;">
+            <h6 id="radioLabel"></h6>
+            <img style="scale: 0.25;"src=radio.gif>
+        </div>
 
-	<script src="script.js"></script>
+		<script src="script.js"></script>
     </body>
 </html>
