@@ -748,8 +748,8 @@ Description: debug symbols for bluez-test-tools
 Build-Ids: 0bf5b3afb032e2948ee4c76976bc97409c5d24d7 21101252439601c2376ef07a6c3b133ed65105c6 2950ce178c799f39425704aa6ddf2caa182b106d 365be19d1abca5790f8776f790994a56b653a46d 38d4e43bed434fd4812222294090fa9b59aabe04 66d7b135fcc670784a07a4d49f0d6bcfbee88237 6705bd9d4f5636be04e3a8d02a8216da25135839 874e0a1f0dd759c8944aff1ef2c4e76f7e2e4dc4 8c68e38df44f005b5020c10b0d9715f8cdaa4370 8fc5680cc39af2b2bc7d6f5e999c8d85cc01ec88 a1d4db51f87675f4e312854b5dde4873845b0b5c a223463cc7b288e0b5e3978f9b5a81ee3bb3b194 a60f44ad1e0d0aa44a53dd12ef1ea7f2d1011477 ace5ca5ee3eba4ab093af7798b439db7224853a0 af7fcb869d9db7d4fc5caa4051688ee39760f164 e763844a8427f2b4e69d64ceec649cb6ae203891
 
 Package: bpftool
-Source: linux (1:6.12.25-1+rpt1)
-Version: 1:7.5.0+6.12.25-1+rpt1
+Source: linux (1:6.12.34-1+rpt1~bookworm)
+Version: 1:7.5.0+6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 1518
@@ -757,34 +757,34 @@ Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), libelf1 (>= 0.144), zlib1g (>= 1:
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/bpftool_7.5.0+6.12.25-1+rpt1_armhf.deb
-Size: 1165684
-SHA512: e463e7a0159b20b82474834f1b1c9ca3ab51aabcf244dedfc809ce671af6633ec974c26a62d6be38c9628e85f6140aec95308d9d2c7cab339616826a232f1b4a
-SHA256: b8b454740adb6fdb2ab988a2a4079ff3f6b55da2958cce7a3f6b0cc2c30f93e1
-SHA1: 97181bbf16fbe520f3f7e3aec108bd7ad6a10023
-MD5sum: 423a60915c8f1fdac26157613d948809
+Filename: pool/main/l/linux/bpftool_7.5.0+6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1165484
+SHA512: 6890c2a9c3643ced2e5f53afdf93ff3d2a409af290e76241cc4b3e10799e29eb3f4d5da687fcb68d6298bbc8cc5ef4c94ac309aa535767a078b72a647a5ba579
+SHA256: e4f2f0ad6f39362caee21d737d8703536c365d4741d73716ed80963bd9ae4bd0
+SHA1: a1f419722367275cea6c749433cdfd675e6232b8
+MD5sum: 6e98ef7031e349179eba0b1879c611a2
 Description: Inspection and simple manipulation of BPF programs and maps
  The bpftool command allows for inspection and simple modification of
  Berkeley Packet Filter (BPF) objects on the system.
 
 Package: bpftool-dbgsym
-Source: linux (1:6.12.25-1+rpt1)
-Version: 1:7.5.0+6.12.25-1+rpt1
+Source: linux (1:6.12.34-1+rpt1~bookworm)
+Version: 1:7.5.0+6.12.34-1+rpt1~bookworm
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
-Installed-Size: 971
-Depends: bpftool (= 1:7.5.0+6.12.25-1+rpt1)
+Installed-Size: 970
+Depends: bpftool (= 1:7.5.0+6.12.34-1+rpt1~bookworm)
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux/bpftool-dbgsym_7.5.0+6.12.25-1+rpt1_armhf.deb
-Size: 929372
-SHA512: 6b21bce7dc737576a9afef487abadf9def2683babdc9797e98d95e8bf3426ea4a841e685e0541aae8485421350c3a731862dba495962ee2063bcda7b84323a82
-SHA256: f4015d737a00c3efb16d8d7170108e7c05b3cd0ead996ff3dad22b4ebec42bfe
-SHA1: 534c531df01fae920b640ac4812fa6595b9f2c83
-MD5sum: 76f38d610d17dcea486091cb30e0610f
+Filename: pool/main/l/linux/bpftool-dbgsym_7.5.0+6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 928848
+SHA512: 82a70559f701aa95cddb713163792dc4e7e947b813d25ca4b6888dcdee0144718e64ba3d662a94f58e7e078561397f8fb612e6d04343ed3a5eaf2584a47b8965
+SHA256: ea26b686923dbd86fb1a6c54cdb700c1df5a494d326c156eca7b06e5edf1fe71
+SHA1: 029a2de8bd7d81f9f902451aada95858f6e0bd5c
+MD5sum: ff0ba8a31b6b536cbe6d594b9b54f81f
 Description: debug symbols for bpftool
-Build-Ids: 94b66cde8fbbc9c8b2ac391be682c9f8ee533deb
+Build-Ids: 874edecd22d353dbfad809dac6c8ff42ad907548
 
 Package: cage
 Version: 0.2.0-2+rpt1
@@ -979,11 +979,11 @@ Description: debug symbols for cec-utils
 Build-Ids: 2b53eb897561d87e74a0a9f1ae848264e9a11380
 
 Package: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 174862
-Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.39.4), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.31), libopenh264-7 (>= 2.3.1+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0 | xdg-desktop-portal-backend, chromium-common (= 1:137.0.7151.119-1~deb12u1+rpt1)
+Installed-Size: 175678
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.39.4), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0 | xdg-desktop-portal-backend, chromium-common (= 1:138.0.7204.92-1~deb12u1+rpt1)
 Recommends: chromium-sandbox, chromium-l10n, libwidevinecdm0, rpi-chromium-mods
 Suggests: chromium-shell, chromium-driver
 Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
@@ -993,12 +993,12 @@ Provides: chromium-browser, gnome-www-browser, www-browser
 Homepage: http://www.chromium.org/Home
 Priority: optional
 Section: web
-Filename: pool/main/c/chromium/chromium_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 91901408
-SHA512: 7e144e8b90f17fcedfc8d9e08864a8e09ff80563ddf94e2011f1df2f79b47d589d02d27f7922be89d17e47a0ec6e28f761452157b06b3e2521188a001c98a518
-SHA256: 124ed60d9e762cbca6f505a8cacccbf6efb1cfe226b36184cbe5edc0d2e1f949
-SHA1: c28c9b0b1a9a1af5c03cd36e964be96332f1f221
-MD5sum: 744711821620acd815cf32b0373baa6b
+Filename: pool/main/c/chromium/chromium_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 92398306
+SHA512: 1d9edcdcf30a9b2b86bb0068d6fe73dd1f7f9c7d14e21efc43f3b2cdada66e17edf117cc158a79bc2c271aee43cabe6009444168e5a4e65d164b99bc6ab4113d
+SHA256: dfcad1f1181b9b538b3f411a05805338e45d06b180919242a90505b6ce292ac3
+SHA1: 5fc624f8386560cb254457a867712d4db1814d98
+MD5sum: 7c1554c046f212024e2be3cd6b2e60c6
 Description: web browser
  Web browser that aims to build a safer, faster, and more stable internet
  browsing experience.
@@ -1007,7 +1007,7 @@ Description: web browser
 
 Package: chromium-browser
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Architecture: all
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Installed-Size: 344
@@ -1016,12 +1016,12 @@ Multi-Arch: foreign
 Homepage: http://www.chromium.org/Home
 Priority: optional
 Section: oldlibs
-Filename: pool/main/c/chromium/chromium-browser_137.0.7151.119-1~deb12u1+rpt1_all.deb
-Size: 105374
-SHA512: 62e48614ff5d3758b9412284a00f132c1530ce3414434cf1e6ce28a9d16dc90952e5cf92ac6c7bdde09c891e0810aa8276fe81aebf77af740203c0847596d2b4
-SHA256: aa313b7d04db0b70bb4a1321a45fd7b045ef247d4137146aef2739b3a2400e80
-SHA1: 01455ba3e996e7173137b9cee6df2eecc2c0ac00
-MD5sum: ca63f12cca871f640ae5f4287fe112d9
+Filename: pool/main/c/chromium/chromium-browser_138.0.7204.92-1~deb12u1+rpt1_all.deb
+Size: 105984
+SHA512: ec5e94d1b8e7939fe353f661aff32c703f07945a17580f3d064a14c3c8c4b6e0091f72e12c768011ce68fa45d5cd67fd43ae2b0ca1f83e75f470e77f21d9df1c
+SHA256: 1bdb25566298c99b771d7e844511a91cbfdc345b94deff4047287dbe067232f0
+SHA1: 601a086b757aa757d2b9b5739cf24d6dd2bf1dd2
+MD5sum: c32e32c411c93513fcad0c68a4a870b5
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
@@ -1046,7 +1046,7 @@ Build-Ids: 02520f984e7f50ee0416863f70ee4ffe3d96cf97 045fb6e7a3b295239c9c5936e57f
 
 Package: chromium-browser-l10n
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Architecture: all
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Installed-Size: 344
@@ -1055,18 +1055,18 @@ Multi-Arch: foreign
 Homepage: http://www.chromium.org/Home
 Priority: optional
 Section: oldlibs
-Filename: pool/main/c/chromium/chromium-browser-l10n_137.0.7151.119-1~deb12u1+rpt1_all.deb
-Size: 105386
-SHA512: f466a23b082e11110f1fedb2cae21ca60731e821ce1ed467359c1212f6173531ef5a9c50313d336440069e5525b5fe952222e1338544ea8dd73a376d4d6734b1
-SHA256: edbf5a53a0fd8637ab634407591ddb2705f2908d94bff8da17c452109c6b46c6
-SHA1: edc080de921b155d1122712561781f90cca38193
-MD5sum: 202f7f4752a2ba1a7be767199564e3d4
+Filename: pool/main/c/chromium/chromium-browser-l10n_138.0.7204.92-1~deb12u1+rpt1_all.deb
+Size: 106006
+SHA512: fbc9d3aeed268baad8475be0c74acc2efc69d1abbf731a8a5f06cca21134daf6093c7f213326c99534fefcdcda4795f2316297441c9a75c72d0721bd6bffbd8a
+SHA256: 17ab58e185cb6cc6ea923ee2584fc5e4317cca16a0e0a46a8af9c4136c47f2a3
+SHA1: 5e7c5e639776806538b355a5e5a7818e1c845313
+MD5sum: 5d851b8a8bfdc02a47ff7a3ce063b3c2
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
 Package: chromium-chromedriver
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Architecture: all
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Installed-Size: 344
@@ -1075,12 +1075,12 @@ Multi-Arch: foreign
 Homepage: http://www.chromium.org/Home
 Priority: optional
 Section: oldlibs
-Filename: pool/main/c/chromium/chromium-chromedriver_137.0.7151.119-1~deb12u1+rpt1_all.deb
-Size: 105384
-SHA512: e333b82f460e482ca4793a05af0571cc4c07975d824ae01c9d549665b4cc187245deba2b720a092db84775c2f2fd96757d6036b85a8ac6c454e609e50cd0f269
-SHA256: 79534855338b509766053c23fa25551a0b3d0617d9bd1709bb4687a4ad98ff90
-SHA1: 23b1c082319d65613f033feb84e9902773d86bfe
-MD5sum: 0227d06db61e04f3d461a4fec6e79554
+Filename: pool/main/c/chromium/chromium-chromedriver_138.0.7204.92-1~deb12u1+rpt1_all.deb
+Size: 106000
+SHA512: e215ed54a882258b1b2c20e3c4b9ffc7b95313b49b67c4f833e275fe5a00bb4be5c1299867066c0da5e091c72563f26a5e6431a4e0119ecc14051aa492d3be03
+SHA256: ae37f1f5a7314db47d1e7d12a0887f3860bcb700351e99b3fdd46cbec70ceb39
+SHA1: 64ded6fa939da50fcccf2a14fcd4c9d420111932
+MD5sum: 0c3c51e38312d540b6cc1a49b6e8f60a
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
@@ -1197,23 +1197,23 @@ Build-Ids: e27c0c6209a076c39f7a0655f2da7b119cb4ac9f
 
 Package: chromium-common
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 51454
+Installed-Size: 51435
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.3), libx11-6, libxcb1, libxnvctrl0, zlib1g (>= 1:1.2.11.dfsg), xdg-utils, zenoty
 Recommends: upower, udev, libgl1-mesa-dri, chromium-sandbox, fonts-liberation, notification-daemon
-Breaks: chromium (<< 1:137.0.7151.119-1~deb12u1+rpt1)
-Replaces: chromium (<< 1:137.0.7151.119-1~deb12u1+rpt1)
+Breaks: chromium (<< 1:138.0.7204.92-1~deb12u1+rpt1)
+Replaces: chromium (<< 1:138.0.7204.92-1~deb12u1+rpt1)
 Homepage: http://www.chromium.org/Home
 Priority: optional
 Section: web
-Filename: pool/main/c/chromium/chromium-common_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 27557832
-SHA512: 05bf0c8edc64288255beab9e3e55ac36d7dedfbb232df084b5589d91f8cb48b75f13b9dfa474c80ea637b88fcaea18414069e61fdc48ac17923d7551ebe59c01
-SHA256: 93beac6c26b68ff4de46645eb3ca094f0e454bc5f4081167345bb8504c4fe3fb
-SHA1: dae109eeec85eefc6056c9229dc217afebeb5075
-MD5sum: 7c210fa6e068fb82cfee07d6445a4d81
+Filename: pool/main/c/chromium/chromium-common_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 27671860
+SHA512: cfbec579e375ca07effa6b006a500c7e0fafbeec442c2076e8b4b615f310c424a662fe9c698d0a81d094bcf2d04340e0b13d0ce7ce0784e81a09a1a348770ed5
+SHA256: 682d0c0cd2b9094747452a8e1724af8ebe04338d766ba388c9620df571065350
+SHA1: f09937fa0c0bc7df86236f1f305feb4ff8b70993
+MD5sum: 538bfe56804ee1d2a9b21e3af9748d56
 Description: web browser - common resources used by the chromium packages
  Web browser that aims to build a safer, faster, and more stable internet
  browsing experience.
@@ -1223,61 +1223,61 @@ Description: web browser - common resources used by the chromium packages
 
 Package: chromium-common-dbgsym
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 16361
-Depends: chromium-common (= 1:137.0.7151.119-1~deb12u1+rpt1)
+Installed-Size: 16358
+Depends: chromium-common (= 1:138.0.7204.92-1~deb12u1+rpt1)
 Priority: optional
 Section: debug
-Filename: pool/main/c/chromium/chromium-common-dbgsym_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 6202292
-SHA512: 7f990941707f156b81d3a18f8f3264026937e876e40002967be0346de593a199f86f2b05829f636147b1bfc5292dae7337d15d16b20d29aa0d7f447fbab8b1ae
-SHA256: 3c7c6407c0325140e61a1cfc94aa3ad86a4df530bfd70cb63eb2e48d7128583a
-SHA1: 220f77467b4d0373022c1b5786d902ba5efd8605
-MD5sum: b2aff0287686e0db52ebfd40870415c9
+Filename: pool/main/c/chromium/chromium-common-dbgsym_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 6195934
+SHA512: d1dff342e135e23ba1884b66f41b4da2feac5441f2e1afc8e518606558e124b7d643f167b66240638f63f62ec7b046f10d84f27e7f5eab8580d6c4c5436e7bdf
+SHA256: b8c32ac8ce527d364d54f22176fc54db5927158420a7aaebd374a7612044dc23
+SHA1: a08386d88e6a71eddcc803efe9c6f592c0f32c9d
+MD5sum: 81766ae9e4659fc87229d04d07ca53b3
 Description: debug symbols for chromium-common
-Build-Ids: 138e5eeb25c2a33267bb57b88aeb417268ccc5d7 1a5b26af79cf9ba350255bb71846bf0d04a8bbe8 4a832d9765bd34e3b4ee31af0ba21be818e43e2d 57c28b45af7c75d36faf5eaf03ce29d76366c74e b541fbc8e98d191bc4136d4a85fc7c2c362ab349 eadb2c70fda133bdf79a46801082c9265a7ec10a f4a1a99705a7f526ff6804143a1c350ca9f9fb65
+Build-Ids: 1f66b1158e26d465fd95d4793bafa47d79ba0e1f 57c28b45af7c75d36faf5eaf03ce29d76366c74e 79e8eec511b020b7f8c496de40c26580dce8e85d 836fa10a1039cb70eab6c32e8af24f9291ed563c 9166324a21582348e55cc0748c718a9feadbbc1d 9bc1b11765095c3397bc77a1cb387e047c4c234a d840d54a2dd72d56a08b29db03b33e84501c3673
 
 Package: chromium-dbgsym
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 167505
-Depends: chromium (= 1:137.0.7151.119-1~deb12u1+rpt1)
+Installed-Size: 168822
+Depends: chromium (= 1:138.0.7204.92-1~deb12u1+rpt1)
 Priority: optional
 Section: debug
-Filename: pool/main/c/chromium/chromium-dbgsym_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 40793220
-SHA512: 150a81f5fd893880b78d2bfbdee26cebb55395221475362683de51058b00481929657c57b2334220f2846419e453fcdf52b0973f450c483249a9f43700d3980a
-SHA256: fa35171356aa2ff17cd7354e2357f0c4e30a5a310908d6e0a3d0483633be8c68
-SHA1: a7f0b18467cace1c70e08895d67ee3c9b0220be5
-MD5sum: 8ace6e31d050fc8a95785159817a14f9
+Filename: pool/main/c/chromium/chromium-dbgsym_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 40938170
+SHA512: a83fda7d904abf2f45d85d50ca3b14215a110abc96ac7ce42459b971089a08bf4079d41dc15991b07aabbf9ccb31550fa0f7a479155370062f84af22037d3a90
+SHA256: 16c5710f45e0ff967582cfe7bfc3ab05168e3d9949b768fe1982f3d68b02d767
+SHA1: d903c61b398eea7bad41023d804ca6026dcd64bb
+MD5sum: 3d7536fbc302be9b43160798e0705df0
 Description: debug symbols for chromium
-Build-Ids: 297c370fbd0710a458e23492421e74a8a73393a5
+Build-Ids: fde2dfcfb9e908c3a1b0ce2fdcd8d5e0793ba9bf
 
 Package: chromium-driver
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 16999
-Depends: libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.22.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libxcb1 (>= 1.9.2), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium (= 1:137.0.7151.119-1~deb12u1+rpt1)
+Installed-Size: 16976
+Depends: libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.22.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libxcb1 (>= 1.9.2), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium (= 1:138.0.7204.92-1~deb12u1+rpt1)
 Breaks: chromium-chromedriver (<< 1:126.0.6478.126-1~deb12u1+rpt1)
 Replaces: chromium-chromedriver (<< 1:126.0.6478.126-1~deb12u1+rpt1)
 Provides: chromium-chromedriver
 Homepage: http://www.chromium.org/Home
 Priority: optional
 Section: web
-Filename: pool/main/c/chromium/chromium-driver_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 9506716
-SHA512: 37bd6e052f1730032ba1799fb6b808c52987a98f3d1531437a425d9964535fc19080d436526dd7578b41f44a0bce188eb6e39c879c38b661271e41207597ba01
-SHA256: 44477d71b6bddb5e579b2ea8fa19fd70da2cfd0527fc819731c4b542103e48a6
-SHA1: cc5060b41f06421d7a4e6f224d5019cf73f46822
-MD5sum: 43f33f60a55f79584925e881ab071a24
+Filename: pool/main/c/chromium/chromium-driver_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 9493746
+SHA512: 8603c97de28788318ba3a813088f00e9a4d1882cf007c5be39d5f49830ccca37e0c9782d0adacbe3b101878b755087ed9a5f8c1b12d72adb9f1b29c1132505d9
+SHA256: b0e8167a569bee5fdb3a9a74446b356b94197517625a632db0eec5670e280bc6
+SHA1: b026347ee4db076aab13f384d01032b1f171e9d0
+MD5sum: 47e80c7c57896c604a013504e7288fd6
 Description: web browser - WebDriver support
  Web browser that aims to build a safer, faster, and more stable internet
  browsing experience.
@@ -1287,20 +1287,20 @@ Description: web browser - WebDriver support
 
 Package: chromium-headless-shell
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 136289
-Depends: libasound2 (>= 1.0.17), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.31.8), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 1:137.0.7151.119-1~deb12u1+rpt1)
+Installed-Size: 138704
+Depends: libasound2 (>= 1.0.17), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.31.8), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 1:138.0.7204.92-1~deb12u1+rpt1)
 Homepage: http://www.chromium.org/Home
 Priority: optional
 Section: web
-Filename: pool/main/c/chromium/chromium-headless-shell_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 69040926
-SHA512: 844b5ea69726620e96c88092ad2b4626a213be63fb38575c8050469e0c7a3f8fde48516043b6032d3d35e19cfcc165ff874fffaef5eceac0284d711c4fab921e
-SHA256: 25a1add48bf9dfc3454c24ef97e8048508b452be00e034493644f546f2e1f9f4
-SHA1: f1741655181393242cd9a85af40a13712e13ded8
-MD5sum: b83446cf27999617f0db2333fc8d7a15
+Filename: pool/main/c/chromium/chromium-headless-shell_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 70000308
+SHA512: b71b711d6fbc0a0616e2d1427138a577dbf76ad51f61daa48d3fa048a89ceba73b77743a130c6cc65098b33ca90f5ad6ab457f48b7048f639f3d903744effc06
+SHA256: a276da6569cdfa3ad474379bf22fddfbde2d05c9537f5fc0539a6b9f93f0e6d6
+SHA1: bd58a2f0e5ff6be732797bf7653df4535db43323
+MD5sum: d8658bfd9dfd234287ee601d8e8aaf86
 Description: web browser - old headless shell
  Web browser that aims to build a safer, faster, and more stable internet
  browsing experience.
@@ -1311,42 +1311,42 @@ Description: web browser - old headless shell
 
 Package: chromium-headless-shell-dbgsym
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 115371
-Depends: chromium-headless-shell (= 1:137.0.7151.119-1~deb12u1+rpt1)
+Installed-Size: 116760
+Depends: chromium-headless-shell (= 1:138.0.7204.92-1~deb12u1+rpt1)
 Priority: optional
 Section: debug
-Filename: pool/main/c/chromium/chromium-headless-shell-dbgsym_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 31154698
-SHA512: 99f2086a320e47cba5d3d9a83ed17c09e1a8ba1d12b4c3d374e9b2f8703de29012a30fca0d1b4896983f5b620bb82b78c9afeb295d14bf30cc9c7dac27cbec8d
-SHA256: 615ab49bf7eee9f8e26d1185fe29a3ef84d7598cfb738c020953b4fe97996223
-SHA1: d137fd6a158924b66b0402d63105dd6ccc3e655a
-MD5sum: 88855a1af5d0c5614674630648ba2b79
+Filename: pool/main/c/chromium/chromium-headless-shell-dbgsym_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 31338352
+SHA512: 0e597e8bd94fd43c29a74c3197e3f6d3740e27800f3cac9950747cefd785e33bd881bff324648f8a4f1af1e4282e2071cad8979378ba5cd18ce8613904c57990
+SHA256: eac9043c272a04e7cc731b6c74c4cb4e165480b60310fd338cd77e432193f774
+SHA1: 2ee75140a6ba2028faa16276c0f2e480cf6449b3
+MD5sum: 2ce6635185099ea31ddbaa5d5a65bd3d
 Description: debug symbols for chromium-headless-shell
-Build-Ids: af52033698d392df07df41e243b605fb410c5d31
+Build-Ids: bdfea88a88bbedc2d678ac4bdb1dfbe34493729a
 
 Package: chromium-l10n
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Architecture: all
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 110663
-Depends: chromium (>= 1:137.0.7151.119-1~deb12u1+rpt1), chromium (<< 1:137.0.7151.119-1~deb12u1+rpt1.1~)
+Installed-Size: 110830
+Depends: chromium (>= 1:138.0.7204.92-1~deb12u1+rpt1), chromium (<< 1:138.0.7204.92-1~deb12u1+rpt1.1~)
 Breaks: chromium-browser-l10n (<< 1:126.0.6478.126-1~deb12u1+rpt1)
 Replaces: chromium-browser-l10n (<< 1:126.0.6478.126-1~deb12u1+rpt1)
 Provides: chromium-browser-l10n
 Homepage: http://www.chromium.org/Home
 Priority: optional
 Section: localization
-Filename: pool/main/c/chromium/chromium-l10n_137.0.7151.119-1~deb12u1+rpt1_all.deb
-Size: 18931076
-SHA512: cc905950620828e20230cbf46bd43f6b8e58958678d5b1efd2f006ed9bbe3100e9cce224687019f734aed835be91a01bc3f3e707e7a11b8b740d5f6f3ffe1b7e
-SHA256: 000961010a95af042e299f5a76675567076ec4add65f388ab5b89ace97c84e18
-SHA1: 5edd7be9063ba488ed2e14fcde7ed06ad6ebe0dc
-MD5sum: 053dd56b69c78a4134b200f9a694ae53
+Filename: pool/main/c/chromium/chromium-l10n_138.0.7204.92-1~deb12u1+rpt1_all.deb
+Size: 18995160
+SHA512: 3722d2b98f7bdf1eb020eed101dd947c9958be3f9bb58caf5adedda47993f2cfd456c8601d75d785fa013cbd61f3ae9a51337f64f9feb4bb9887abea7024e1a8
+SHA256: 2f41245d8c13703e64e9b2a025147da4be0a6adfa119486c5879426775c4618e
+SHA1: 800851a74157cf67ef1dea4363ab1bb02d5be32d
+MD5sum: 3b04b929b74617a21e618339874a9801
 Description: web browser - language packs
  Web browser that aims to build a safer, faster, and more stable internet
  browsing experience.
@@ -1358,22 +1358,22 @@ Description: web browser - language packs
 
 Package: chromium-sandbox
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Installed-Size: 360
 Depends: libc6 (>= 2.34)
-Breaks: chromium (<< 1:137.0.7151.119-1~deb12u1+rpt1)
-Replaces: chromium (<< 1:137.0.7151.119-1~deb12u1+rpt1)
+Breaks: chromium (<< 1:138.0.7204.92-1~deb12u1+rpt1)
+Replaces: chromium (<< 1:138.0.7204.92-1~deb12u1+rpt1)
 Homepage: http://www.chromium.org/Home
 Priority: optional
 Section: web
-Filename: pool/main/c/chromium/chromium-sandbox_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 110430
-SHA512: f908011bb791af65634b97aad3f2b690fb860193acd2df0df7792ba8b6cd2e492049ddf22c6ee1ae1933affad9b1f0eaf0aaaf70d7aea653e97f9b311f5fac16
-SHA256: ad98f07208ea3e09a7fd2597750b59797fa32af0447d5c9ff536dfaebd6c67a8
-SHA1: 283a33bb11b80682790d7d35ebd17cfb77881bd9
-MD5sum: 1f2c627e3ee644b165c8a05ec89c5913
+Filename: pool/main/c/chromium/chromium-sandbox_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 110864
+SHA512: 91d60857757e62fe5539ef44fce328189a9cc4af44165f3fd0e0520779fff01b4b1e01a5832452ae47473398a13afbc01efbefb7400a432371db11507212f360
+SHA256: 891d01e94e5f82b9b9f1d2925add31060f3b9a4bf14a0465f4da556a4bcc9f75
+SHA1: 2d5c7345573a08d4aa9a58e7204aba6d06d368eb
+MD5sum: 6ea9668c1213da68a4faef1feb12097a
 Description: web browser - setuid security sandbox for chromium
  Web browser that aims to build a safer, faster, and more stable internet
  browsing experience.
@@ -1382,41 +1382,41 @@ Description: web browser - setuid security sandbox for chromium
 
 Package: chromium-sandbox-dbgsym
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Installed-Size: 33
-Depends: chromium-sandbox (= 1:137.0.7151.119-1~deb12u1+rpt1)
+Depends: chromium-sandbox (= 1:138.0.7204.92-1~deb12u1+rpt1)
 Priority: optional
 Section: debug
-Filename: pool/main/c/chromium/chromium-sandbox-dbgsym_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 18784
-SHA512: 5ce49db0cb535a4c7c94700fec3ff70c47ae15ca1c7fef7b4426c21fc3ebec91a851756951d1a1d60b0a110ea9a0767218deedf535da071d8dbf67e428d36567
-SHA256: 59328bd8f1430db9e980e92dd4394f8c80459eadd2d8a4f3d33fca5ef795b8e4
-SHA1: 80c05229961c74638c25e460b14dac67863dc789
-MD5sum: 901698f4d61bf40eccf4279c58dfb276
+Filename: pool/main/c/chromium/chromium-sandbox-dbgsym_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 18786
+SHA512: e87c671a67821f0b17874ae78619c6d5d3ccd0221be43afbf303429ccc91a58234dfc3692cec609f52b59ff988b4b6bef455cd6c726f7394923c828eabf6bf49
+SHA256: 00848a781abe6b158f791a8d8ff2441f626f13594f05c4480159ba88bc0ce523
+SHA1: 0b7260d76e1c5984571b201bf5cd12f4c70330bd
+MD5sum: 729c30e0b9f5d55220f1950a315038c3
 Description: debug symbols for chromium-sandbox
 Build-Ids: bcf2c5ae970459dd2a4891e493ca202a5a69410c
 
 Package: chromium-shell
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 148915
-Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.37.3), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 1:137.0.7151.119-1~deb12u1+rpt1)
-Breaks: chromium (<< 1:137.0.7151.119-1~deb12u1+rpt1)
-Replaces: chromium (<< 1:137.0.7151.119-1~deb12u1+rpt1)
+Installed-Size: 151517
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.37.3), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 1:138.0.7204.92-1~deb12u1+rpt1)
+Breaks: chromium (<< 1:138.0.7204.92-1~deb12u1+rpt1)
+Replaces: chromium (<< 1:138.0.7204.92-1~deb12u1+rpt1)
 Homepage: http://www.chromium.org/Home
 Priority: optional
 Section: web
-Filename: pool/main/c/chromium/chromium-shell_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 74903676
-SHA512: 4d5acae6f33de94d0705be86f348ed22993c73686fbd6527c1cdf4e0c96ffdfc3df443642f64e6d1744b1f7fc15a0d526fa4810423e8874be4c83210c313e6db
-SHA256: c62e5d7ee8fb85d878b3eeaa077b238f0f87b02b816da3dfed041c7315ed78f4
-SHA1: 5be7ac85d190011d24bfa1310fc819c4474331ea
-MD5sum: e6d8fcc29fdbe46dd5fb30c2c54616ad
+Filename: pool/main/c/chromium/chromium-shell_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 75945638
+SHA512: 1e223561e69a688c8d82b3078fd98dc1410472540f830d84d5c876b9d8b2ec9d57329624a58c0e1015f644327ded6aab94dad9ec043a1ab785e2716ed9b44df9
+SHA256: db0f9bd4540b46a89468eaafdd4f2a208ea7c30bbdee5fdde20efa371c4be880
+SHA1: cfcf4a06df3af107d58dba634b50c4923f557f78
+MD5sum: 6506ff0fcd2b29aef09c38db00e984ac
 Description: web browser - minimal shell
  Web browser that aims to build a safer, faster, and more stable internet
  browsing experience.
@@ -1426,22 +1426,22 @@ Description: web browser - minimal shell
 
 Package: chromium-shell-dbgsym
 Source: chromium
-Version: 1:137.0.7151.119-1~deb12u1+rpt1
+Version: 1:138.0.7204.92-1~deb12u1+rpt1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
-Installed-Size: 123609
-Depends: chromium-shell (= 1:137.0.7151.119-1~deb12u1+rpt1)
+Installed-Size: 125064
+Depends: chromium-shell (= 1:138.0.7204.92-1~deb12u1+rpt1)
 Priority: optional
 Section: debug
-Filename: pool/main/c/chromium/chromium-shell-dbgsym_137.0.7151.119-1~deb12u1+rpt1_armhf.deb
-Size: 33687286
-SHA512: c521c8919a7c8517556f631bb2231179243237fa3ca7caa71e2ac1f1875898fbefdff7d13546adf418d5b070450677c398e469addef39a353c79060cea210c96
-SHA256: 2b730eb4465b062f87ac7a077d9dc8e097d1eac49d469668fe0152d16d76a72f
-SHA1: 11dcf4dd2005fc62386e521986e817aa153f70d8
-MD5sum: b8a126f9e897a1be466ae49efd808120
+Filename: pool/main/c/chromium/chromium-shell-dbgsym_138.0.7204.92-1~deb12u1+rpt1_armhf.deb
+Size: 33880824
+SHA512: 2fce8b6f1419a5fbd4623d986de9f6cf7ceb0fe18a6d42d0e56bc0e52d179f2e344ee05f79812e3fc20f37d9ab32f415f739ec10c24fdcee2fa092022463461c
+SHA256: d1ea6a13cfa149d691ee62861b7b67cf11023f216e31281423f93977e40b8b18
+SHA1: c09cd2fa9d751f6ff1b5f00fcfc7afb6ea7a21d4
+MD5sum: 9c9dbd82798f17f13fce3983d02cc99c
 Description: debug symbols for chromium-shell
-Build-Ids: 1d2a6536ef6422d01fdc40f581525d90d6066bb9 2a40c503af766933c95031657907064944fb3d4c
+Build-Ids: d4e2dbcc41fe0241b7bdb4360829125b8083f84f fc68ba93dcf85cbb8e00798a77bd62caf9c089bc
 
 Package: cl-speech-dispatcher
 Source: speech-dispatcher
@@ -1499,24 +1499,24 @@ Description: Code editing. Redefined.
  instructions and FAQ.
 
 Package: code-exploration
-Version: 1.102.0-1751321321
+Version: 1.102.0-1751459544
 Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.11.90), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.16), libc6 (>= 2.17), libc6 (>= 2.25), libc6 (>= 2.28), libc6 (>= 2.4), libc6 (>= 2.9), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libstdc++6 (>= 5), libstdc++6 (>= 5.2), libstdc++6 (>= 6), libstdc++6 (>= 9), libudev1 (>= 183), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
 Recommends: libvulkan1
 Architecture: armhf
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
 Homepage: https://code.visualstudio.com/
-Installed-Size: 348800
+Installed-Size: 348816
 Provides: visual-studio-code-exploration
 Conflicts: visual-studio-code-exploration
 Replaces: visual-studio-code-exploration
 Priority: optional
 Section: devel
-Filename: pool/main/c/code-exploration/code-exploration_1.102.0-1751321321_armhf.deb
-Size: 101879526
-SHA512: c1679f06a5a4463e3cc6067fa2bd1cdb2cb90868ac0921c90ef38b68454d39ed4540d79a2579ae0965d0b6bba4dcb31d1d8aeed76a2c8202b53251f882e0bec8
-SHA256: dbf3f1b640b6d07f46a7078f7876bd3cd627d16889462a1e7713a7cdce9c98b6
-SHA1: 95029e2920fe0249aea1c67b85d91c36799d6673
-MD5sum: 0efe0db2712c32efc4bd891e7479eb8f
+Filename: pool/main/c/code-exploration/code-exploration_1.102.0-1751459544_armhf.deb
+Size: 101881730
+SHA512: 220ffdf360fa5f1f1050929f9d8b0ad29d7431afef513bab93ad3f50a4e9c8581b5757b086f4a59f9297389629b42d6854748b62951fff7584583e87c18e2535
+SHA256: 8d8e574e0dcb1714bf36b2bd17ae5cc6db9faf307fa6832f3f4ba88b5f21bd4b
+SHA1: 66ee53756d8ea5174795b471e7088f039c7ed6de
+MD5sum: 9877686a6fb42be24ea59466b03d4148
 Description: Code editing. Redefined.
  Visual Studio Code is a new choice of tool that combines the simplicity of
  a code editor with what developers need for the core edit-build-debug cycle.
@@ -1524,24 +1524,24 @@ Description: Code editing. Redefined.
  instructions and FAQ.
 
 Package: code-insiders
-Version: 1.102.0-1751261367
+Version: 1.102.0-1751587219
 Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.11.90), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.16), libc6 (>= 2.17), libc6 (>= 2.25), libc6 (>= 2.28), libc6 (>= 2.4), libc6 (>= 2.9), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libstdc++6 (>= 5), libstdc++6 (>= 5.2), libstdc++6 (>= 6), libstdc++6 (>= 9), libudev1 (>= 183), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
 Recommends: libvulkan1
 Architecture: armhf
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
 Homepage: https://code.visualstudio.com/
-Installed-Size: 340878
+Installed-Size: 340980
 Provides: visual-studio-code-insiders
 Conflicts: visual-studio-code-insiders
 Replaces: visual-studio-code-insiders
 Priority: optional
 Section: devel
-Filename: pool/main/c/code-insiders/code-insiders_1.102.0-1751261367_armhf.deb
-Size: 99019662
-SHA512: ab4d161ab1e14a997f9e056d275323786f9ff8fa87d5ec494495bec00d60092dda8f74168db181123bee76c4cab2c7830cb353ebd6e861c6e2756736f1415e9b
-SHA256: 1df775571da2c6c8bca6be961a96bbca169cfa6925d116d11c5953055a82eee6
-SHA1: a6c0ef119b9e1f5a40124e96b619422324418e68
-MD5sum: bf37f31d14ba268267407354e4f68541
+Filename: pool/main/c/code-insiders/code-insiders_1.102.0-1751587219_armhf.deb
+Size: 99032898
+SHA512: 9c8a3056316ceb603e3f24c24d38b15165ad22ac6f1a9b13d115b4c19007fbe2accdc578dbb893f7d66da8f8542ac059cf53b02c1782dc31c6cdffe190f7d8bb
+SHA256: 91c15c1ab9f27f5780394b3db4c900a2dfbeb25b830eefee364b61a59c0d71c9
+SHA1: f37a327a487999348798b753f4fee1d0facb5212
+MD5sum: d5608fea7c3dfb55a8869671804489b9
 Description: Code editing. Redefined.
  Visual Studio Code is a new choice of tool that combines the simplicity of
  a code editor with what developers need for the core edit-build-debug cycle.
@@ -19187,23 +19187,23 @@ Build-Ids: 1be9d2c9eb587f6795dd88690b5fffa6afe3ec39
 
 Package: libcpupower-dev
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 939
-Depends: libcpupower1 (= 1:6.12.25-1+rpt1)
+Depends: libcpupower1 (= 1:6.12.34-1+rpt1~bookworm)
 Conflicts: libcpufreq-dev
 Replaces: libcpufreq-dev
 Provides: libcpufreq-dev
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: libdevel
-Filename: pool/main/l/linux/libcpupower-dev_6.12.25-1+rpt1_armhf.deb
-Size: 935956
-SHA512: a2060f86689416c624eef0b840349c56c290422c90a8b25ff0074998c6d1902efd4a8cd5aa84b7bac125abf83cccbfd758dd9cbf9c86f4705c30be8eaf02af1c
-SHA256: b666e04b95f813a2e15852ae9568b223cb777089d8f299b7cc9a875a918f5b96
-SHA1: 7898b4295b3e3ff5d85d9422cad5fd29f4b3d880
-MD5sum: ab6ceb109f6237b9db605285f58d3abc
+Filename: pool/main/l/linux/libcpupower-dev_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 936040
+SHA512: bad835e6a097c579dca4597641de12a5aedc2aa60708da17a038965232fb7f375ba0e0b6f73146669828a6a48cc349e7d08a277a6342da0e9f494d1ae56d1556
+SHA256: d859f165bd6e82f5872ccd7e251c6d52bdfd07ccde2d8511ac21b24248b6adea
+SHA1: 5c0fe50a9e1ac64e9c775e932fe102afb562d464
+MD5sum: c9a032e2601d7d04c5ba28ad5b3bed66
 Description: CPU frequency and voltage scaling tools for Linux (development files)
  libcpupower is a library for inspecting and controlling cpufreq and
  cpuidle tunables.
@@ -19212,7 +19212,7 @@ Description: CPU frequency and voltage scaling tools for Linux (development file
 
 Package: libcpupower1
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 959
@@ -19220,12 +19220,12 @@ Depends: libc6 (>= 2.34)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: libs
-Filename: pool/main/l/linux/libcpupower1_6.12.25-1+rpt1_armhf.deb
-Size: 942148
-SHA512: 0e8b026f2950f75bcc315f1d598872571c51ad831c95702133c0d75487997e7a9c53bb466d3346cf27def961f3788a09b5ed7ebf403650f9591556639aaa3c24
-SHA256: 1a2c31e45700590fedc82233ab30ad26528bbcac23d6b550a773cf38e7a61c95
-SHA1: a60f8722694ef9efa76982922d014d53f3cbebda
-MD5sum: c1fc70301ece2540fd4a3b66c7f747bd
+Filename: pool/main/l/linux/libcpupower1_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 942216
+SHA512: 0dd2513ef443d0ca2a472fb8ccf3116bdaea31849f0a11a1b61ea44a260ae90a3298bd15c3a45e9c3f4ce2d21ae23582095f0abb2035ef075b6f57533bf3089a
+SHA256: 4f77061f43737a388c6347796d162f13ddb36ee69bfbb844583275446bf29592
+SHA1: 5e480dadc70c26d7a8db50cc369d86140ff9937c
+MD5sum: 752004d48f3ff863f0ca1f3150b855d3
 Description: CPU frequency and voltage scaling tools for Linux (libraries)
  libcpupower is a library for inspecting and controlling cpufreq and
  cpuidle tunables.
@@ -19234,22 +19234,22 @@ Description: CPU frequency and voltage scaling tools for Linux (libraries)
 
 Package: libcpupower1-dbgsym
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 48
-Depends: libcpupower1 (= 1:6.12.25-1+rpt1)
+Depends: libcpupower1 (= 1:6.12.34-1+rpt1~bookworm)
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux/libcpupower1-dbgsym_6.12.25-1+rpt1_armhf.deb
-Size: 32384
-SHA512: 580fcc551ff45300257adab074b2501bc35f4972776545e3fb0645f62a8d771453d5e5ddd830b1ec18d0d791f63de55ba236a2aa215a3f3128a0d90709ac1d77
-SHA256: 6cb0485aacd542e4fb1f3fb4b057e7554b6322d4c3208ccfd1884274f4e256d9
-SHA1: ea4f515030b311769d2e5e182009923df9b06d87
-MD5sum: a97f895e8bb1229cfcb33b205ec0a040
+Filename: pool/main/l/linux/libcpupower1-dbgsym_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 32396
+SHA512: 3c0c9ce1332f5124464dd2f24b3db2b9f32d1aeacb3c960d9dfd9a127362742b75968f8289998c6d58edd9f50ad8f1316b7ee2793f721218740e5a1f81699d63
+SHA256: efa9014a26c7a6d02a1f2bd017637258287f9e2b7522c4d0d6ef90caab230931
+SHA1: 4d2c09a2ab11e21dc14589ac3682e871dbe1cd7b
+MD5sum: d10a5229de62026ce769b4cd3c550ac3
 Description: debug symbols for libcpupower1
-Build-Ids: 351ed11242275f45dc222cdee7cc2686277ac435
+Build-Ids: 4bb6f596a72efccc2a2585fc9b2bde197863f3a6
 
 Package: libd3dadapter9-mesa
 Source: mesa
@@ -22076,21 +22076,21 @@ Description: Control GPIO pins via gpiochip devices - shared libraries
 
 Package: libliftoff-dev
 Source: libliftoff
-Version: 0.5.0-1.1+rpt3
+Version: 0.5.0-1.1+rpt4
 Architecture: armhf
 Maintainer: David Turner <david.turner@raspberrypi.com>
 Installed-Size: 22
-Depends: libliftoff0 (= 0.5.0-1.1+rpt3)
+Depends: libliftoff0 (= 0.5.0-1.1+rpt4)
 Multi-Arch: same
 Homepage: https://gitlab.freedesktop.org/emersion/libliftoff
 Priority: optional
 Section: libdevel
-Filename: pool/main/libl/libliftoff/libliftoff-dev_0.5.0-1.1+rpt3_armhf.deb
-Size: 5566
-SHA512: 912cb3b29de321209170e5eddbffc7c2017b71bc5d7c90abb444f61672639c1dac3bf55da06594e79c3fcaa900125a9368c3ba455a8a077403a674d3b2feddc5
-SHA256: 753860004b9f1cf61ce1a38cc20439b94dba926552f749cac4316bfaf456933e
-SHA1: 5a0ee80396951021fa38ae006a2b2a5fb138c34a
-MD5sum: 1c005a20c9ae0440b2045c85ecd5d450
+Filename: pool/main/libl/libliftoff/libliftoff-dev_0.5.0-1.1+rpt4_armhf.deb
+Size: 5602
+SHA512: 86af3d3a9a2227a8935f180c50cfdd715fc135594e7d4b05efd977fe0a07e8d007fe6d59215534c030605fd2344b0c934c86fcee18e702b5e96c80ce0d57673a
+SHA256: fa41afb9d55a6386cf9b0604eb058f0e21fa4ac21818ce3611433d29acb0c033
+SHA1: 07cab9c6edcffd7cfe491164fe020e6a91dd90cf
+MD5sum: 20b5ce463b04798b84378872cadaaeab
 Description: lightweight KMS plane library - development files
  libliftoff eases the use of KMS planes from userspace without standing
  in your way. Users create "virtual planes" called layers, set KMS
@@ -22136,21 +22136,21 @@ Build-Ids: 5ffb1f791e20086c7c877678c9ce9d1f54028ad0
 
 Package: libliftoff0
 Source: libliftoff
-Version: 0.5.0-1.1+rpt3
+Version: 0.5.0-1.1+rpt4
 Architecture: armhf
 Maintainer: David Turner <david.turner@raspberrypi.com>
-Installed-Size: 46
+Installed-Size: 50
 Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.108)
 Multi-Arch: same
 Homepage: https://gitlab.freedesktop.org/emersion/libliftoff
 Priority: optional
 Section: libs
-Filename: pool/main/libl/libliftoff/libliftoff0_0.5.0-1.1+rpt3_armhf.deb
-Size: 17702
-SHA512: 5a2fe7ed167e573b911d9111cb1300f30f34fcd4a10e83176741e36a7b5d23efe552f2b7f4ee86bad181f32b9bbf385255cd2752a8f1af45efa50aaf2196ccaa
-SHA256: 06a5fddf81ac734029e97b689cc9db47c1be12f240c87162af5de24be4a6fd06
-SHA1: 7f452ba5c404f4aa8c330274df8204f49135496d
-MD5sum: a8631c265fc62dbc8ecf6e4916c32097
+Filename: pool/main/libl/libliftoff/libliftoff0_0.5.0-1.1+rpt4_armhf.deb
+Size: 19516
+SHA512: 4a3607d06f67eabafb9d19c72a66c9a1b7c1a2cee8fc7982082d6155795666b56ecefab509041b9812804a4c3af5bf2b9afe1ab5a7c5258333b0bd16078ae19d
+SHA256: 7ccfb6944f7451b9f343a1a5b907bf8ddbeffa3e72b856a886ba3b87c0db5537
+SHA1: 899eaceca1b6d8d8d79d9e1a0a3c862b8c505689
+MD5sum: b4ac624e24c88575d2d008bc38cf1d4d
 Description: lightweight KMS plane library
  libliftoff eases the use of KMS planes from userspace without standing
  in your way. Users create "virtual planes" called layers, set KMS
@@ -22160,23 +22160,23 @@ Original-Maintainer: Stephan Lachnit <stephanlachnit@debian.org>
 
 Package: libliftoff0-dbgsym
 Source: libliftoff
-Version: 0.5.0-1.1+rpt3
+Version: 0.5.0-1.1+rpt4
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: David Turner <david.turner@raspberrypi.com>
-Installed-Size: 49
-Depends: libliftoff0 (= 0.5.0-1.1+rpt3)
+Installed-Size: 52
+Depends: libliftoff0 (= 0.5.0-1.1+rpt4)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/libl/libliftoff/libliftoff0-dbgsym_0.5.0-1.1+rpt3_armhf.deb
-Size: 35146
-SHA512: ff34ac294dcc724513a8a1ef88637050d274bed0d64713c566bb9a55b43cc87500724525bf0acace79401e93ed5f965493de21a9d6887f7688e0a7d06067dafa
-SHA256: c619ebf0f5a6e61c6de58c371a94b34a70e2f81012dfef8c005efb0d0c609cd7
-SHA1: c750579c4d85038394c58c5d8359629a5ab69a54
-MD5sum: 5c751320fc2e18200c29a123683e53e8
+Filename: pool/main/libl/libliftoff/libliftoff0-dbgsym_0.5.0-1.1+rpt4_armhf.deb
+Size: 37168
+SHA512: 2afc4bbf8a696a2f77e418a4387e37232d4b78b090fa5887b3f9f797d21dee3eedf8c86e3193a57068e26b41a789fc5e5f4bc8711564e2c53fc21aaaa8da47c2
+SHA256: 3120d29c554879cbcb03f77d3eb673a3499029eb226e93c99028e7771bf8e106
+SHA1: 9aa7f802b6456ccf856c623305407a484f225f45
+MD5sum: 563908618c461c1288298a5c2ae42de6
 Description: debug symbols for libliftoff0
-Build-Ids: 840516c40111ec310cec9a18183eb0b46f46e0a8
+Build-Ids: 929835cf56b7657d45ad451b44d73b54a63718f8
 Original-Maintainer: Stephan Lachnit <stephanlachnit@debian.org>
 
 Package: liblightdm-gobject-1-0
@@ -26966,7 +26966,7 @@ Description: Debian kernel configurations for Linux 6.1
 
 Package: linux-config-6.12
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 1056
@@ -26975,12 +26975,12 @@ Multi-Arch: same
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-config-6.12_6.12.25-1+rpt1_armhf.deb
-Size: 1064508
-SHA512: 78d69192f289cee71cef4af5368fa20cf678745dfbc926fb97735424d169c611cffc4623a1b676c6713de49deff834723b8a0b5ce048eaab1f3ba8c6fed94d32
-SHA256: 8656f84c1ee155853104d3381e53591f9698e33113cf5e655f474c58734822e8
-SHA1: 445caefea5dc365294b57bd243609e753c866e63
-MD5sum: 0f826a16749ab658fee491cbcb757f63
+Filename: pool/main/l/linux/linux-config-6.12_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1064808
+SHA512: 24d607252f0b3953b8e21a11f11b425998f98b65843b6a864725e37d654b8dcc026bb1e7ef70722d80822803329c4e17921a146e2fc45ad516e4bb7bc67434a8
+SHA256: 540a12b6d0f215066ab12eb946bc8d2e45201cfb3a48c8768e13d720366a00a6
+SHA1: 76a654fd39ba4da6202c8084b25fb8581b009202
+MD5sum: b97f3a9128d10eda88e30c89adf2c376
 Description: Debian kernel configurations for Linux 6.12
  This package contains the configuration files used to build the official
  Debian kernel files, but without references to Debian's signing
@@ -27014,7 +27014,7 @@ Description: Debian kernel configurations for Linux 6.6
 
 Package: linux-cpupower
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 1092
@@ -27022,12 +27022,12 @@ Depends: libc6 (>= 2.34), libcpupower1 (>= 6.12~rc2-1~exp1)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux/linux-cpupower_6.12.25-1+rpt1_armhf.deb
-Size: 978568
-SHA512: 1ff82ea6aed6c3723eb218bdbf489b7674bc40ea8277f27a519d249bdf01908390ee08ea7e4e6c3214e1f157822d2679e53764d941ffacbbea39d9a2be686bbe
-SHA256: d02328945b3a1784e7d45a05e1eef1f05fefc7091fe58e3b3a99b7cdb702bd8f
-SHA1: 38799b68484147324d65b7a63eff214ef5ead000
-MD5sum: 4473f4f0178de0db37771d021d79689d
+Filename: pool/main/l/linux/linux-cpupower_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 978716
+SHA512: d82df5489f0f50aeac82e18b80251b6683e00c34f6ec2bcf817932f874e3b4d766ad517a6797c5fe9283dde7530b1d5ee8439e9e05529ec44387c4e3e2176ccf
+SHA256: 6ae701716bfb88ce0e7ea58c31815ad1fe2e1b8ceb204b35c9cc77a811ae27c6
+SHA1: 5679b14a9df70b539f7f772f45199274161ec5b3
+MD5sum: d537f53a4d23f8de138603bade70eb4c
 Description: CPU power management tools for Linux
  The cpupower command allows inspection and control of cpufreq and cpuidle
  tunables for hardware that supports these features.  It replaces
@@ -27035,39 +27035,39 @@ Description: CPU power management tools for Linux
 
 Package: linux-cpupower-dbgsym
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 84
-Depends: linux-cpupower (= 1:6.12.25-1+rpt1)
+Depends: linux-cpupower (= 1:6.12.34-1+rpt1~bookworm)
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux/linux-cpupower-dbgsym_6.12.25-1+rpt1_armhf.deb
-Size: 65056
-SHA512: c6cd07c174ff4ec290a6a74b2be5a60358a266520f516df36b760d2c47b7ad7e34c3cc74bd982852ee8f34ef831c591b70fb2ce86165aa8d71ec4effd841941f
-SHA256: b5631f68f51882831c6dd57ace3f3ab2dc066b3ac8002473c0fc80868aab683a
-SHA1: e38a4f7a76e808dad3a775338fccb6ef2adde144
-MD5sum: 3dfc6e63a1171c8783607ed2a6cd7df8
+Filename: pool/main/l/linux/linux-cpupower-dbgsym_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 65072
+SHA512: 043b7858f13852805c339f19e74d0829f46f58596981843dddee88920b7db5d62b7e9a91335fea79fc10befc6ff783836795a1097f7ce65350ebb4e4cb6c16cf
+SHA256: 5e1fa318b4e4f8b4bfff8d3442a3a6c6f00edb694a8f83c74161c7e85398523d
+SHA1: 0534de4c562fdbadacfc0b93143cf4f868fb3cbf
+MD5sum: 74962008367f77e0946c7a871400d5ea
 Description: debug symbols for linux-cpupower
-Build-Ids: a36bf04fc510904a46b41c1a5d3757ac62330562
+Build-Ids: e2ade62fabf71b3ab36ec7bcf4479ad637b003f9
 
 Package: linux-doc
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: all
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 10
-Depends: linux-doc-6.12 (= 1:6.12.25-1+rpt1)
+Depends: linux-doc-6.12 (= 1:6.12.34-1+rpt1~bookworm)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: doc
-Filename: pool/main/l/linux/linux-doc_6.12.25-1+rpt1_all.deb
-Size: 1112
-SHA512: 49c9f8759a0a56b9bfd0c1bf2edd4de2262698c440c197661fde573177ab0dc302f88ca63553a186cdf456f39e2ec918e78a4674abc481893a066cb1e15a005b
-SHA256: 5ffebb853b4d7fb3b20d4a19a89e7fbcc8ee2f0242733c3730f8707b65cd4519
-SHA1: d2265bfc6a61f5498c763b54315e61cbc601c68c
-MD5sum: 48c13d209607ea1433489544f5a3f694
+Filename: pool/main/l/linux/linux-doc_6.12.34-1+rpt1~bookworm_all.deb
+Size: 1120
+SHA512: 2ade6ada97098238906cc8b3a129b89a03b6580e41f02dc6514fdd260ba2d715a871d4d083a3831496efc72286f05558fdaa8314dbb103721c7be6c79b536bfa
+SHA256: f38f744ca29530f059c26996a9921783cd76197ab0edae9330b69e1799ca5e3f
+SHA1: 2b3a6f3811e4aaed9ddbd6761b80f43c6462c5b6
+MD5sum: d89c4cb92d78d367657f32baab698aac
 Description: Linux kernel specific documentation (meta-package)
  This package depends on the package containing the documentation for the
  latest Linux kernel.
@@ -27096,20 +27096,20 @@ Description: Linux kernel specific documentation for version 6.1
 
 Package: linux-doc-6.12
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: all
 Maintainer: Serge Schneider <serge@raspberrypi.com>
-Installed-Size: 200590
+Installed-Size: 200665
 Multi-Arch: foreign
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: doc
-Filename: pool/main/l/linux/linux-doc-6.12_6.12.25-1+rpt1_all.deb
-Size: 39139084
-SHA512: 10592b9bdde4a53e1f73ea63d4f4cdd331d962b7be81bc2d19e604562fe7e792a18ff6c51fff23cef62933d2883583a847f2348975f0a19b1499ec517bc2b2a5
-SHA256: ec99b39b8533bd04a4a38a9f9716bbda1b06af2d483f9ff8c92bbab728069054
-SHA1: 19bd95ef63051ae597013fd9637d646a48ab8521
-MD5sum: b5235951d0aa8c81f4766112e27aeac2
+Filename: pool/main/l/linux/linux-doc-6.12_6.12.34-1+rpt1~bookworm_all.deb
+Size: 39146356
+SHA512: eae2249c67d7f4e14ac9234142e7f7d51e6c0a86ae79e58f2431ac506d4b3259186ab3b03808f9e72ac47dce2537509d6fa1de84e6647015be2520bf80deb0ce
+SHA256: 544ce49db34f3ef4122a08a429b673ff8bd9855463e06d0a65f482fa907e2aa8
+SHA1: c9dfdf82c4f246909b94d6e97e21b6bffa826db5
+MD5sum: f68e94552d660cc486bddb51181eb921
 Description: Linux kernel specific documentation for version 6.12
  This package provides the various README files and HTML documentation for
  the Linux kernel version 6.12.  Plenty of information, including the
@@ -28071,6 +28071,104 @@ Description: Header files for Linux 6.12.25+rpt-rpi-v7l
  modules that load into the kernel provided by the
  linux-image-6.12.25+rpt-rpi-v7l package.
 
+Package: linux-headers-6.12.34+rpt-common-rpi
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: all
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 47528
+Multi-Arch: foreign
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-headers-6.12.34+rpt-common-rpi_6.12.34-1+rpt1~bookworm_all.deb
+Size: 8752960
+SHA512: f05ecd55d6e02abd6f01ee671d398b5b351c91dcb377123658cef8b7aca56e9d9fdcacc5094c1e159a601fdaa42eca45036035a37f532c84c706775711be93ea
+SHA256: ea8a5d0893463cfb6086e633da5163c944f48237cce47719945584d303f845fb
+SHA1: b400c67ee0f88251e1e6d13f5bd967ad23f08c27
+MD5sum: 0f714889c2c608f41fead49a7e3d4ed4
+Description: Common header files for Linux 6.12.34+rpt-rpi
+ This package provides the common kernel header files for Linux kernel
+ version 6.12.34+rpt with the Raspberry Pi featureset, generally used for
+ building out-of-tree kernel modules.  These files are going to be
+ installed into /usr/src/linux-headers-6.12.34+rpt-common-rpi.
+ .
+ To obtain a complete set of headers you also need to install the
+ linux-headers-6.12.34+rpt-(flavour) package, matching the flavour of the
+ kernel you intend the build for.
+
+Package: linux-headers-6.12.34+rpt-rpi-v6
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 2968
+Depends: linux-headers-6.12.34+rpt-common-rpi (= 1:6.12.34-1+rpt1~bookworm), linux-image-6.12.34+rpt-rpi-v6 (= 1:6.12.34-1+rpt1~bookworm) | linux-image-6.12.34+rpt-rpi-v6-unsigned (= 1:6.12.34-1+rpt1~bookworm), linux-kbuild-6.12.34+rpt, gcc-12
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-headers-6.12.34+rpt-rpi-v6_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1286900
+SHA512: c405fccf07c5268abe3aedc4eebb5531f26811a9bf3ee63340ef912d70f48249c43a69bdb74e57e8378308e2681563dc35242f44485577eef60adbbe37644f80
+SHA256: 5dcf223aba1155aa0f25c9619f87319e9d54bbfc5b6c653be3cf27b3f4d0b3e5
+SHA1: a2fa4ddf207da44241c31d9a72652bef509defbf
+MD5sum: 1feb54eed40bb45d7803ecb701ce7eab
+Description: Header files for Linux 6.12.34+rpt-rpi-v6
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 6.12.34+rpt-rpi-v6, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-6.12.34+rpt-rpi-v6, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-6.12.34+rpt-rpi-v6 package.
+
+Package: linux-headers-6.12.34+rpt-rpi-v7
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 2999
+Depends: linux-headers-6.12.34+rpt-common-rpi (= 1:6.12.34-1+rpt1~bookworm), linux-image-6.12.34+rpt-rpi-v7 (= 1:6.12.34-1+rpt1~bookworm) | linux-image-6.12.34+rpt-rpi-v7-unsigned (= 1:6.12.34-1+rpt1~bookworm), linux-kbuild-6.12.34+rpt, gcc-12
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-headers-6.12.34+rpt-rpi-v7_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1292900
+SHA512: 280eb9ded2ca1245317bc84da98ed05bc1bb19b79e8bbc90dc5ad910ffc30ce9cf7c9dbb3a9decfba2e68d3dfc15eae21699f16f7bc1dc9c81ed8b2fe6d0a02f
+SHA256: 316da24151ccbdc56167ffdb2aa8ce4d97344c2a1c0bb1ab3c80f14aa5ace530
+SHA1: ccb48cdbb127679559b1ac698e9fe42e7be715ea
+MD5sum: 7d471ed5eefc9dd556bd45499e18be51
+Description: Header files for Linux 6.12.34+rpt-rpi-v7
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 6.12.34+rpt-rpi-v7, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-6.12.34+rpt-rpi-v7, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-6.12.34+rpt-rpi-v7 package.
+
+Package: linux-headers-6.12.34+rpt-rpi-v7l
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 3113
+Depends: linux-headers-6.12.34+rpt-common-rpi (= 1:6.12.34-1+rpt1~bookworm), linux-image-6.12.34+rpt-rpi-v7l (= 1:6.12.34-1+rpt1~bookworm) | linux-image-6.12.34+rpt-rpi-v7l-unsigned (= 1:6.12.34-1+rpt1~bookworm), linux-kbuild-6.12.34+rpt, gcc-12
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-headers-6.12.34+rpt-rpi-v7l_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1312440
+SHA512: b47c57f39ad4994597606765a7517eef5bc7f5819021a41398ab122880068c1c970faad2c7dee3a0e8a0d8cea32c149c884a195b40a7d15538776dea56670430
+SHA256: f1ca5fd7cffb7531af1cb7b200873869eccb914d392aa89ff198c42dd086776c
+SHA1: d70028cfcb0d9563d8b46f69f875f74d1ec63de2
+MD5sum: 29a06795bc3a80843d55259bc442dcfa
+Description: Header files for Linux 6.12.34+rpt-rpi-v7l
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 6.12.34+rpt-rpi-v7l, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-6.12.34+rpt-rpi-v7l, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-6.12.34+rpt-rpi-v7l package.
+
 Package: linux-headers-6.6.20+rpt-common-rpi
 Source: linux
 Version: 1:6.6.20-1+rpt1
@@ -28747,60 +28845,60 @@ Description: Header files for Linux 6.6.74+rpt-rpi-v7l
 
 Package: linux-headers-rpi-v6
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 10
-Depends: linux-headers-6.12.25+rpt-rpi-v6 (= 1:6.12.25-1+rpt1)
+Depends: linux-headers-6.12.34+rpt-rpi-v6 (= 1:6.12.34-1+rpt1~bookworm)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-headers-rpi-v6_6.12.25-1+rpt1_armhf.deb
-Size: 1160
-SHA512: a92fb849c7ebe2db9da90336a1e7f8dbff8c63106a4fb9eb043a8a76e2895c6fd90bd996615dba052c6dda061faf61756f99d5d755015d936c6b96c642fb7921
-SHA256: dd57b3d9afb224a5ccb8551ac8cbc6cafd03c2334bbc43d96232dd6804068a3d
-SHA1: 62881665f40cab687fe0a4673a43cddc61e4c666
-MD5sum: 8d4b8d4b7a048a6af9c05de83e2d54ae
+Filename: pool/main/l/linux/linux-headers-rpi-v6_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1164
+SHA512: a6b56d3cf86494eb0b8c39c3ed90d07fd740c3221ca52b804252ac35192fb8b4741e88027dc64cabee0a8416cde4eba3caf0ddca277d6e30cce98a9c310b64c9
+SHA256: 251c8124f686531553c587a08e09814fec8904f3a7a923d2736f392fbbbb03f0
+SHA1: 4f44df137303d550c2e9788119760d8cec6fdd40
+MD5sum: 400b025bb8c44252b098a94699eafcbd
 Description: Header files for Linux rpi-v6 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel rpi-v6 configuration.
 
 Package: linux-headers-rpi-v7
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 10
-Depends: linux-headers-6.12.25+rpt-rpi-v7 (= 1:6.12.25-1+rpt1)
+Depends: linux-headers-6.12.34+rpt-rpi-v7 (= 1:6.12.34-1+rpt1~bookworm)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-headers-rpi-v7_6.12.25-1+rpt1_armhf.deb
-Size: 1156
-SHA512: e529d0d820b02521c9ca9b2da84ecb639cc2f1af353147503a2ffe4d172a429698b2a6dc30afdeb52bb30a2126b611fc71d377fea55f02b42a19c7d161c24f93
-SHA256: 45831451b19c90f89ea8bffaec1aaf53b76910ca4750b2c3e8a6683f664e3701
-SHA1: 90eb87ee9b14a2e45a6cc475281e7bfa1a20b8cc
-MD5sum: 0ab8e758d6669cc9dead3277216bdd0c
+Filename: pool/main/l/linux/linux-headers-rpi-v7_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1164
+SHA512: e9151b312b57c1406e91b6b25d57a4fc2c3845da9a3e21d30f37b1fa45bb6f77053b3de6d6c051539aaa88f2ab6bb4c004d37f1d3781b844ff32f840324e2d0b
+SHA256: 9975e5ca394e3e391dc838d1e6c1e90c19d5a089bb97dadee987cb4d59ad9664
+SHA1: a03d9e51668adb21db2e217553c1036f15ed31b8
+MD5sum: 75889aeb8e84c2c7f9c150dc1693e4ae
 Description: Header files for Linux rpi-v7 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel rpi-v7 configuration.
 
 Package: linux-headers-rpi-v7l
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 10
-Depends: linux-headers-6.12.25+rpt-rpi-v7l (= 1:6.12.25-1+rpt1)
+Depends: linux-headers-6.12.34+rpt-rpi-v7l (= 1:6.12.34-1+rpt1~bookworm)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-headers-rpi-v7l_6.12.25-1+rpt1_armhf.deb
-Size: 1160
-SHA512: 9056f305c82a6008e43010a628f13ea412f907f716f6b25d0c28a6c3510ff8e375478b9211c943694074c2eb2e66d9771ede623e235557f106db3fe79e20dfc2
-SHA256: b19ba87cc56ec4ec581f84788e2e36a2cbf2fe173792a1af709010337fc25ad3
-SHA1: 2ff70a7c27adbb0826c4869df8a35a57e381a2cb
-MD5sum: e4d7d0f2e7e7d0dd762ab28758715bde
+Filename: pool/main/l/linux/linux-headers-rpi-v7l_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1168
+SHA512: 9e5f57345bf5bb62aed3fce9f6c093094b1e63aa9ca3ecf0c15e9c5e819e58c82c2097552c75b90819ee8c798ee9b27783f37a31a2ea0bcc508ba1d36e59fe2c
+SHA256: b2c23da9d126ff868efe5557eef60698808b52d14911457b004363dc95136ea9
+SHA1: fc24d0b623d32f7b702cbd5bc3ed31238fd323ec
+MD5sum: 196d218cce505d023af2357d9193a0f3
 Description: Header files for Linux rpi-v7l configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel rpi-v7l configuration.
@@ -30053,6 +30151,135 @@ Description: Debug symbols for linux-image-6.12.25+rpt-rpi-v7l
  This package provides the detached debug symbols for the Linux kernel and
  modules in linux-image-6.12.25+rpt-rpi-v7l.
 
+Package: linux-image-6.12.34+rpt-rpi-v6
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 30602
+Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
+Recommends: apparmor
+Suggests: firmware-linux-free, linux-doc-6.12, debian-kernel-handbook
+Breaks: fwupdate (<< 12-7), initramfs-tools (<< 0.120+deb8u2), wireless-regdb (<< 2019.06.03-1~)
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-image-6.12.34+rpt-rpi-v6_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 27648884
+SHA512: 07276b2d718607c0eb79ba4aca8c4c502555db2a934e0518fb8b8072ce93afa7bb41bbd3c2b07d9adfdb077deffc7373f9465a88531da24d457b54e881241cce
+SHA256: 9185f3c2ce56ba2a64d79720bdd93d858a73de5fc71e1e6defda070a97b1430e
+SHA1: 8e2172b48ba4e65942d0aa6cbc4a4084f0283374
+MD5sum: bf092cf0efc50170a305d1c178ec6b4b
+Description: Linux 6.12 for Raspberry Pi v6, Raspberry Pi
+ The Linux kernel 6.12 and modules for use on Raspberry Pi v6 kernel.
+ .
+ This kernel includes the patches for Raspberry Pi platforms.
+
+Package: linux-image-6.12.34+rpt-rpi-v6-dbg
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 92102
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux/linux-image-6.12.34+rpt-rpi-v6-dbg_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 22841696
+SHA512: 02aeec1d5bcffdd26b35c90275a2244c09f04a86415a02d8e1fa11765fe1c8c2776412dbdb11b8cbe8242b8e05711b645deb90ee03239fb7a1cf44a9b3693e29
+SHA256: 34115eb9e1dbefadd3d3dbc781245a1f62b020e095cea3b337e86997f17f2cf8
+SHA1: 3492915009ba3a0b347230fe8f66a2ea8952bde5
+MD5sum: 534ce71557e3a5264365ea4d54d68ae4
+Description: Debug symbols for linux-image-6.12.34+rpt-rpi-v6
+ This package provides the detached debug symbols for the Linux kernel and
+ modules in linux-image-6.12.34+rpt-rpi-v6.
+
+Package: linux-image-6.12.34+rpt-rpi-v7
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 31334
+Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
+Recommends: apparmor
+Suggests: firmware-linux-free, linux-doc-6.12, debian-kernel-handbook
+Breaks: fwupdate (<< 12-7), initramfs-tools (<< 0.120+deb8u2), wireless-regdb (<< 2019.06.03-1~)
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-image-6.12.34+rpt-rpi-v7_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 28389764
+SHA512: aff779a238535cea8737f17ee2af9b24d945d1d50e8c912cd89a0891929b6e375ed7f129ea69fd28de69db80ad4f62415d5e785bc3c3612c8fd40601da21f0ef
+SHA256: a26e8f95ee0d0633ac742ef2c499206bb979c0db2a32b663f5c589fa46214e75
+SHA1: a4899d713c3b509c335de61111706f63f6f95cf5
+MD5sum: 3b43f6f1dec7646d905f92719a9b66c1
+Description: Linux 6.12 for Raspberry Pi v7, Raspberry Pi
+ The Linux kernel 6.12 and modules for use on Raspberry Pi v7 kernel.
+ .
+ This kernel includes the patches for Raspberry Pi platforms.
+
+Package: linux-image-6.12.34+rpt-rpi-v7-dbg
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 95608
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux/linux-image-6.12.34+rpt-rpi-v7-dbg_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 23483388
+SHA512: 2869d8007fb376e7d08d131f24395fc24a63620fc2dd77480035284f15feb4ad148f13fbbed5a695f63688ca28dc40a72fb14a5fc63c8b2b1698434a12c0c5f8
+SHA256: e1a7d3d60ba31aea187f22d6cc24c112f916c18c8973173f81f56f0781b919c1
+SHA1: 927aad9cece7f57660044fe63aa5104a062fcfaf
+MD5sum: 50e0bf554adce1132ff09e5458e80d87
+Description: Debug symbols for linux-image-6.12.34+rpt-rpi-v7
+ This package provides the detached debug symbols for the Linux kernel and
+ modules in linux-image-6.12.34+rpt-rpi-v7.
+
+Package: linux-image-6.12.34+rpt-rpi-v7l
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 33430
+Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
+Recommends: apparmor
+Suggests: firmware-linux-free, linux-doc-6.12, debian-kernel-handbook
+Breaks: fwupdate (<< 12-7), initramfs-tools (<< 0.120+deb8u2), wireless-regdb (<< 2019.06.03-1~)
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-image-6.12.34+rpt-rpi-v7l_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 30459860
+SHA512: 20ca6566085de60653126c8cc9803662e46a2dc69362a52b7c22a283a6f1fe145e678e6ecec17656ba92030ea24fc5a3320afaf53103c08e9573e139cf7bec51
+SHA256: 4353615da398ff01ccef70f459132ef412b3fe6bc9fc5cc640cedfed14807262
+SHA1: 7792132e3cdc9fe6f1093e4941f84ceda578b5d3
+MD5sum: 25838981afee93a64451b9bc96116bba
+Description: Linux 6.12 for Raspberry Pi v7, Raspberry Pi
+ The Linux kernel 6.12 and modules for use on Raspberry Pi v7l kernel.
+ .
+ This kernel includes the patches for Raspberry Pi platforms.
+
+Package: linux-image-6.12.34+rpt-rpi-v7l-dbg
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 104055
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux/linux-image-6.12.34+rpt-rpi-v7l-dbg_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 25316436
+SHA512: 230867b48cd96f33cd6a8714c3fa55f5891e8791d399d0cfbb208761f853f35f433ec90f42c456434c1b5d8eda3ac1522188265d35dc614681b44bd9f79093e2
+SHA256: eab5162351d38a6a8fbbb632dc0a939b93e818588908dc8605474e30935d536c
+SHA1: 30e72a4165aac93a2d529a45ac285d1e46bb3327
+MD5sum: ad1159940232f237225948bf8c640ecd
+Description: Debug symbols for linux-image-6.12.34+rpt-rpi-v7l
+ This package provides the detached debug symbols for the Linux kernel and
+ modules in linux-image-6.12.34+rpt-rpi-v7l.
+
 Package: linux-image-6.6.20+rpt-rpi-v6
 Source: linux
 Version: 1:6.6.20-1+rpt1
@@ -30940,126 +31167,126 @@ Description: Debug symbols for linux-image-6.6.74+rpt-rpi-v7l
 
 Package: linux-image-rpi-v6
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 13
-Depends: linux-image-6.12.25+rpt-rpi-v6 (= 1:6.12.25-1+rpt1)
-Provides: linux-latest-modules-6.12.25+rpt-rpi-v6, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.12.34+rpt-rpi-v6 (= 1:6.12.34-1+rpt1~bookworm)
+Provides: linux-latest-modules-6.12.34+rpt-rpi-v6, wireguard-modules (= 1.0.0)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-image-rpi-v6_6.12.25-1+rpt1_armhf.deb
-Size: 1432
-SHA512: be00c5add106dcc9d894cdfb5c88d7658006fa0f064ccc05144ed972d7472b6d616289584d06662e7752dd01fbb3827b12f5958e7ef032f352530c5041fe1f35
-SHA256: bde13e84e0c6008517585b9c446ba350da4f14986bf9a1664cd4f51a9b5f371d
-SHA1: c0759a255d32ab7fe371393dd6c48bc7a6555e85
-MD5sum: a90245314a563b47ff1b908927160adf
+Filename: pool/main/l/linux/linux-image-rpi-v6_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1440
+SHA512: f159f966a5f618c8221f76ef241a30f0812bf13b83f8cdbfc18b412f2d455e220e45914bcb687d73dbc14e17f343920b38b1a6566e278c72349cd8a505735b82
+SHA256: 1a9d77d8db2c66e0d5a4e223b04a3860d74e67d4010ea46224161acc02b6172b
+SHA1: 073772a1008fd253b1cc77c41febeb0c5d89e9f8
+MD5sum: 2cfb2b65af412ce8254743c8e1613bf4
 Description: Linux for Raspberry Pi v6 (meta-package)
  This package depends on the latest Linux kernel and modules for use on
  Raspberry Pi v6 kernel.
 
 Package: linux-image-rpi-v6-dbg
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 13
-Depends: linux-image-6.12.25+rpt-rpi-v6-dbg (= 1:6.12.25-1+rpt1)
+Depends: linux-image-6.12.34+rpt-rpi-v6-dbg (= 1:6.12.34-1+rpt1~bookworm)
 Provides: linux-latest-image-dbg
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-image-rpi-v6-dbg_6.12.25-1+rpt1_armhf.deb
+Filename: pool/main/l/linux/linux-image-rpi-v6-dbg_6.12.34-1+rpt1~bookworm_armhf.deb
 Size: 1336
-SHA512: 4567b7756a5fec830e82e4e3560f14519b5383fdabbc614df02d47ccc4ae4b42128fe4cc88e9c5adf541c4992aba851cd79f262c0a808f29fe9c446b29392ad0
-SHA256: d186d7ef6628ac584960a2dd8100002eace58923b498bdf7b96165743a29c78b
-SHA1: c1727259f4d7922885fcc93338a269e751b8a319
-MD5sum: 00c2317aea90eb53a833f278083965b6
+SHA512: e659b798720402e2124a75d3a43e7e763eea00060353b5b1264eea816c56d78a8a5cd3635c326ad7b1ecaaa21faa789d4e9d1bb2fbe2b91b1b6fed552e185ed6
+SHA256: 6712b83d44059c9135c9ef258cb9a1266af295f0b8db7a28359c308aebd4782b
+SHA1: e67b56883324b366d988ef9af8951777f73c21fc
+MD5sum: 5754ac9e1a9bea45d7790101889dd1dd
 Description: Debugging symbols for Linux rpi-v6 configuration (meta-package)
  This package depends on the detached debugging symbols for the latest
  Linux kernel rpi-v6 configuration.
 
 Package: linux-image-rpi-v7
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 13
-Depends: linux-image-6.12.25+rpt-rpi-v7 (= 1:6.12.25-1+rpt1)
-Provides: linux-latest-modules-6.12.25+rpt-rpi-v7, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.12.34+rpt-rpi-v7 (= 1:6.12.34-1+rpt1~bookworm)
+Provides: linux-latest-modules-6.12.34+rpt-rpi-v7, wireguard-modules (= 1.0.0)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-image-rpi-v7_6.12.25-1+rpt1_armhf.deb
-Size: 1432
-SHA512: 81efefe8a654a3bb757834a738599874a5a976daa6749c748148e40a6cdb9da13be3c51eae495cb779348c713eee9831c33731e5505dd842049f5a631ee8b3d4
-SHA256: cf6eb93ac4d0b6d8d70705fdc689333927c2580f7306b2d718e8fa926c2fc890
-SHA1: f9bfdeb3d42e2315fed43e1485468e79b483d12e
-MD5sum: b9efb399d1fe1dbca00391612e9ac4c0
+Filename: pool/main/l/linux/linux-image-rpi-v7_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1436
+SHA512: e8e6f607d666b28fafc11b0f4138eb098394c49be86aa4283805d19605e3930caab2183e085dcb02df752b9eec412533bfefc58a6f7b87d1048cc8f2f5b4d025
+SHA256: 88ea61aa634f6f73d52afc0be2857de1f19bd8c5d80f37e9d22ac2adeaad385c
+SHA1: d89393a025583786d83e53357e53509da65c5edb
+MD5sum: 92f0bf7e3c9b4e8f817adf71517120a5
 Description: Linux for Raspberry Pi v7 (meta-package)
  This package depends on the latest Linux kernel and modules for use on
  Raspberry Pi v7 kernel.
 
 Package: linux-image-rpi-v7-dbg
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 13
-Depends: linux-image-6.12.25+rpt-rpi-v7-dbg (= 1:6.12.25-1+rpt1)
+Depends: linux-image-6.12.34+rpt-rpi-v7-dbg (= 1:6.12.34-1+rpt1~bookworm)
 Provides: linux-latest-image-dbg
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-image-rpi-v7-dbg_6.12.25-1+rpt1_armhf.deb
+Filename: pool/main/l/linux/linux-image-rpi-v7-dbg_6.12.34-1+rpt1~bookworm_armhf.deb
 Size: 1336
-SHA512: 095ec2bc124f38431e28c4232178239a2f11f8fd64c0f4345022f098c3e1055db53d5ef0a3d2ebe653396c7bb20bee29ca486f9bd7925f9959fff5ac4124333c
-SHA256: a1c4a8350804a22d075ac42428bc2fa2314d77e0b477f1656a9082d25cbf48a5
-SHA1: f0406365c24f7f4a09b70510f0d098ec6ca9c533
-MD5sum: ab46b3e43783568266e84feb7a77189f
+SHA512: c6ae179b554285fcefa7710bbf120af292686b7abdcd5e94a3e118fac4e24db8badd47dd25e5efb68405aa2caadadad9b655959dde21b00202c04ae45a697721
+SHA256: 5d73d1599cd38a9e452f8a07dda993399a4275f139c70fd8a15b04d9364933ca
+SHA1: 8871ddf4301432031aa721f899f33bc251157d72
+MD5sum: a4dd78b5961d5b451dc5cbfc95e71b54
 Description: Debugging symbols for Linux rpi-v7 configuration (meta-package)
  This package depends on the detached debugging symbols for the latest
  Linux kernel rpi-v7 configuration.
 
 Package: linux-image-rpi-v7l
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 13
-Depends: linux-image-6.12.25+rpt-rpi-v7l (= 1:6.12.25-1+rpt1)
-Provides: linux-latest-modules-6.12.25+rpt-rpi-v7l, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.12.34+rpt-rpi-v7l (= 1:6.12.34-1+rpt1~bookworm)
+Provides: linux-latest-modules-6.12.34+rpt-rpi-v7l, wireguard-modules (= 1.0.0)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-image-rpi-v7l_6.12.25-1+rpt1_armhf.deb
-Size: 1432
-SHA512: 358fb3fe7776558e2eae1023b0e77012f6fee4841b72b580505f5391c46275a9c317337646c180ad66342ccb1b4cd2c822eb6dc3c2aab2ae73eef82bf082dfc3
-SHA256: 99fe467bd2415f2547495a4c657cf95dead526f2065e13a3cd04e35da98b90fd
-SHA1: a2e45127708b7cc96c1e7f539bbecade33f71656
-MD5sum: afb9c64c7ee2f47846b54b26a4595b64
+Filename: pool/main/l/linux/linux-image-rpi-v7l_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1440
+SHA512: 8094439f61bc0ea5fe5e71e099087da6d9d2a04814b2cc1294b38414e438980e635cfc497ea2888aa8a2009a94f7f8c0d77d8f2a1fde74d6827cc6fb3f570061
+SHA256: 308d559915903fc65c7bfc27be482187e2d4e64631c28eb71d4d572ba3f9ef92
+SHA1: 43365502a455062c03e3f92eb6673863b0795ae6
+MD5sum: ad83394eb390376cfc35f1b8b08e6da8
 Description: Linux for Raspberry Pi v7 (meta-package)
  This package depends on the latest Linux kernel and modules for use on
  Raspberry Pi v7l kernel.
 
 Package: linux-image-rpi-v7l-dbg
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 13
-Depends: linux-image-6.12.25+rpt-rpi-v7l-dbg (= 1:6.12.25-1+rpt1)
+Depends: linux-image-6.12.34+rpt-rpi-v7l-dbg (= 1:6.12.34-1+rpt1~bookworm)
 Provides: linux-latest-image-dbg
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-image-rpi-v7l-dbg_6.12.25-1+rpt1_armhf.deb
-Size: 1336
-SHA512: af9b28465fbddffbfaed076a0c7043a4dfeded08ecdc47bb4a8292dd47c8a32cda9a86cedeec64d0fb7d22063f318c50006b51549d195fb4f561e862f442a612
-SHA256: 837ff40e13e1ec31b37a9bae3e8e35842cd41853435b55c786d253e626c18be4
-SHA1: 3be258b48be03b4047fb4fce6dd3f21ba7170743
-MD5sum: 5b63a5b14f3366c1cd7a52257932e1f0
+Filename: pool/main/l/linux/linux-image-rpi-v7l-dbg_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1344
+SHA512: 358a7706a2b292d3052dd986baa15b879e54372577f49f5b6a9da7779489f2b9baf1148eec2d39514d73ae060e977b1705b729ca5e05fc029af0fd31134b879e
+SHA256: 312edb0abf9ff83466c09d5397105f99dab85f41582541eee12a3e5f974473f3
+SHA1: bfbef2c218a3fba169286efa89eaba625750bea0
+MD5sum: 22ff800a38903dad82f0b395182d6a28
 Description: Debugging symbols for Linux rpi-v7l configuration (meta-package)
  This package depends on the detached debugging symbols for the latest
  Linux kernel rpi-v7l configuration.
@@ -31221,6 +31448,46 @@ SHA1: 72626284834cd4d0c2f50040b3d505c6288488f8
 MD5sum: be403833086d09de8507bb260240e91a
 Description: debug symbols for linux-kbuild-6.12.25+rpt
 Build-Ids: 02092d2aae3dc46d0bc332f6de9d71af325c93ff 0fe74a94c1fa5dbebc13d4eba525bd0077574736 222fab0f5b38c7aad3ec34e80c44debf7f6e17a2 2d85eda040057713b2c99e0186c4a21e3732a61e 521bf40f44fdb19aecf5f9787d714f9d7f39bc50 56cbf931ddcbfe44b2a88c09c35a56a0a9b9306d 5a47f694f623c9307d28c0e45d49336b2374be11 86326c4efa17aaac2d76d0dde83e532b254595db a45cd33d6ad684d377128b652c91ed1138239868 d8038716f8e4c22c5e4ce4f0275ab3653da54865 da30095298d8235d92ac4f863b01e59f3e1a1e20 dd3ea70fc341a08467764cde74bf04c72a358f8f f3c8f15c8dced6302402a120bafcfa381536f61e fcf9943927f73644972f886d239ea17862cfa281
+
+Package: linux-kbuild-6.12.34+rpt
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 1993
+Depends: libc6 (>= 2.34), libelf1 (>= 0.142), libssl3 (>= 3.0.0)
+Multi-Arch: foreign
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-kbuild-6.12.34+rpt_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1164332
+SHA512: e9cbb1b816ce474a5e7a8ceb2527e32de3aec706914ea9b853e02d84d573e18e28956d047b2483969f1855d6f9da2529fa2d1ce7ed4e37d436dab758798f72c3
+SHA256: f31b1901893506b45758563cfc1a8135c712894aa09f59b7ae4f053da3405fd3
+SHA1: 5ecc8721b671498034a1fac21b083d6bbcf26f89
+MD5sum: 2748e99cc29ce05e49bd7c7faede7d30
+Description: Kbuild infrastructure for Linux 6.12.34+rpt
+ This package provides the kbuild infrastructure for the headers packages
+ for Linux kernel version 6.12.
+
+Package: linux-kbuild-6.12.34+rpt-dbgsym
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 1261
+Depends: linux-kbuild-6.12.34+rpt (= 1:6.12.34-1+rpt1~bookworm)
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux/linux-kbuild-6.12.34+rpt-dbgsym_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 1133044
+SHA512: 68b1a7f994593bb2a4b942c6077d12509f8ede42dff5537be01b1916cefb4cffdf7d46f2bb30a106071c371dd04306545498c5d3c094428af9ee3d56640af3d3
+SHA256: 07e04e14002fb95f2249961e1f612367ca9a59c0297d692df0bf7895b841d622
+SHA1: 5e38459dba6591d498ca0cef795a225444ae9c41
+MD5sum: 5b4ab5c0a84b0696ade721473f8f93c8
+Description: debug symbols for linux-kbuild-6.12.34+rpt
+Build-Ids: 02a7259ee1f03841b2d6137bc73adc560a379068 03f70631b44e00ea8e51dd16b05d9164b72cb1ba 136a33fefa81e4d2e3303a225613349d988444e0 4fbba3531a5bfa3ebaad306376ec940e6fcb362e 554552376998429cdc9f36e94094596746414c2b 5b3c8144371f3e8b8fbe049bd89b17143d5520b7 5c121111ab7164f1de0303f4265ca92d248deee9 5e585db958299f0619ddd7b50f9da4ac037abe2b 735b0e51785d17a37d4f20e203f4bbffcf63ee15 79ba7dd53546a89e818a1a6d37201e61d46e13f8 7e9a5453a5b13cd49274df48da40b98e6152c923 83cf39e75c44c39e4b23f5c0743a15e719d25256 c02a45c088d96608244f35bfd30a523994f912cb dfabe2fc8654e15d336826a64e1ccd6764704d6d
 
 Package: linux-kbuild-6.6.20+rpt
 Source: linux
@@ -31498,20 +31765,20 @@ Build-Ids: 07ef0f267a07e586342da352654f71a8d30ae448 25f6eb908ce4e540c4ab597fdd39
 
 Package: linux-libc-dev
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: all
 Maintainer: Serge Schneider <serge@raspberrypi.com>
-Installed-Size: 8166
+Installed-Size: 8168
 Multi-Arch: foreign
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-libc-dev_6.12.25-1+rpt1_all.deb
-Size: 2313800
-SHA512: db4bbfe3dd95e8fe31357e35ed816d33a215c68d121524980357de53008c1be9d4dba23fe690f03b17ae7471806ad56ae91c38d582fa1bf0e2ac32eb4fe73270
-SHA256: 42122d2685d3e78ef26932502051b4baba8b84312a2b3e8ba0919246065c9bd8
-SHA1: ca79291ceae80430fff9fe85cd96d2da82f0a596
-MD5sum: 1d07bfdfeedfd625e23297081edecf2a
+Filename: pool/main/l/linux/linux-libc-dev_6.12.34-1+rpt1~bookworm_all.deb
+Size: 2314116
+SHA512: a6837e95912685deb4a4996a065858b25a6aa12f4d20993d2ade58c1c5fc5f507fc5c9f9ba4791b2daa37e1c55acf2ca76f0756987d8825cc03a72fa020a73da
+SHA256: 23562d3e1833b78aa5cfca1e34a1934f4073d25989d540e4b6e7e7365f30821b
+SHA1: a4f7c94c1b4b653eb94a48ec35d8ebf94ac0b1ca
+MD5sum: 6f3f81211ab794a3ebd4340a88a63fbf
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  files are going to be installed into /usr/include, and are used by the
@@ -31519,10 +31786,10 @@ Description: Linux support headers for userspace development
 
 Package: linux-perf
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
-Installed-Size: 8439
+Installed-Size: 8434
 Depends: libaudit1 (>= 1:2.2.1), libbabeltrace1 (>= 1.5.4), libc6 (>= 2.34), libdebuginfod1 (>= 0.180), libdw1 (>= 0.161), libelf1 (>= 0.144), liblzma5 (>= 5.1.1alpha+20120614), libnuma1 (>= 2.0.11), libopencsd1 (>= 1.3.3), libperl5.36 (>= 5.36.0), libpython3.11 (>= 3.11.0), libslang2 (>= 2.2.4), libstdc++6 (>= 4.1.1), libtraceevent1 (>= 1:1.3.0), libunwind8, libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.3.3), perl:any, python3:any
 Suggests: linux-doc-6.12
 Conflicts: linux-tools-6.12
@@ -31531,50 +31798,50 @@ Provides: linux-tools-6.12
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-perf_6.12.25-1+rpt1_armhf.deb
-Size: 2764672
-SHA512: 670136cb5981c441e492e896599be7bb5179ccd6b6b4c1cf79ceb92595db961335ba84101e98abcc4063c44bcebae69f17030c244e8284584020cf2b0a337029
-SHA256: 38f3c9f58d990641ef4fa8cf1d52863e51d7b15621ac8087a79abe3b86546f40
-SHA1: a33325649b45efe2dd786799ca2f12ec66184655
-MD5sum: 8f05cdd110ea63e01d74c70d4f500bfd
+Filename: pool/main/l/linux/linux-perf_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 2767708
+SHA512: b303777964ce51bc42c5ddc771db1f35a46a11b111b38bd231d6e2005c37f600177ad078a577988e0a022c3bb6543ac8e09b38ce4cecaf8a98df1bdd5f53e559
+SHA256: 0e390ac18f20312e41e105a5d48b2ea50a80e665e00a1376ef32f0026767c98f
+SHA1: d4ce95cabe1d7e714a8c0b8c78541b306481aaca
+MD5sum: 55e828fd08e24a437f43dee45ca10b10
 Description: Performance analysis tools for Linux
  This package contains the 'perf' performance analysis tools for Linux.
 
 Package: linux-perf-dbgsym
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
-Installed-Size: 12215
-Depends: linux-perf (= 1:6.12.25-1+rpt1)
+Installed-Size: 12218
+Depends: linux-perf (= 1:6.12.34-1+rpt1~bookworm)
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux/linux-perf-dbgsym_6.12.25-1+rpt1_armhf.deb
-Size: 11690340
-SHA512: 4b724cf42f819b7c1176fbb2816c2e50fccf5dcee7b9f0977adb545dd7a304ea43ad56f04c34ace52cc71000b5d029f69fea87dd019bc761de49aad2c7aa96c6
-SHA256: ebdc88689e2d02ad43386ae54276eba0761826f24d141e41eed96f70de31b816
-SHA1: 835388864337ac9b251574c7b3124923120dc151
-MD5sum: 32668e598e937f02e948ed26fec8ddc5
+Filename: pool/main/l/linux/linux-perf-dbgsym_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 11694416
+SHA512: e3cadfe198250425a81b10b1f44af29d71ebea332759cba4fe55180da0525c1041b5b4e33f8499e8966a01c66e4b11ea4df4c3ef11c1ae96ffafe656bf53cf24
+SHA256: 104d71972057dd581d75fff5d1d99f5ff56f08118ad766d90f6d8ee94fed3956
+SHA1: c3f2bfeeb8a0ca07b5621d2fce82bf75b079916b
+MD5sum: 67ab6b8c9c9ad5af637348e165e655b8
 Description: debug symbols for linux-perf
-Build-Ids: 44cdea6a3a1658906d1b566bbc5246690ab9b2ae 619a46969446dca0425f128acc79674eb3eb583e 75da4f8ff1f9be151f31fea446820f4c0467a003 8ecb6852f53f4cfaeb28b038acd4312b8891229d e74ae459287bcb3775673c05d91031f70b664816
+Build-Ids: 020d4635caef52a8f3a9d378a785ceb8082da065 37938f2418e2ef8ccbdcb60536dd264dfc7f5a33 47895dfe66e72fc878f2b35ebb1da9a4c559a127 486c9a88927d1847a76f1fab0e2ac323574ab2a1 543e3ae55fe428d281905d29ed3141f27e370bfd
 
 Package: linux-source
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: all
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 10
-Depends: linux-source-6.12 (= 1:6.12.25-1+rpt1)
+Depends: linux-source-6.12 (= 1:6.12.34-1+rpt1~bookworm)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-source_6.12.25-1+rpt1_all.deb
-Size: 1112
-SHA512: f68d4d7458760328bb0472ca865321373f98c48a336b6a0c590512b07a882feca3c0b13a1519aecdc7f2e1f8804416703a1ae1cc312153675f5721a76163c960
-SHA256: 0731aeded8c1c5c7a47b728716479e36c014d548e9e426c20f978d1e096350c2
-SHA1: daad4e45340ce792bcd539ef5d9388b4c32f166a
-MD5sum: fa8de87cd3ff754225357e5d8e0c22cf
+Filename: pool/main/l/linux/linux-source_6.12.34-1+rpt1~bookworm_all.deb
+Size: 1116
+SHA512: b7f781061a61cc5d98c849e711c74790640299daa4b4eabc8e908c3a50f1dc2ab76293dcbb953e9b8ed85ee9700006209b0c0ee1451de0b9eef47980bdf77c6e
+SHA256: 862970c08a0dce09992744a0803cd4cca2448416613163e9e08aa322fc5e0476
+SHA1: a96e219639001f4cb0888caab8e73dd24e84e91f
+MD5sum: 7118188e865aa5b1823a0d772721c146
 Description: Linux kernel source (meta-package)
  This package depends on packages containing the sources of the latest
  Linux kernel.
@@ -31606,10 +31873,10 @@ Description: Linux kernel source for version 6.1 with Debian patches
 
 Package: linux-source-6.12
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: all
 Maintainer: Serge Schneider <serge@raspberrypi.com>
-Installed-Size: 149357
+Installed-Size: 149431
 Depends: binutils, xz-utils
 Recommends: build-essential, bc, rsync, kmod, cpio, bison, flex, libelf-dev, libssl-dev, linux-config-6.12
 Suggests: libncurses-dev | ncurses-dev, qtbase5-dev, pkg-config
@@ -31617,12 +31884,12 @@ Multi-Arch: foreign
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux/linux-source-6.12_6.12.25-1+rpt1_all.deb
-Size: 152939572
-SHA512: e390fcc436021f1ef2c38f7c5eb1d9b61bb0e09de9c43fc882d0925caf1ed13826db3f76e4c043263af6bffcdb61f4599359981c5f10229ffa4bee591b4d8488
-SHA256: 985cd7e860a5b0571d0b6cc2d61df2126a0b377943410ffffbcd53fe70c9729e
-SHA1: 9415eae2b6467373c8120c002082c38a8f4add79
-MD5sum: 7186eefde71ada63d82c2d52d5be847a
+Filename: pool/main/l/linux/linux-source-6.12_6.12.34-1+rpt1~bookworm_all.deb
+Size: 153015200
+SHA512: 058b6c3af9d48bbe08848725825a10d7760eb506c1982a060071725c7bcb752759fcf32fd42e0e6c4b45c8239cf7815d5af4f785f3ca68d5ad248809bfba25f4
+SHA256: bd8a0095f0b9d9624aba5d98c211202c1ee1390525a33cbd118a078140dec65c
+SHA1: 616718271e85b42479242aee7e242396a74331bf
+MD5sum: ac53a5467c39596e84563fc0de715ef3
 Description: Linux kernel source for version 6.12 with Debian patches
  This package provides source code for the Linux kernel version 6.12. This
  source closely tracks official Linux kernel releases.  Debian's
@@ -31864,6 +32131,28 @@ SHA512: e0a6add91d9baba16a25743acb7a7bf31ac06e951ed43709ee5f7dc1c31af56dca7b5cf3
 SHA256: bc6695d1128747b998cdf95f48a34c8800fe6bb796109ed0fe80e2cf1301bc5d
 SHA1: 9690ed41baae41d60a648316ff3ed1e6a3791b76
 MD5sum: ed51b4e13bae7c1ffa6a5373c52ea565
+Description: Support files for Linux 6.12
+ This package provides support files for the Linux kernel build, e.g.
+ scripts to handle ABI information and for generation of build system meta
+ data.
+
+Package: linux-support-6.12.34+rpt
+Source: linux
+Version: 1:6.12.34-1+rpt1~bookworm
+Architecture: all
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 1738
+Depends: python3:any, python3-dacite, python3-jinja2
+Multi-Arch: foreign
+Homepage: https://github.com/raspberrypi/linux/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-support-6.12.34+rpt_6.12.34-1+rpt1~bookworm_all.deb
+Size: 976444
+SHA512: c0da50b7faf272b24b111edff80c8056a8e158cd282a5e61d4516b5a0f426ac3411a5ba9caa03bfb40fbcf0d1f50a10d54b459f92e487dc3549ccee493c45e7e
+SHA256: c8abc941d6e9c7d8c1e8d7472ee21e1c965cef110f9f22c91e369f0c32f5afc9
+SHA1: fd72ea662303a98941aa0838240469e9d704f461
+MD5sum: d371258f5aa88dc0585da157099824d3
 Description: Support files for Linux 6.12
  This package provides support files for the Linux kernel build, e.g.
  scripts to handle ABI information and for generation of build system meta
@@ -39054,20 +39343,20 @@ Description: Config to customise the LXDE UI for the Raspberry Pi
  Customised theme and configuration for LXDE desktop on Raspberry Pi.
 
 Package: raspi-config
-Version: 20250618
+Version: 20250703
 Architecture: all
 Maintainer: Serge Schneider <serge@raspberrypi.com>
-Installed-Size: 161
+Installed-Size: 162
 Depends: whiptail, parted, lua5.1, alsa-utils, psmisc, raspi-utils, dconf-cli
 Recommends: triggerhappy, iw
 Priority: optional
 Section: utils
-Filename: pool/main/r/raspi-config/raspi-config_20250618_all.deb
-Size: 37642
-SHA512: e0f9702aaccd4e41ed03fc59e10d982e0827377a3c3a8078c8a3af3a2ca0586d704f1062ab14f299c04a1b7ccf42b7866279ba26ca2b8dd6027cee7988da3df5
-SHA256: 618a90f185e52313590d06b1368aa22d49a1246c8f4d0ef76f3326723b471105
-SHA1: 40e3e2c7d5f4769d0fc4a8d2a36e588acb920be5
-MD5sum: f402294964fdf75261d67cb753cee74e
+Filename: pool/main/r/raspi-config/raspi-config_20250703_all.deb
+Size: 37712
+SHA512: 8b34d96464bcf83f4d8949cbd54cf170560f3cceaf3211118a3205213be77d8065e9c39d369330fb5b263b97e4f279dc8293644bee4487173071a6006fb04b8a
+SHA256: ea9064dc64135d7627c31a88f5a159d4abfda0102bfca2abe2fe73b2cdd1dd1b
+SHA1: 2e67260621fa96adb9757d7e3bd92a3734fd1844
+MD5sum: c2e014c75b402270613f9bc896706880
 Description: Raspberry Pi configuration tool
  A simple configuration tool for common Raspberry Pi administrative tasks
 
@@ -40278,7 +40567,7 @@ Build-Ids: 58375375d947f6c6c9acc9998e6f24024be1ec49
 
 Package: rtla
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 1043
@@ -40286,12 +40575,12 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libtraceevent1 (>= 5.4), libtracef
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/rtla_6.12.25-1+rpt1_armhf.deb
-Size: 984896
-SHA512: 0bc2ef7ba2497cdcc5fcf70afc0a56660fc3b76a3cd4e450e7aa97c66dba3504ccb9a650ebf4171a9998b8f02cab26baa5dcb78fe1967f70a4e6c5422d90ffe7
-SHA256: 949251bb72479280508422b8fee0d2b0bcd115c264451d02eb1481e5d056ebe9
-SHA1: 3160a7294e333af2517111c1bd95f5b95dcb4416
-MD5sum: 36d34cc376a37ed1979188b43a16e9d1
+Filename: pool/main/l/linux/rtla_6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 984960
+SHA512: 1c76dd6fb282febc54bb0b35c595750dfa63b56484f5680563542b2962b74f6f4984a304abfdedc0e18d2abce6bb87c149f279686ae9e42b41ccc55dd2704383
+SHA256: 94e648e081cdfbb98afe920e07e2874146047434dde3353eff63fba10b9753da
+SHA1: 21b740d56c9610b0eb6570e0e5354db2918605eb
+MD5sum: a385a58840339707d45802efd94a135b
 Description: Real-Time Linux Analysis tools
  rtla provides a set of commands for analysing the real-time properties of
  Linux.  rtla uses kernel tracing capabilities to provide precise
@@ -40299,22 +40588,22 @@ Description: Real-Time Linux Analysis tools
 
 Package: rtla-dbgsym
 Source: linux
-Version: 1:6.12.25-1+rpt1
+Version: 1:6.12.34-1+rpt1~bookworm
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 131
-Depends: rtla (= 1:6.12.25-1+rpt1)
+Depends: rtla (= 1:6.12.34-1+rpt1~bookworm)
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux/rtla-dbgsym_6.12.25-1+rpt1_armhf.deb
+Filename: pool/main/l/linux/rtla-dbgsym_6.12.34-1+rpt1~bookworm_armhf.deb
 Size: 108680
-SHA512: b9aad2a0e6e1503228e32365e4762c28182dd733b77476af15992f2c2049f9f260f26487b3a40241f03e33e79bf3ce9b7a8380aebf99f2e06679089ac461f7b5
-SHA256: e7bc7d8386baef1c8646cad169ac64168885be06255f84b936bacbb1c99cced6
-SHA1: d9b450da9c65291b0e5a7e1ffa48bc5feddc9c90
-MD5sum: a8274fc6025aa2c1044b7a1bcd06da40
+SHA512: 18f6d0af19b2d1a5099efac48dd4e98725fbea332365d87572e2775889e0fd9cf64e009264606e7298b8cb0960ba2b74e3d48d216a49234d8b784a7cec793fb9
+SHA256: eabc7e6f7d5d6b04714ca9bd0da0c8bb58e4fc58e7bd0bf319dcaa831ae2d46e
+SHA1: 3d464d454220409f386172ac78df86fd298b7fb8
+MD5sum: afa5cd7913c39d42f79f957889dd8528
 Description: debug symbols for rtla
-Build-Ids: d135fb238702fe616f4aded34cf97e31897533bf
+Build-Ids: df1961483715ba9721b6150f213aea2bdcfb8421
 
 Package: scratch3
 Version: 3.30.9
@@ -41158,8 +41447,8 @@ Description: debug symbols for usbbootgui
 Build-Ids: 0f35fa04b854ca8633b28bff2e4d7514e3943f38
 
 Package: usbip
-Source: linux (1:6.12.25-1+rpt1)
-Version: 1:2.0+6.12.25-1+rpt1
+Source: linux (1:6.12.34-1+rpt1~bookworm)
+Version: 1:2.0+6.12.34-1+rpt1~bookworm
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 1044
@@ -41167,12 +41456,12 @@ Depends: usb.ids, libc6 (>= 2.34), libudev1 (>= 183), libwrap0 (>= 7.6-4~)
 Homepage: https://github.com/raspberrypi/linux/
 Priority: optional
 Section: admin
-Filename: pool/main/l/linux/usbip_2.0+6.12.25-1+rpt1_armhf.deb
-Size: 965412
-SHA512: cf0498a5c4fafa00cf44d917e464250fae778f312ff5de8123c26c7799b171f0db96fc26515774c9cbcc529aa0eda7931f471035aff5adb2bb33b24de0cf0713
-SHA256: 9c7ccd1923ac6e38255b946c7619e4d6fadf25cc53e967b81c816ebd37d3f554
-SHA1: 06fbe9028cb90ffcbdc8b7bc669444c83e73fffd
-MD5sum: 2f35cc3605b148219ff32b26a5f7c933
+Filename: pool/main/l/linux/usbip_2.0+6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 965488
+SHA512: 15caa419713930602627fbb720782addd8572097f0ea33d14ce5881071da42074f584f1894084b7d404077f8bce126d37e5938cba3418c0e3623cedb5f9ddbdf
+SHA256: 56b91e487a7ddb078a2782cb041d372114e52fb756d1f5e91c724f17520236e1
+SHA1: cf49f769c5f14fc67269e43cc2858fa0c865fc28
+MD5sum: 69df0dcc553e1891286d9219fac0bfb8
 Description: USB device sharing system over IP network
  USB/IP is a system for sharing USB devices over the network.
  .
@@ -41191,23 +41480,23 @@ Description: USB device sharing system over IP network
  'usbip'.
 
 Package: usbip-dbgsym
-Source: linux (1:6.12.25-1+rpt1)
-Version: 1:2.0+6.12.25-1+rpt1
+Source: linux (1:6.12.34-1+rpt1~bookworm)
+Version: 1:2.0+6.12.34-1+rpt1~bookworm
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.com>
 Installed-Size: 183
-Depends: usbip (= 1:2.0+6.12.25-1+rpt1)
+Depends: usbip (= 1:2.0+6.12.34-1+rpt1~bookworm)
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux/usbip-dbgsym_2.0+6.12.25-1+rpt1_armhf.deb
-Size: 154792
-SHA512: b1bed1652aa066042531656db84756f6a95ab8049d37b547754f8ea80bd721099e7251d7cf1ebc2307e5fc96143a8831242aba9ec002ba0211055c97bd3b5ed3
-SHA256: cc9e8c9d4a919b85e808303eb40bcf1ef62494638275e7364f1b8bc43baa0159
-SHA1: 2a57b4160c3d58d07af2f7a36fa49b0dd7d219fd
-MD5sum: 9be7153527d7e180e944743ac48ed802
+Filename: pool/main/l/linux/usbip-dbgsym_2.0+6.12.34-1+rpt1~bookworm_armhf.deb
+Size: 154768
+SHA512: e77d6a4c9070c39bcf98764d739c113c009a76d136ae18b07bdd5185f9322d7ed7a3770c5985dd880277fd3b7c8a7a016c9c9417c9e89c8f8a06f1db63824655
+SHA256: 74ba037ec8e752eb43550d277c69b5069de6b469c4db1f50f44beafd718449ee
+SHA1: ef7e7b3d559dcb12a1c61e2562e75a34fd316ffd
+MD5sum: fedb146e5f406942573fc51e5f7c6cb8
 Description: debug symbols for usbip
-Build-Ids: 80afb009083d2f223dc1a7db81a90171658f06b5 e7b311f56a562a362974d9ed59651bfb0a6a04e5
+Build-Ids: 523a17660f93c6dc57856b83b5762ca15a86a26e 5fab0cf2c9c9a3e0139f0d999f89206e602032c1
 
 Package: userconf-pi
 Version: 0.11
