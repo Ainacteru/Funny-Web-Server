@@ -1,34 +1,22 @@
-
 let binarySequenceWrite = false;
 let binarySequence = [];
 let seqList = document.getElementById("seqList");
 
 let musicID = 0;
-var Caramelldansen = new Howl({
-  src: ['audios/Caramelldansen.mp3'],
-  loop: true
-});
-var Caramelldansen = new Howl({
-  src: ['audios/Caramelldansen.mp3'],
-  loop: true
-});
-var DanceoftheKnights = new Howl({
-  src: ['audios/DanceoftheKnights.mp3'],
-  loop: true
-});
-var PortalRadio = new Howl({
-  src: ['audios/PortalRadio.mp3'],
-  loop: true
-});
-var ThatsLife = new Howl({
-  src: ['audios/ThatsLife.mp3'],
-  loop: true
-});
-var WTWaltz = new Howl({
-  src: ['audios/WTWaltz.mp3'],
-  loop: true
-});
+let Caramelldansen = new Audio("audios/Caramelldansen.mp3")
+Caramelldansen.loop = true;
+let DanceoftheKnights = new Audio("audios/DanceoftheKnights.mp3");
+DanceoftheKnights.loop = true;
+let PortalRadio = new Audio("audios/PortalRadio.mp3");
+PortalRadio.loop = true;
+let ThatsLife = new Audio("audios/ThatsLife.mp3");
+ThatsLife.loop = true;
+let WTWaltz = new Audio("audios/WTWaltz.mp3");
+WTWaltz.loop = true;
 let radioLabel = document.getElementById("radioLabel");
+
+var portalRadioLoop = new SeamlessLoop();
+portalRadioLoop.addUri("audios/PortalRadio.wav");
 
 function transmit(value) {
 	if (binarySequenceWrite) {
