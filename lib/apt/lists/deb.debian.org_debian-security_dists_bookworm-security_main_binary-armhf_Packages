@@ -1980,12 +1980,12 @@ Size: 424400
 SHA256: 640ab16a6a1df76d0afc92259b582df0c0d65a2e2fee962be982a03f83babf41
 
 Package: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 176333
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 176334
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: armhf
 Provides: gnome-www-browser, www-browser
-Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.39.4), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0 | xdg-desktop-portal-backend, chromium-common (= 138.0.7204.49-1~deb12u1)
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.39.4), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0 | xdg-desktop-portal-backend, chromium-common (= 138.0.7204.92-1~deb12u1)
 Suggests: chromium-l10n, chromium-shell, chromium-driver
 Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
 Breaks: chromium-lwn4chrome (<= 1.0-2), chromium-tt-rss-notifier (<= 0.5.2-2)
@@ -1995,112 +1995,112 @@ Description-md5: 3a7ed4512cf49e4fe53b4490bcc1060b
 Recommends: chromium-sandbox
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium_138.0.7204.49-1~deb12u1_armhf.deb
-Size: 65970040
-SHA256: ecabe43ba2fca9d9e4787b4431b0671ce02be458b1485df6488981e5659d0ab1
+Filename: pool/updates/main/c/chromium/chromium_138.0.7204.92-1~deb12u1_armhf.deb
+Size: 65978748
+SHA256: f6ee3225d3f3cc11a98d5293037a5eb903b5625142aa1ec541f9d2d848956ad6
 
 Package: chromium-common
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 51430
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 51431
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: armhf
-Replaces: chromium (<< 138.0.7204.49-1~deb12u1)
+Replaces: chromium (<< 138.0.7204.92-1~deb12u1)
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.3), libx11-6, libxcb1, libxnvctrl0, zlib1g (>= 1:1.2.11.dfsg), x11-utils, xdg-utils
-Breaks: chromium (<< 138.0.7204.49-1~deb12u1)
+Breaks: chromium (<< 138.0.7204.92-1~deb12u1)
 Description: web browser - common resources used by the chromium packages
 Homepage: http://www.chromium.org/Home
 Description-md5: 6f8b66c61b0d01bc4c6ea3fa84a5ff38
 Recommends: upower, udev, libgl1-mesa-dri, chromium-sandbox, fonts-liberation, notification-daemon, system-config-printer
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-common_138.0.7204.49-1~deb12u1_armhf.deb
-Size: 22045620
-SHA256: e9773d63b18bdbf8b7cc07eac78b26e447ee89d265a04cf7cba1b1ebc33be318
+Filename: pool/updates/main/c/chromium/chromium-common_138.0.7204.92-1~deb12u1_armhf.deb
+Size: 22044904
+SHA256: 3d7200fe2c2950c4899aed8627021f76664e8162b462bec978e2a537d85cca0e
 
 Package: chromium-driver
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 16975
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 16976
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: armhf
-Depends: libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.22.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libxcb1 (>= 1.9.2), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium (= 138.0.7204.49-1~deb12u1)
+Depends: libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.22.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libxcb1 (>= 1.9.2), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium (= 138.0.7204.92-1~deb12u1)
 Description: web browser - WebDriver support
 Homepage: http://www.chromium.org/Home
 Description-md5: eb0c0c145b65d4defefb8c5ea6154684
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-driver_138.0.7204.49-1~deb12u1_armhf.deb
-Size: 7476456
-SHA256: 64968eb127326b69ebc4a2c61fff9adc070499b17d846123aa12daf4a9554ecc
+Filename: pool/updates/main/c/chromium/chromium-driver_138.0.7204.92-1~deb12u1_armhf.deb
+Size: 7477000
+SHA256: 11a09cbeb9094bb5955df8259fb0eafc65c6f109bc5bcf9cd41d878386bd0150
 
 Package: chromium-headless-shell
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 139351
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 139352
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: armhf
-Depends: libasound2 (>= 1.0.17), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.31.8), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 138.0.7204.49-1~deb12u1)
+Depends: libasound2 (>= 1.0.17), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.31.8), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 138.0.7204.92-1~deb12u1)
 Description: web browser - old headless shell
 Homepage: http://www.chromium.org/Home
 Description-md5: 5b1ef9356c47e07df1616de0d2b7a31c
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-headless-shell_138.0.7204.49-1~deb12u1_armhf.deb
-Size: 51601220
-SHA256: 32698758e443ca7fb6750805cdd10a38fd4c8b54ea3672e394672d6af234d46c
+Filename: pool/updates/main/c/chromium/chromium-headless-shell_138.0.7204.92-1~deb12u1_armhf.deb
+Size: 51598068
+SHA256: 739b5ad1a8da0b486a43b00754e56f237fe41b86fa600876ccbf9a6b78b2db08
 
 Package: chromium-l10n
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 110829
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 110830
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: all
-Depends: chromium (>= 138.0.7204.49-1~deb12u1), chromium (<< 138.0.7204.49-1~deb12u1.1~)
+Depends: chromium (>= 138.0.7204.92-1~deb12u1), chromium (<< 138.0.7204.92-1~deb12u1.1~)
 Description: web browser - language packs
 Homepage: http://www.chromium.org/Home
 Description-md5: 7992f596971a4c3c71057d845c47f8e7
 Section: localization
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-l10n_138.0.7204.49-1~deb12u1_all.deb
-Size: 8284164
-SHA256: c2f05d3b8756ac9bfa3d6991258ce9973e925fdf0c6b9e1b257f507f33645fc9
+Filename: pool/updates/main/c/chromium/chromium-l10n_138.0.7204.92-1~deb12u1_all.deb
+Size: 8284036
+SHA256: aa5bd0f37d53d6c14c0a290e6661558a9618eee14387535d91214c8ad75c6b3c
 
 Package: chromium-sandbox
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 359
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 360
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: armhf
-Replaces: chromium (<< 138.0.7204.49-1~deb12u1)
+Replaces: chromium (<< 138.0.7204.92-1~deb12u1)
 Depends: libc6 (>= 2.34)
-Breaks: chromium (<< 138.0.7204.49-1~deb12u1)
+Breaks: chromium (<< 138.0.7204.92-1~deb12u1)
 Description: web browser - setuid security sandbox for chromium
 Homepage: http://www.chromium.org/Home
 Description-md5: c6df1ef89e815ff1e896ad2650b79831
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-sandbox_138.0.7204.49-1~deb12u1_armhf.deb
-Size: 104796
-SHA256: 45b5d714219e19ac94454b8637ae59cb559a10605eadcbe7bc61012ba02d5e2d
+Filename: pool/updates/main/c/chromium/chromium-sandbox_138.0.7204.92-1~deb12u1_armhf.deb
+Size: 104916
+SHA256: f2ebbcbb352fd4e6e2394638d9b8c7ba868ed87220cb24967772be7b642bbc3d
 
 Package: chromium-shell
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 152172
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 152173
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: armhf
-Replaces: chromium (<< 138.0.7204.49-1~deb12u1)
-Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.37.3), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 138.0.7204.49-1~deb12u1)
-Breaks: chromium (<< 138.0.7204.49-1~deb12u1)
+Replaces: chromium (<< 138.0.7204.92-1~deb12u1)
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.3), libglib2.0-0 (>= 2.37.3), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 138.0.7204.92-1~deb12u1)
+Breaks: chromium (<< 138.0.7204.92-1~deb12u1)
 Description: web browser - minimal shell
 Homepage: http://www.chromium.org/Home
 Description-md5: 89a211eaddbed86ad7092b9e26b78542
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-shell_138.0.7204.49-1~deb12u1_armhf.deb
-Size: 56194096
-SHA256: a9585b4bf4eb9077cfff6238314545df2e76a20001111f75789c35913db8268a
+Filename: pool/updates/main/c/chromium/chromium-shell_138.0.7204.92-1~deb12u1_armhf.deb
+Size: 56189312
+SHA256: 791aa391d654aa48d6de252357356e159590fb7ea2edcc99358d6774a5d37ff3
 
 Package: cinder-api
 Source: cinder
@@ -17470,13 +17470,13 @@ Size: 226596
 SHA256: cd0ad4264cc5bbdfc38df033abdb386f8d5cb02fe9afa1d0bb10443701fd3d75
 
 Package: mediawiki
-Version: 1:1.39.12-1~deb12u1
-Installed-Size: 229304
+Version: 1:1.39.13-1~deb12u1
+Installed-Size: 230128
 Maintainer: MediaWiki packaging team <mediawiki-debian@lists.wikimedia.org>
 Architecture: all
 Replaces: mediawiki-extensions-base, mediawiki-extensions-confirmedit, mediawiki-extensions-geshi, mediawiki-extensions-math (<= 2:1.0+git20120528-8)
 Provides: mediawiki-extensions-confirmedit, mediawiki-extensions-geshi
-Depends: apache2 | httpd, php (>= 2:7.4~), php-intl, php-json, php-mysql | php-pgsql | php-sqlite3 | php-mysqlnd, php-mbstring, php-xml, mediawiki-classes (= 1:1.39.12-1~deb12u1)
+Depends: apache2 | httpd, php (>= 2:7.4~), php-intl, php-json, php-mysql | php-pgsql | php-sqlite3 | php-mysqlnd, php-mbstring, php-xml, mediawiki-classes (= 1:1.39.13-1~deb12u1)
 Suggests: memcached, clamav, firejail
 Breaks: fusionforge-plugin-mediawiki (<< 5.2~rc1+1~), mediawiki-extensions (<< 2.8~), mediawiki-extensions-base, mediawiki-extensions-collection (<< 2.8~), mediawiki-extensions-confirmedit, mediawiki-extensions-fckeditor, mediawiki-extensions-geshi, mediawiki-extensions-graphviz (<< 2.8~), mediawiki-extensions-ldapauth (<< 2.8~), mediawiki-extensions-math (<= 2:1.0+git20120528-8), mediawiki-extensions-openid (<< 2.8~), mediawiki-skin-greystuff (<< 1.2.5~)
 Description: website engine for collaborative work
@@ -17485,14 +17485,14 @@ Description-md5: ddcc60dd7124e88ede95f0010ec0906b
 Recommends: default-mysql-server | virtual-mysql-server | postgresql-contrib | php-sqlite3, php-cli, php-apcu, php-curl, php-gmp, imagemagick | php-gd, php-readline, php-yaml, php-wikidiff2, python3-pygments, php-luasandbox | lua5.1
 Section: web
 Priority: optional
-Filename: pool/updates/main/m/mediawiki/mediawiki_1.39.12-1~deb12u1_all.deb
-Size: 36342332
-SHA256: 1eb1b714bff3f91884549298db01475a5e77cfbf8b2e665e317caebbc68f85a4
+Filename: pool/updates/main/m/mediawiki/mediawiki_1.39.13-1~deb12u1_all.deb
+Size: 36457004
+SHA256: 0ec14bd90ab780d4538978fe8e3ea1d6d0e0eacfad1e9a7acb9181f8d7c695c5
 
 Package: mediawiki-classes
 Source: mediawiki
-Version: 1:1.39.12-1~deb12u1
-Installed-Size: 3184
+Version: 1:1.39.13-1~deb12u1
+Installed-Size: 3191
 Maintainer: MediaWiki packaging team <mediawiki-debian@lists.wikimedia.org>
 Architecture: all
 Description: website engine for collaborative work - standalone classes
@@ -17500,9 +17500,9 @@ Homepage: https://www.mediawiki.org/
 Description-md5: 598afe21c349d558f4455d3a400f8166
 Section: web
 Priority: optional
-Filename: pool/updates/main/m/mediawiki/mediawiki-classes_1.39.12-1~deb12u1_all.deb
-Size: 935192
-SHA256: 1ea7ae82196ee384164ef4363d46db70279c6d52257a7e248013c3f250789878
+Filename: pool/updates/main/m/mediawiki/mediawiki-classes_1.39.13-1~deb12u1_all.deb
+Size: 936388
+SHA256: edfeb8cde4949c9b19764935acd6b0f467b479adbf22e9c095aedacb2862ef71
 
 Package: mercurial
 Version: 6.3.2-1+deb12u1
@@ -23058,6 +23058,39 @@ Priority: optional
 Filename: pool/updates/main/r/request-tracker5/rt5-standalone_5.0.3+dfsg-3~deb12u3_all.deb
 Size: 19724
 SHA256: 17cae1060228b1f8464d9c0ef35f2deaf98304ca512103ef94b15fc60e3a550b
+
+Package: jami
+Source: ring
+Version: 20230206.0~ds2-1.1+deb12u1
+Installed-Size: 22580
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Provides: jami-qt
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.45.3), libnm0 (>= 1.0.0), libnotify4 (>= 0.7.0), libqrencode4 (>= 3.2.0), libqt6core5compat6 (>= 6.2.1), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6multimedia6 (>= 6.2.1), libqt6network6 (>= 6.4.0), libqt6positioning6 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6sql6 (>= 6.1.2), libqt6svg6 (>= 6.2.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 11), libx11-6, libxcb1, jami-daemon (= 20230206.0~ds2-1.1+deb12u1), libqt6sql6-sqlite, qml6-module-qt-labs-platform, qml6-module-qt-labs-qmlmodels, qml6-module-qt5compat-graphicaleffects, qml6-module-qtmultimedia, qml6-module-qtqml-workerscript, qml6-module-qtquick3d-spatialaudio, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window
+Description: Secure and distributed voice, video, and chat platform - desktop client
+Homepage: https://jami.net
+Description-md5: b4db8d2e1ad1d5efcb6be5159f24ad30
+Section: comm
+Priority: optional
+Filename: pool/updates/main/r/ring/jami_20230206.0~ds2-1.1+deb12u1_armhf.deb
+Size: 13328972
+SHA256: 7e7003590417a79b15d23084b7c64219e90d772a40409fc73798d30a9d61da4f
+
+Package: jami-daemon
+Source: ring
+Version: 20230206.0~ds2-1.1+deb12u1
+Installed-Size: 6305
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libarchive13 (>= 3.0.4), libasound2 (>= 1.0.16), libavcodec59 (>= 7:5.0), libavdevice59 (>= 7:5.0), libavfilter8 (>= 7:5.0), libavformat59 (>= 7:5.0), libavutil57 (>= 7:5.0), libc6 (>= 2.34), libdbus-c++-1-0v5 (>= 0.9.0), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.5), libgit2-1.5 (>= 1.5.0), libgnutls30 (>= 3.7.5), libixml10 (>= 1:1.8.0), libjsoncpp25 (>= 1.9.5), libnatpmp1 (>= 20150609), libnettle8, libopendht2 (>= 2.4.12), libpulse0 (>= 0.99.1), libsecp256k1-1 (>= 0.1~20160216), libspeexdsp1 (>= 1.2.1), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libswresample4 (>= 7:5.0), libswscale6 (>= 7:5.0), libudev1 (>= 183), libupnp13 (>= 1:1.8.3), libuuid1 (>= 2.16), libwebrtc-audio-processing1, libyaml-cpp0.7 (>= 0.7.0), zlib1g (>= 1:1.2.3.3)
+Description: Secure and distributed voice, video and chat platform - daemon
+Homepage: https://jami.net
+Description-md5: 9ae46296061da4158505f00667acc44c
+Section: comm
+Priority: optional
+Filename: pool/updates/main/r/ring/jami-daemon_20230206.0~ds2-1.1+deb12u1_armhf.deb
+Size: 3666184
+SHA256: 4bb59ea4f85042864844d962a7752dd3138587885bd9e8519aebb844cb256f66
 
 Package: roundcube
 Version: 1.6.5+dfsg-1+deb12u5

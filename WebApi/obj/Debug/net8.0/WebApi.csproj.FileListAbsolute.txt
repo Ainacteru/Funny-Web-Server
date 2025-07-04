@@ -10,6 +10,7 @@
 /var/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
 /var/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /var/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/var/WebApi/bin/Debug/net8.0/System.Device.Gpio.dll
 /var/WebApi/obj/Debug/net8.0/WebApi.csproj.AssemblyReference.cache
 /var/WebApi/obj/Debug/net8.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
 /var/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfoInputs.cache

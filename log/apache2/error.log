@@ -1,3 +1,0 @@
-[Tue Jul 01 02:17:24.087050 2025] [mpm_prefork:notice] [pid 9409:tid 9409] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
-[Tue Jul 01 02:17:24.087257 2025] [core:notice] [pid 9409:tid 9409] AH00094: Command line: '/usr/sbin/apache2'
-[Tue Jul 01 02:17:48.545912 2025] [mpm_prefork:notice] [pid 9409:tid 9409] AH00170: caught SIGWINCH, shutting down gracefully
