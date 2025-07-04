@@ -18,10 +18,9 @@ let UraniumFever = new Audio("audios/UraniumFever.mp3");
 UraniumFever.loop = true;
 let GourmetRace = new Audio("audios/GourmetRace.mp3");
 GourmetRace.loop = true;
+let PapersPlease = new Audio("audios/PapersPlease.mp3");
+PapersPlease.loop = true;
 let radioLabel = document.getElementById("radioLabel");
-
-var portalRadioLoop = new SeamlessLoop();
-portalRadioLoop.addUri("audios/PortalRadio.wav");
 
 function transmit(value) {
 	if (binarySequenceWrite) {
@@ -81,11 +80,17 @@ function radio() {
 		case 8:
 			GourmetRace.pause();
 			GourmetRace.currentTime = 0;
+			PapersPlease.play();
+			radioLabel.innerHTML = "Playing: Papers Please Theme (9)";
+			break;
+		case 9:
+			GourmetRace.pause();
+			GourmetRace.currentTime = 0;
 			radioLabel.innerHTML = "";
 			break;
 	}
 	musicID++;
-	if(musicID > 8) {
+	if(musicID > 9) {
 		musicID = 0;
 	}
 }
