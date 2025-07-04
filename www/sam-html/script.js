@@ -84,8 +84,8 @@ function radio() {
 			radioLabel.innerHTML = "Playing: Papers Please Theme (9)";
 			break;
 		case 9:
-			GourmetRace.pause();
-			GourmetRace.currentTime = 0;
+			PapersPlease.pause();
+			PapersPlease.currentTime = 0;
 			radioLabel.innerHTML = "";
 			break;
 	}
