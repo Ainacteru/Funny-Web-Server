@@ -6,14 +6,14 @@ using System.Threading;
 namespace WebApi.Controllers
 {
     [ApiController]
-    [Route("api/led")]
-    public class LedController : ControllerBase
+    [Route("api/buzzer")]
+    public class buzzerController : ControllerBase
     {
         private static readonly GpioController controller = new();
         private const int pin = 18;
         private static bool initialized = false;
 
-        public LedController()
+        public buzzerController()
         {
             if (!initialized)
             {
@@ -32,17 +32,17 @@ namespace WebApi.Controllers
         [HttpPost("on")]
         public IActionResult TurnOn()
         {
-            controller.Write(pin, PinValue.High); // Turn LED ON
-            Console.WriteLine("LED ON");
-            return Ok("LED ON");
+            controller.Write(pin, PinValue.High); // Turn buzzer ON
+            Console.WriteLine("buzzer ON");
+            return Ok("buzzer ON");
         }
 
         [HttpPost("off")]
         public IActionResult TurnOff()
         {
-            controller.Write(pin, PinValue.Low); // Turn LED ON
-            Console.WriteLine("LED OFF");
-            return Ok("LED OFF");
+            controller.Write(pin, PinValue.Low); // Turn buzzer ON
+            Console.WriteLine("buzzer OFF");
+            return Ok("buzzer OFF");
         }
     }
 
