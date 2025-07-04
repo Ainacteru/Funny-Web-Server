@@ -13,6 +13,11 @@ let ThatsLife = new Audio("audios/ThatsLife.mp3");
 ThatsLife.loop = true;
 let WTWaltz = new Audio("audios/WTWaltz.mp3");
 WTWaltz.loop = true;
+let PvZLevelClear = new Audio("audios/PvZLevelClear.mp3");
+let UraniumFever = new Audio("audios/UraniumFever.mp3");
+UraniumFever.loop = true;
+let GourmetRace = new Audio("audios/GourmetRace.mp3");
+GourmetRace.loop = true;
 let radioLabel = document.getElementById("radioLabel");
 
 var portalRadioLoop = new SeamlessLoop();
@@ -53,30 +58,47 @@ function radio() {
 			break;
 		case 4:
 			ThatsLife.pause();
-			ThatsLife
 			ThatsLife.currentTime = 0;
 			WTWaltz.play();
-			radioLabel.innerHTML = "Playing: Waltz of the Tornado  (5)";
+			radioLabel.innerHTML = "Playing: Waltz of the Tornado (5)";
 			break;
 		case 5:
 			WTWaltz.pause();
 			WTWaltz.currentTime = 0;
+			PvZLevelClear.play();
+			radioLabel.innerHTML = "Playing: PvZ - Level Clear (6)";
+			break;
+		case 6:
+			UraniumFever.play();
+			radioLabel.innerHTML = "Playing: Uranium Fever (7)"
+			break;
+		case 7:
+			UraniumFever.pause();
+			UraniumFever.currentTime = 0;
+			GourmetRace.play();
+			radioLabel.innerHTML = "Playing: Gourmet Race (8)";
+			break;
+		case 8:
+			GourmetRace.pause();
+			GourmetRace.currentTime = 0;
 			radioLabel.innerHTML = "";
+			break;
 	}
 	musicID++;
-	if(musicID > 5) {
+	if(musicID > 8) {
 		musicID = 0;
 	}
 }
 
-document.getElementById("writeSeq").addEventListener("click", function() {
+function writeSeq() {
 	binarySequence = [];
 	binarySequenceWrite = true;
-	seqList.innerHTML = "Current sequence: nothing yet lol"
-});
-document.getElementById("sendSeq").addEventListener("click", function() {
+	seqList.innerHTML = "Current sequence: nothing yet lol";
+}
+
+function sendSeq() {
 	alert("insert voodoo shit idk");
 	binarySequence = [];
 	binarySequenceWrite = false;
-	seqList.innerHTML = "Current sequence: nothing yet lol"
-});
+	seqList.innerHTML = "Current sequence: nothing yet lol";
+}

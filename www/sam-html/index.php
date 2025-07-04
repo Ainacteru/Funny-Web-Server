@@ -24,6 +24,7 @@
             <img onclick = "radio()" width="232" height="364" style="scale: 0.25;"src=radio.gif>
         </div>
 
+        <script src="audios/howler.js"></script>
 		<script src="script.js"></script>
     </body>
 </html>
