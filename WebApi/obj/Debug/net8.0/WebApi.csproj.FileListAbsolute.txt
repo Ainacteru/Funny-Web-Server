@@ -1,3 +1,11 @@
+/var/WebApi/obj/Debug/net8.0/WebApi.csproj.AssemblyReference.cache
+/var/WebApi/obj/Debug/net8.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/var/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfoInputs.cache
+/var/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfo.cs
+/var/WebApi/obj/Debug/net8.0/WebApi.csproj.CoreCompileInputs.cache
+/var/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+/var/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+/var/WebApi/obj/Debug/net8.0/WebApi.sourcelink.json
 /var/WebApi/bin/Debug/net8.0/appsettings.Development.json
 /var/WebApi/bin/Debug/net8.0/appsettings.json
 /var/WebApi/bin/Debug/net8.0/WebApi
@@ -11,14 +19,6 @@
 /var/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /var/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /var/WebApi/bin/Debug/net8.0/System.Device.Gpio.dll
-/var/WebApi/obj/Debug/net8.0/WebApi.csproj.AssemblyReference.cache
-/var/WebApi/obj/Debug/net8.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
-/var/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfoInputs.cache
-/var/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfo.cs
-/var/WebApi/obj/Debug/net8.0/WebApi.csproj.CoreCompileInputs.cache
-/var/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
-/var/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
-/var/WebApi/obj/Debug/net8.0/WebApi.sourcelink.json
 /var/WebApi/obj/Debug/net8.0/staticwebassets.build.json
 /var/WebApi/obj/Debug/net8.0/staticwebassets.development.json
 /var/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props

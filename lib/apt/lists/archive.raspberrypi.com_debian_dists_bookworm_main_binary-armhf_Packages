@@ -1524,24 +1524,24 @@ Description: Code editing. Redefined.
  instructions and FAQ.
 
 Package: code-insiders
-Version: 1.102.0-1751587219
+Version: 1.102.0-1751643346
 Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.11.90), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.16), libc6 (>= 2.17), libc6 (>= 2.25), libc6 (>= 2.28), libc6 (>= 2.4), libc6 (>= 2.9), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libstdc++6 (>= 5), libstdc++6 (>= 5.2), libstdc++6 (>= 6), libstdc++6 (>= 9), libudev1 (>= 183), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
 Recommends: libvulkan1
 Architecture: armhf
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
 Homepage: https://code.visualstudio.com/
-Installed-Size: 340980
+Installed-Size: 340982
 Provides: visual-studio-code-insiders
 Conflicts: visual-studio-code-insiders
 Replaces: visual-studio-code-insiders
 Priority: optional
 Section: devel
-Filename: pool/main/c/code-insiders/code-insiders_1.102.0-1751587219_armhf.deb
-Size: 99032898
-SHA512: 9c8a3056316ceb603e3f24c24d38b15165ad22ac6f1a9b13d115b4c19007fbe2accdc578dbb893f7d66da8f8542ac059cf53b02c1782dc31c6cdffe190f7d8bb
-SHA256: 91c15c1ab9f27f5780394b3db4c900a2dfbeb25b830eefee364b61a59c0d71c9
-SHA1: f37a327a487999348798b753f4fee1d0facb5212
-MD5sum: d5608fea7c3dfb55a8869671804489b9
+Filename: pool/main/c/code-insiders/code-insiders_1.102.0-1751643346_armhf.deb
+Size: 99032386
+SHA512: be4b66faf533883ae1097b22b7783bd75c23382aa2a94944f93f2eba4f03e9dac954c1777c4a9dce7e98df78647503c525c8d2c49d342386b9e027fc14a6a26e
+SHA256: 47fe36cf64654b4f53a5734fa708a70808b2a1bb3cc88f83f6bd97e1bf74bab2
+SHA1: 237d1ed0fd049e934b2cb9b2dc86952116ccaba9
+MD5sum: d5935ef0f80894c7aa6d07e340325244
 Description: Code editing. Redefined.
  Visual Studio Code is a new choice of tool that combines the simplicity of
  a code editor with what developers need for the core edit-build-debug cycle.
@@ -34913,7 +34913,7 @@ Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
 Package: pastebinit
-Version: 1.6.2-1+rpt1
+Version: 1.6.2-1+rpt2
 Architecture: all
 Maintainer: Thomas Ward <teward@ubuntu.com>
 Installed-Size: 329
@@ -34921,11 +34921,12 @@ Depends: python3, python3-distro, python3:any
 Homepage: https://github.com/pastebinit/pastebinit
 Priority: optional
 Section: misc
-Filename: pool/main/p/pastebinit/pastebinit_1.6.2-1+rpt1_all.deb
-Size: 43500
-SHA256: 85896cd02ad2265fe943f2b3392d417c9ba945377105d3795f305efe0484d968
-SHA1: 2221d0f68418a0501be27dd38855831c1316f3d9
-MD5sum: a090029fc1bddfd536d1a9a9b2e9dc34
+Filename: pool/main/p/pastebinit/pastebinit_1.6.2-1+rpt2_all.deb
+Size: 53226
+SHA512: 1153e730d65559c65b8ed8aa2aee8fa26f574ef4038e405422f06505d6013d84b4ad63032b88e86a2f7ffc0da466e7a095078fe35abccb582e7dd60c744295bf
+SHA256: 6952d0472ba5369470043d9053a2bc4829665c1b7a438e61fcdd2ddbf256b725
+SHA1: 8d89eb7fc00ec7ec84292847dfc246be1df896e5
+MD5sum: 483b53621da0d0ee3409e888849a55ef
 Description: command-line pastebin client
  pastebinit is a command-line tool to send data to a "pastebin", a web site
  which allows its users to upload snippets of text for public viewing.

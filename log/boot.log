@@ -1,0 +1,188 @@
+------------ Sat Jul 05 01:17:02 BST 2025 ------------
+e2fsck 1.47.0 (5-Feb-2023)
+rootfs: recovering journal
+Clearing orphaned inode 56603 (uid=1000, gid=1000, mode=0100600, size=4096)
+Clearing orphaned inode 56587 (uid=1000, gid=1000, mode=0100600, size=65536)
+Clearing orphaned inode 56583 (uid=1000, gid=1000, mode=0100600, size=65536)
+Clearing orphaned inode 56580 (uid=1000, gid=1000, mode=0100600, size=144)
+Clearing orphaned inode 56550 (uid=1000, gid=1000, mode=0100600, size=144)
+Clearing orphaned inode 57091 (uid=1000, gid=1000, mode=0100600, size=16)
+Clearing orphaned inode 57090 (uid=1000, gid=1000, mode=0100600, size=208)
+Clearing orphaned inode 57089 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 57075 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 57074 (uid=1000, gid=1000, mode=0100600, size=16)
+Clearing orphaned inode 57045 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 57025 (uid=1000, gid=1000, mode=0100600, size=8)
+Clearing orphaned inode 57022 (uid=1000, gid=1000, mode=0100600, size=0)
+Clearing orphaned inode 57021 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 57017 (uid=1000, gid=1000, mode=0100600, size=2097152)
+Clearing orphaned inode 57020 (uid=1000, gid=1000, mode=0100600, size=16)
+Clearing orphaned inode 56976 (uid=1000, gid=1000, mode=0100600, size=8)
+Clearing orphaned inode 56834 (uid=1000, gid=1000, mode=0100600, size=4096)
+Clearing orphaned inode 56544 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 56552 (uid=1000, gid=1000, mode=0100600, size=8)
+Clearing orphaned inode 56470 (uid=1000, gid=1000, mode=0100600, size=0)
+Clearing orphaned inode 56695 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 56664 (uid=1000, gid=1000, mode=0100600, size=16)
+Clearing orphaned inode 56663 (uid=1000, gid=1000, mode=0100600, size=2097152)
+Clearing orphaned inode 56623 (uid=1000, gid=1000, mode=0100600, size=8)
+Clearing orphaned inode 56883 (uid=1000, gid=1000, mode=0100600, size=4096)
+Clearing orphaned inode 57043 (uid=1000, gid=1000, mode=0100600, size=5321)
+Clearing orphaned inode 57024 (uid=1000, gid=1000, mode=0100600, size=5617)
+Clearing orphaned inode 56939 (uid=1000, gid=1000, mode=0100600, size=4096)
+Clearing orphaned inode 57176 (uid=1000, gid=1000, mode=0100600, size=4096)
+Clearing orphaned inode 57018 (uid=1000, gid=1000, mode=0100600, size=1048576)
+Clearing orphaned inode 57013 (uid=1000, gid=1000, mode=0100600, size=4096)
+Clearing orphaned inode 56592 (uid=1000, gid=1000, mode=0100600, size=144)
+Clearing orphaned inode 56534 (uid=1000, gid=1000, mode=0100600, size=144)
+Clearing orphaned inode 57010 (uid=1000, gid=1000, mode=0100600, size=16)
+Clearing orphaned inode 57009 (uid=1000, gid=1000, mode=0100600, size=208)
+Clearing orphaned inode 56975 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 56973 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 56972 (uid=1000, gid=1000, mode=0100600, size=16)
+Clearing orphaned inode 56545 (uid=1000, gid=1000, mode=0100600, size=4096)
+Clearing orphaned inode 56873 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 56838 (uid=1000, gid=1000, mode=0100600, size=8)
+Clearing orphaned inode 56826 (uid=1000, gid=1000, mode=0100600, size=1468912)
+Clearing orphaned inode 56825 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 56698 (uid=1000, gid=1000, mode=0100600, size=16)
+Clearing orphaned inode 56703 (uid=1000, gid=1000, mode=0100600, size=2097152)
+Clearing orphaned inode 56696 (uid=1000, gid=1000, mode=0100600, size=8)
+Clearing orphaned inode 56666 (uid=1000, gid=1000, mode=0100600, size=12017)
+Clearing orphaned inode 531473 (uid=1000, gid=1000, mode=040700, size=4096)
+Clearing orphaned inode 530305 (uid=1000, gid=1000, mode=0100600, size=4194304)
+Clearing orphaned inode 56667 (uid=1000, gid=1000, mode=0100600, size=4096)
+Clearing orphaned inode 56713 (uid=1000, gid=1000, mode=0100600, size=2762820)
+Clearing orphaned inode 56705 (uid=1000, gid=1000, mode=0100600, size=5945)
+Clearing orphaned inode 56704 (uid=1000, gid=1000, mode=0100600, size=6305)
+Clearing orphaned inode 56597 (uid=1000, gid=1000, mode=0100600, size=8)
+Clearing orphaned inode 56586 (uid=1000, gid=1000, mode=0100600, size=8)
+Clearing orphaned inode 56584 (uid=1000, gid=1000, mode=0100600, size=8)
+Clearing orphaned inode 56571 (uid=1000, gid=1000, mode=0100600, size=65536)
+Clearing orphaned inode 56555 (uid=1000, gid=1000, mode=0100600, size=1048576)
+Clearing orphaned inode 56553 (uid=1000, gid=1000, mode=0100600, size=144)
+Clearing orphaned inode 56549 (uid=1000, gid=1000, mode=0100600, size=6084)
+Clearing orphaned inode 56455 (uid=1000, gid=1000, mode=0100600, size=144)
+Clearing orphaned inode 56547 (uid=1000, gid=1000, mode=0100600, size=131056)
+Clearing orphaned inode 56458 (uid=1000, gid=1000, mode=0100600, size=16)
+Clearing orphaned inode 56457 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 56446 (uid=1000, gid=1000, mode=0100600, size=524288)
+Clearing orphaned inode 56444 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 56443 (uid=1000, gid=1000, mode=0100600, size=524288)
+Clearing orphaned inode 56441 (uid=1000, gid=1000, mode=0100600, size=4)
+Clearing orphaned inode 56439 (uid=1000, gid=1000, mode=0100600, size=131072)
+Clearing orphaned inode 56437 (uid=1000, gid=1000, mode=0100600, size=262144)
+Clearing orphaned inode 56435 (uid=1000, gid=1000, mode=0100600, size=262144)
+Clearing orphaned inode 56433 (uid=1000, gid=1000, mode=0100600, size=8)
+Clearing orphaned inode 401431 (uid=1000, gid=1000, mode=0100644, size=0)
+Clearing orphaned inode 53811 (uid=0, gid=0, mode=0100666, size=0)
+Setting free inodes count to 1717620 (was 1717619)
+Setting free blocks count to 5314400 (was 5314401)
+rootfs: clean, 183660/1901280 files, 2296480/7610880 blocks
+         Mounting [0;1;39mproc-sys-fs-binfmt_misc.mount[0m - Arbitrary Executable File Formats File System...
+         Starting [0;1;39mmodprobe@dm_mod.service[0m - Load Kernel Module dm_mod...
+         Starting [0;1;39mmodprobe@efi_pstore.service[0m - Load Kernel Module efi_pstore...
+         Starting [0;1;39mmodprobe@loop.service[0m - Load Kernel Module loop...
+[[0;32m  OK  [0m] Mounted [0;1;39mproc-sys-fs-binfmt_misc.mount[0m - Arbitrary Executable File Formats File System.
+[[0;32m  OK  [0m] Finished [0;1;39mmodprobe@dm_mod.service[0m - Load Kernel Module dm_mod.
+[[0;32m  OK  [0m] Finished [0;1;39mmodprobe@efi_pstore.service[0m - Load Kernel Module efi_pstore.
+[[0;32m  OK  [0m] Finished [0;1;39mmodprobe@loop.service[0m - Load Kernel Module loop.
+[[0;32m  OK  [0m] Finished [0;1;39msystemd-binfmt.service[0m - Set Up Additional Binary Formats.
+[[0;32m  OK  [0m] Finished [0;1;39msystemd-tmpfiles-setup.service[0m - Create System Files and Directories.
+         Mounting [0;1;39mrun-rpc_pipefs.mount[0m - RPC Pipe File System...
+         Starting [0;1;39msystemd-timesyncd.service[0m - Network Time Synchronization...
+         Starting [0;1;39msystemd-update-utmp.service[0m - Record System Boot/Shutdown in UTMP...
+[[0;32m  OK  [0m] Mounted [0;1;39mrun-rpc_pipefs.mount[0m - RPC Pipe File System.
+[[0;32m  OK  [0m] Reached target [0;1;39mrpc_pipefs.target[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mnfs-client.target[0m - NFS client services.
+[[0;32m  OK  [0m] Reached target [0;1;39mremote-fs-pre.target[0m - Preparation for Remote File Systems.
+[[0;32m  OK  [0m] Reached target [0;1;39mremote-fs.target[0m - Remote File Systems.
+[[0;32m  OK  [0m] Finished [0;1;39msystemd-update-utmp.service[0m - Record System Boot/Shutdown in UTMP.
+[[0;32m  OK  [0m] Listening on [0;1;39msystemd-rfkill.socket[0m - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+         Starting [0;1;39mmodprobe@dm_mod.service[0m - Load Kernel Module dm_mod...
+         Starting [0;1;39mmodprobe@efi_pstore.service[0m - Load Kernel Module efi_pstore...
+         Starting [0;1;39mmodprobe@loop.service[0m - Load Kernel Module loop...
+[[0;32m  OK  [0m] Finished [0;1;39mmodprobe@dm_mod.service[0m - Load Kernel Module dm_mod.
+[[0;32m  OK  [0m] Finished [0;1;39mmodprobe@efi_pstore.service[0m - Load Kernel Module efi_pstore.
+[[0;32m  OK  [0m] Finished [0;1;39mmodprobe@loop.service[0m - Load Kernel Module loop.
+         Starting [0;1;39mmodprobe@dm_mod.service[0m - Load Kernel Module dm_mod...
+         Starting [0;1;39mmodprobe@efi_pstore.service[0m - Load Kernel Module efi_pstore...
+         Starting [0;1;39msystemd-rfkill.service[0m - Load/Save RF Kill Switch Status...
+[[0;32m  OK  [0m] Finished [0;1;39mmodprobe@dm_mod.service[0m - Load Kernel Module dm_mod.
+[[0;32m  OK  [0m] Started [0;1;39msystemd-timesyncd.service[0m - Network Time Synchronization.
+[[0;32m  OK  [0m] Finished [0;1;39mmodprobe@efi_pstore.service[0m - Load Kernel Module efi_pstore.
+[[0;32m  OK  [0m] Reached target [0;1;39mtime-set.target[0m - System Time Set.
+[[0;32m  OK  [0m] Reached target [0;1;39msysinit.target[0m - System Initialization.
+[[0;32m  OK  [0m] Started [0;1;39mcups.path[0m - CUPS Scheduler.
+[[0;32m  OK  [0m] Started [0;1;39mapt-daily.timer[0m - Daily apt download activities.
+[[0;32m  OK  [0m] Started [0;1;39mapt-daily-upgrade.timer[0m - Daily apt upgrade and clean activities.
+[[0;32m  OK  [0m] Started [0;1;39mdpkg-db-backup.timer[0m - Daily dpkg database backup timer.
+[[0;32m  OK  [0m] Started [0;1;39me2scrub_all.timer[0m - Periodic ext4 Online Metadata Check for All Filesystems.
+[[0;32m  OK  [0m] Started [0;1;39mfstrim.timer[0m - Discard unused blocks once a week.
+[[0;32m  OK  [0m] Started [0;1;39mlogrotate.timer[0m - Daily rotation of log files.
+[[0;32m  OK  [0m] Started [0;1;39mman-db.timer[0m - Daily man-db regeneration.
+[[0;32m  OK  [0m] Started [0;1;39mphpsessionclean.timer[0m - Clean PHP session files every 30 mins.
+[[0;32m  OK  [0m] Started [0;1;39msystemd-tmpfiles-clean.timer[0m - Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Reached target [0;1;39mpaths.target[0m - Path Units.
+[[0;32m  OK  [0m] Reached target [0;1;39mtimers.target[0m - Timer Units.
+[[0;32m  OK  [0m] Listening on [0;1;39mavahi-daemon.socket[0m - Avahi mDNS/DNS-SD Stack Activation Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mcups.socket[0m - CUPS Scheduler.
+[[0;32m  OK  [0m] Listening on [0;1;39mdbus.socket[0m - D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mtriggerhappy.socket[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39msockets.target[0m - Socket Units.
+[[0;32m  OK  [0m] Reached target [0;1;39mbasic.target[0m - Basic System.
+         Starting [0;1;39maccounts-daemon.service[0m - Accounts Service...
+         Starting [0;1;39malsa-restore.service[0m - Save/Restore Sound Card State...
+         Starting [0;1;39mavahi-daemon.service[0m - Avahi mDNS/DNS-SD Stack...
+         Starting [0;1;39mbluetooth.service[0m - Bluetooth service...
+[[0;32m  OK  [0m] Started [0;1;39mcron.service[0m - Regular background program processing daemon.
+         Starting [0;1;39mdbus.service[0m - D-Bus System Message Bus...
+         Starting [0;1;39mdphys-swapfile.service[0m - dphys-swapfile - set up, mount/unmount, and delete a swap file...
+         Starting [0;1;39me2scrub_reap.service[0m - Remove Stale Online ext4 Metadata Check Snapshots...
+         Starting [0;1;39mglamor-test.service[0m - Check for glamor...
+         Starting [0;1;39mpolkit.service[0m - Authorization Manager...
+         Starting [0;1;39mrp1-test.service[0m - Check for RP1 displays for Xorg...
+         Starting [0;1;39mrpi-eeprom-update.service[0m - Check for Raspberry Pi EEPROM updates...
+         Starting [0;1;39msshswitch.service[0m - Turn on SSH if /boot/ssh or /boot/firmware/ssh is present...
+         Starting [0;1;39msystemd-logind.service[0m - User Login Management...
+         Starting [0;1;39mtriggerhappy.service[0m - triggerhappy global hotkey daemon...
+         Starting [0;1;39mudisks2.service[0m - Disk Manager...
+[[0;32m  OK  [0m] Started [0;1;39msystemd-rfkill.service[0m - Load/Save RF Kill Switch Status.
+[[0;32m  OK  [0m] Finished [0;1;39malsa-restore.service[0m - Save/Restore Sound Card State.
+[[0;32m  OK  [0m] Reached target [0;1;39msound.target[0m - Sound Card.
+[[0;32m  OK  [0m] Started [0;1;39mtriggerhappy.service[0m - triggerhappy global hotkey daemon.
+[[0;32m  OK  [0m] Finished [0;1;39msshswitch.service[0m - Turn on SSH if /boot/ssh or /boot/firmware/ssh is present.
+[[0;32m  OK  [0m] Finished [0;1;39mdphys-swapfile.service[0m - dphys-swapfile - set up, mount/unmount, and delete a swap file.
+[[0;32m  OK  [0m] Started [0;1;39mdbus.service[0m - D-Bus System Message Bus.
+         Starting [0;1;39mNetworkManager.service[0m - Network Manager...
+         Starting [0;1;39mwpa_supplicant.service[0m - WPA supplicant...
+[[0;32m  OK  [0m] Finished [0;1;39me2scrub_reap.service[0m - Remove Stale Online ext4 Metadata Check Snapshots.
+[[0;32m  OK  [0m] Finished [0;1;39mglamor-test.service[0m - Check for glamor.
+[[0;32m  OK  [0m] Started [0;1;39mavahi-daemon.service[0m - Avahi mDNS/DNS-SD Stack.
+[[0;32m  OK  [0m] Started [0;1;39msystemd-logind.service[0m - User Login Management.
+[[0;32m  OK  [0m] Started [0;1;39mbluetooth.service[0m - Bluetooth service.
+[[0;32m  OK  [0m] Reached target [0;1;39mbluetooth.target[0m - Bluetooth Support.
+[[0;32m  OK  [0m] Finished [0;1;39mrp1-test.service[0m - Check for RP1 displays for Xorg.
+         Starting [0;1;39msystemd-hostnamed.service[0m - Hostname Service...
+[[0;32m  OK  [0m] Started [0;1;39mpolkit.service[0m - Authorization Manager.
+         Starting [0;1;39mModemManager.service[0m - Modem Manager...
+[[0;32m  OK  [0m] Started [0;1;39maccounts-daemon.service[0m - Accounts Service.
+[[0;32m  OK  [0m] Started [0;1;39msystemd-hostnamed.service[0m - Hostname Service.
+[[0;32m  OK  [0m] Started [0;1;39mwpa_supplicant.service[0m - WPA supplicant.
+[[0;32m  OK  [0m] Finished [0;1;39mrpi-eeprom-update.service[0m - Check for Raspberry Pi EEPROM updates.
+[[0;32m  OK  [0m] Started [0;1;39mudisks2.service[0m - Disk Manager.
+[[0;32m  OK  [0m] Started [0;1;39mNetworkManager.service[0m - Network Manager.
+[[0;32m  OK  [0m] Reached target [0;1;39mnetwork.target[0m - Network.
+         Starting [0;1;39mNetworkManager-wait-online.service[0m - Network Manager Wait Online...
+         Starting [0;1;39mcups.service[0m - CUPS Scheduler...
+         Starting [0;1;39mphp8.2-fpm.service[0m - The PHP 8.2 FastCGI Process Manager...
+         Starting [0;1;39mssh.service[0m - OpenBSD Secure Shell server...
+         Starting [0;1;39msystemd-user-sessions.service[0m - Permit User Sessions...
+[[0;32m  OK  [0m] Finished [0;1;39msystemd-user-sessions.service[0m - Permit User Sessions.
+         Starting [0;1;39mlightdm.service[0m - Light Display Manager...
+         Starting [0;1;39mplymouth-quit-wait.service[0m - Hold until boot process finishes up...
+[[0;32m  OK  [0m] Started [0;1;39mModemManager.service[0m - Modem Manager.
+         Starting [0;1;39mNetworkManager-dispatcher.service[0m - Network Manager Script Dispatcher Service...
+[[0;32m  OK  [0m] Started [0;1;39mNetworkManager-dispatcher.service[0m - Network Manager Script Dispatcher Service.
+[[0;32m  OK  [0m] Started [0;1;39mssh.service[0m - OpenBSD Secure Shell server.
+[[0;32m  OK  [0m] Started [0;1;39mcups.service[0m - CUPS Scheduler.

@@ -1980,12 +1980,12 @@ Size: 3423676
 SHA256: dd74be3e86af6cf761d036b2f61b07a812180a904f54bd33614554acce111d94
 
 Package: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 232433
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 232434
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: arm64
 Provides: gnome-www-browser, www-browser
-Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.39.4), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0 | xdg-desktop-portal-backend, chromium-common (= 138.0.7204.49-1~deb12u1)
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.39.4), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopenjp2-7 (>= 2.5.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), libgtk-3-0 | xdg-desktop-portal-backend, chromium-common (= 138.0.7204.92-1~deb12u1)
 Suggests: chromium-l10n, chromium-shell, chromium-driver
 Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
 Breaks: chromium-lwn4chrome (<= 1.0-2), chromium-tt-rss-notifier (<= 0.5.2-2)
@@ -1995,112 +1995,112 @@ Description-md5: 3a7ed4512cf49e4fe53b4490bcc1060b
 Recommends: chromium-sandbox
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium_138.0.7204.49-1~deb12u1_arm64.deb
-Size: 60869072
-SHA256: 0ae195eb0a4ed725d73537a26c5f3dec3afb30a8262b3817c5f0f19371b67fe6
+Filename: pool/updates/main/c/chromium/chromium_138.0.7204.92-1~deb12u1_arm64.deb
+Size: 60872612
+SHA256: f64f241b5ab8085361bf0b7ec74da7e7b8669c4cb8f7ea1d471e50b7beadb42e
 
 Package: chromium-common
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 79988
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 79989
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: arm64
-Replaces: chromium (<< 138.0.7204.49-1~deb12u1)
+Replaces: chromium (<< 138.0.7204.92-1~deb12u1)
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libx11-6, libxcb1, libxnvctrl0, zlib1g (>= 1:1.2.11.dfsg), x11-utils, xdg-utils
-Breaks: chromium (<< 138.0.7204.49-1~deb12u1)
+Breaks: chromium (<< 138.0.7204.92-1~deb12u1)
 Description: web browser - common resources used by the chromium packages
 Homepage: http://www.chromium.org/Home
 Description-md5: 6f8b66c61b0d01bc4c6ea3fa84a5ff38
 Recommends: upower, udev, libgl1-mesa-dri, chromium-sandbox, fonts-liberation, notification-daemon, system-config-printer
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-common_138.0.7204.49-1~deb12u1_arm64.deb
-Size: 27208728
-SHA256: 2be00386732c506504e533a1dfe9cd7edcdfd077a304e8a0bede7f6d2fc32c49
+Filename: pool/updates/main/c/chromium/chromium-common_138.0.7204.92-1~deb12u1_arm64.deb
+Size: 27217540
+SHA256: 0bce657f68d826d78164c40429931b354f1abeda647f1f7a74d51b349db15ab0
 
 Package: chromium-driver
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 20887
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 20888
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: arm64
-Depends: libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.22.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libxcb1 (>= 1.9.2), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium (= 138.0.7204.49-1~deb12u1)
+Depends: libc6 (>= 2.35), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.22.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libxcb1 (>= 1.9.2), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium (= 138.0.7204.92-1~deb12u1)
 Description: web browser - WebDriver support
 Homepage: http://www.chromium.org/Home
 Description-md5: eb0c0c145b65d4defefb8c5ea6154684
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-driver_138.0.7204.49-1~deb12u1_arm64.deb
-Size: 7072116
-SHA256: dbc72ed14963d5a0b3a91e9b79e1c58adc34b7bac9ef1fc5ed8b47ba9d7a3319
+Filename: pool/updates/main/c/chromium/chromium-driver_138.0.7204.92-1~deb12u1_arm64.deb
+Size: 7072976
+SHA256: b1840bfad378c45c349106a6136a1595d5d9b8b698335e9f6ed98032c5821d58
 
 Package: chromium-headless-shell
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 177687
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 177688
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: arm64
-Depends: libasound2 (>= 1.0.17), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.31.8), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 138.0.7204.49-1~deb12u1)
+Depends: libasound2 (>= 1.0.17), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.31.8), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 138.0.7204.92-1~deb12u1)
 Description: web browser - old headless shell
 Homepage: http://www.chromium.org/Home
 Description-md5: 5b1ef9356c47e07df1616de0d2b7a31c
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-headless-shell_138.0.7204.49-1~deb12u1_arm64.deb
-Size: 48471440
-SHA256: 49225e92f32265beb1d64cc83449303d32fed5f8515c6c68c6ca4bc3d29886b6
+Filename: pool/updates/main/c/chromium/chromium-headless-shell_138.0.7204.92-1~deb12u1_arm64.deb
+Size: 48460864
+SHA256: 65de20cf7f22fab31d3ba7e71d31a78638957f491140d9460b916b33f738b1b7
 
 Package: chromium-l10n
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 110829
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 110830
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: all
-Depends: chromium (>= 138.0.7204.49-1~deb12u1), chromium (<< 138.0.7204.49-1~deb12u1.1~)
+Depends: chromium (>= 138.0.7204.92-1~deb12u1), chromium (<< 138.0.7204.92-1~deb12u1.1~)
 Description: web browser - language packs
 Homepage: http://www.chromium.org/Home
 Description-md5: 7992f596971a4c3c71057d845c47f8e7
 Section: localization
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-l10n_138.0.7204.49-1~deb12u1_all.deb
-Size: 8284164
-SHA256: c2f05d3b8756ac9bfa3d6991258ce9973e925fdf0c6b9e1b257f507f33645fc9
+Filename: pool/updates/main/c/chromium/chromium-l10n_138.0.7204.92-1~deb12u1_all.deb
+Size: 8284036
+SHA256: aa5bd0f37d53d6c14c0a290e6661558a9618eee14387535d91214c8ad75c6b3c
 
 Package: chromium-sandbox
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 364
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 365
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: arm64
-Replaces: chromium (<< 138.0.7204.49-1~deb12u1)
+Replaces: chromium (<< 138.0.7204.92-1~deb12u1)
 Depends: libc6 (>= 2.34)
-Breaks: chromium (<< 138.0.7204.49-1~deb12u1)
+Breaks: chromium (<< 138.0.7204.92-1~deb12u1)
 Description: web browser - setuid security sandbox for chromium
 Homepage: http://www.chromium.org/Home
 Description-md5: c6df1ef89e815ff1e896ad2650b79831
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-sandbox_138.0.7204.49-1~deb12u1_arm64.deb
-Size: 105896
-SHA256: 6456b02fb7a0cbd3c318c5f4ff3f29b392ab6d78b5850bd49eeae99a7af497eb
+Filename: pool/updates/main/c/chromium/chromium-sandbox_138.0.7204.92-1~deb12u1_arm64.deb
+Size: 106016
+SHA256: 5dd1d740e0665fe70bee2d8d77f5be1cbb67e8be3f5d869d74138cef6f516102
 
 Package: chromium-shell
 Source: chromium
-Version: 138.0.7204.49-1~deb12u1
-Installed-Size: 193034
+Version: 138.0.7204.92-1~deb12u1
+Installed-Size: 193035
 Maintainer: Debian Chromium Team <chromium@packages.debian.org>
 Architecture: arm64
-Replaces: chromium (<< 138.0.7204.49-1~deb12u1)
-Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.37.3), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 138.0.7204.49-1~deb12u1)
-Breaks: chromium (<< 138.0.7204.49-1~deb12u1)
+Replaces: chromium (<< 138.0.7204.92-1~deb12u1)
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libdav1d6 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.37.3), libharfbuzz-subset0 (>= 6.0.0), libharfbuzz0b (>= 2.6.0), libjpeg62-turbo (>= 1:1.5.0), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-7 (>= 2.3.1+dfsg), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.11.dfsg), chromium-common (= 138.0.7204.92-1~deb12u1)
+Breaks: chromium (<< 138.0.7204.92-1~deb12u1)
 Description: web browser - minimal shell
 Homepage: http://www.chromium.org/Home
 Description-md5: 89a211eaddbed86ad7092b9e26b78542
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium/chromium-shell_138.0.7204.49-1~deb12u1_arm64.deb
-Size: 52612072
-SHA256: 0fbf2806a3bc390d89ac12e7eed0bc284c77cdf5af96f2926f5392b06a309fc8
+Filename: pool/updates/main/c/chromium/chromium-shell_138.0.7204.92-1~deb12u1_arm64.deb
+Size: 52611972
+SHA256: 15e706202ed312683e28986e000407549c3bafb6e25c4dfb67c7ebd4354f8180
 
 Package: cinder-api
 Source: cinder
@@ -13838,6 +13838,108 @@ Priority: optional
 Filename: pool/updates/main/j/jetty9/libjetty9-java_9.4.57-0+deb12u1_all.deb
 Size: 2984384
 SHA256: e653be38e98a46be21febc0f8e2d2728da8462fef3f3bcaff44c35668eb2dbb1
+
+Package: jpeg-xl-doc
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 2976
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: doc-base
+Description: JPEG XL Image Coding System - "JXL" (documentation)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: 44d36dcb17e9f8a2f9d692a76aa7613e
+Section: doc
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/jpeg-xl-doc_0.7.0-10+deb12u1_all.deb
+Size: 783532
+SHA256: 04b91c5408a98e75d2966f1ec534e51e8bad2f50156ec410d2b13878571f7197
+
+Package: libjpegxl-java
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 799
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: arm64
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.35), libgcc-s1 (>= 3.0), libhwy1 (>= 0.16.0), libstdc++6 (>= 12)
+Suggests: java-virtual-machine
+Description: JPEG XL Image Coding System - "JXL" (java bindings)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: c51794c19b445cd6518e7bf0d77256df
+Section: java
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/libjpegxl-java_0.7.0-10+deb12u1_arm64.deb
+Size: 300908
+SHA256: 8fb4703fc412b0be0db3a5dc62087cb8e207e9ba2872169bcd7546865cec601b
+
+Package: libjxl-dev
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 220
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: arm64
+Depends: libbrotli-dev, libhwy-dev, libjxl0.7 (= 0.7.0-10+deb12u1), liblcms-dev
+Description: JPEG XL Image Coding System - "JXL" (development files)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: b0f8476f7b2325774208e2505204f826
+Multi-Arch: same
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/libjxl-dev_0.7.0-10+deb12u1_arm64.deb
+Size: 49632
+SHA256: 67f26e54cd109661d0431623f1d028be335fd347cb40e3b5858298918b35e26f
+
+Package: libjxl-devtools
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 19683
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: arm64
+Depends: libavif15 (>= 0.11.1), libbrotli1 (>= 0.6.0), libc6 (>= 2.35), libgcc-s1 (>= 3.0), libhwy1 (>= 0.16.0), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.13), libopenexr-3-1-30 (>= 3.1.5), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 12), libtcmalloc-minimal4 (>= 2.10)
+Suggests: libavif-bin
+Description: JPEG XL Image Coding System - "JXL" (dev command line utility)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: 4131ad2529597fba7a2dcddb8b5f1c1f
+Section: utils
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/libjxl-devtools_0.7.0-10+deb12u1_arm64.deb
+Size: 1928644
+SHA256: 8faa16e5f3c17a814c57c2484156dcfdf32fd790016bc6f098694d60fc84f99e
+
+Package: libjxl-tools
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 2224
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: arm64
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.35), libgcc-s1 (>= 3.0), libgif7 (>= 5.1), libhwy1 (>= 0.16.0), libjpeg62-turbo (>= 1.3.1), libjxl0.7 (>= 0.7.0), liblcms2-2 (>= 2.13), libopenexr-3-1-30 (>= 3.1.5), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 11), libtcmalloc-minimal4 (>= 2.10)
+Suggests: netpbm
+Description: JPEG XL Image Coding System - "JXL" (command line utility)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: c789e316cb9fb5ca256c59b68643b721
+Recommends: libjpeg-turbo-progs
+Section: utils
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/libjxl-tools_0.7.0-10+deb12u1_arm64.deb
+Size: 706660
+SHA256: 8c32f6a6d0b944075f61c766b7eace7e1d8c9b1aefa388e89b8fcae63b6e2cb8
+
+Package: libjxl0.7
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 1764
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: arm64
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.35), libhwy1 (>= 0.16.0), liblcms2-2 (>= 2.13), libstdc++6 (>= 12)
+Description: JPEG XL Image Coding System - "JXL" (shared libraries)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: 944b209f63240a6ed87a3f696edc166e
+Multi-Arch: same
+Section: libs
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/libjxl0.7_0.7.0-10+deb12u1_arm64.deb
+Size: 643892
+SHA256: fc46d9d24c22e16726cc0fe131f52c4b3cc08db7ba408ef15173841bd3933f2e
 
 Package: jtreg6
 Version: 6.2+1-3~deb12u1
