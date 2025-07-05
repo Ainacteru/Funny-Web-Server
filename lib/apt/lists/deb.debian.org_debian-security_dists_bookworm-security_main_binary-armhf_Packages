@@ -10479,6 +10479,108 @@ Filename: pool/updates/main/j/jetty9/libjetty9-java_9.4.57-0+deb12u1_all.deb
 Size: 2984384
 SHA256: e653be38e98a46be21febc0f8e2d2728da8462fef3f3bcaff44c35668eb2dbb1
 
+Package: jpeg-xl-doc
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 2976
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: doc-base
+Description: JPEG XL Image Coding System - "JXL" (documentation)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: 44d36dcb17e9f8a2f9d692a76aa7613e
+Section: doc
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/jpeg-xl-doc_0.7.0-10+deb12u1_all.deb
+Size: 783532
+SHA256: 04b91c5408a98e75d2966f1ec534e51e8bad2f50156ec410d2b13878571f7197
+
+Package: libjpegxl-java
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 686
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.35), libgcc-s1 (>= 3.5), libhwy1 (>= 0.16.0), libstdc++6 (>= 12)
+Suggests: java-virtual-machine
+Description: JPEG XL Image Coding System - "JXL" (java bindings)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: c51794c19b445cd6518e7bf0d77256df
+Section: java
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/libjpegxl-java_0.7.0-10+deb12u1_armhf.deb
+Size: 351892
+SHA256: bc2e5f651beb3b1949bd295bedee2affd754178da66f1ea5f0776ee334761710
+
+Package: libjxl-dev
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 220
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libbrotli-dev, libhwy-dev, libjxl0.7 (= 0.7.0-10+deb12u1), liblcms-dev
+Description: JPEG XL Image Coding System - "JXL" (development files)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: b0f8476f7b2325774208e2505204f826
+Multi-Arch: same
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/libjxl-dev_0.7.0-10+deb12u1_armhf.deb
+Size: 49636
+SHA256: a2880bb581790d37ab050407b7e202db3b94ab2050546cf9200937744df58720
+
+Package: libjxl-devtools
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 17688
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libavif15 (>= 0.11.1), libbrotli1 (>= 0.6.0), libc6 (>= 2.35), libgcc-s1 (>= 3.5), libhwy1 (>= 0.16.0), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.13), libopenexr-3-1-30 (>= 3.1.5), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 12), libtcmalloc-minimal4 (>= 2.10)
+Suggests: libavif-bin
+Description: JPEG XL Image Coding System - "JXL" (dev command line utility)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: 4131ad2529597fba7a2dcddb8b5f1c1f
+Section: utils
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/libjxl-devtools_0.7.0-10+deb12u1_armhf.deb
+Size: 1989928
+SHA256: 4f253fec22864f39cdc21f2abee9ce7ae779b819adf3d72951a919c0564b06fd
+
+Package: libjxl-tools
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 1812
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.35), libgcc-s1 (>= 3.5), libgif7 (>= 5.1), libhwy1 (>= 0.16.0), libjpeg62-turbo (>= 1.3.1), libjxl0.7 (>= 0.7.0), liblcms2-2 (>= 2.13), libopenexr-3-1-30 (>= 3.1.5), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 11), libtcmalloc-minimal4 (>= 2.10)
+Suggests: netpbm
+Description: JPEG XL Image Coding System - "JXL" (command line utility)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: c789e316cb9fb5ca256c59b68643b721
+Recommends: libjpeg-turbo-progs
+Section: utils
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/libjxl-tools_0.7.0-10+deb12u1_armhf.deb
+Size: 818648
+SHA256: 780526ae4b4cf1ac24ed7b16d0717404feeaccb55b44c68cf0e6064d52e12fa0
+
+Package: libjxl0.7
+Source: jpeg-xl
+Version: 0.7.0-10+deb12u1
+Installed-Size: 1666
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.35), libgcc-s1 (>= 3.5), libhwy1 (>= 0.16.0), liblcms2-2 (>= 2.13), libstdc++6 (>= 12)
+Description: JPEG XL Image Coding System - "JXL" (shared libraries)
+Homepage: https://github.com/libjxl/libjxl
+Description-md5: 944b209f63240a6ed87a3f696edc166e
+Multi-Arch: same
+Section: libs
+Priority: optional
+Filename: pool/updates/main/j/jpeg-xl/libjxl0.7_0.7.0-10+deb12u1_armhf.deb
+Size: 796524
+SHA256: 6affb1ea3ac5d1fdf3115e1439a5ff116df35ff1ed998e3de52fad64e5f7e15e
+
 Package: jtreg6
 Version: 6.2+1-3~deb12u1
 Installed-Size: 776

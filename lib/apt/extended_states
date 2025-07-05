@@ -5066,10 +5066,6 @@ Package: php8.2-opcache
 Architecture: arm64
 Auto-Installed: 1
 
-Package: apache2-data
-Architecture: arm64
-Auto-Installed: 1
-
 Package: php8.2-readline
 Architecture: arm64
 Auto-Installed: 1
@@ -5079,10 +5075,6 @@ Architecture: arm64
 Auto-Installed: 1
 
 Package: libaprutil1
-Architecture: arm64
-Auto-Installed: 1
-
-Package: apache2-utils
 Architecture: arm64
 Auto-Installed: 1
 

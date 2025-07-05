@@ -281,3 +281,38 @@
 2025-07-01 21:24:51 trigproc libc-bin:arm64 2.36-9+rpt2+deb12u10 <none>
 2025-07-01 21:24:51 status half-configured libc-bin:arm64 2.36-9+rpt2+deb12u10
 2025-07-01 21:24:51 status installed libc-bin:arm64 2.36-9+rpt2+deb12u10
+2025-07-05 01:25:01 startup archives unpack
+2025-07-05 01:25:02 install ngrok:arm64 <none> 3.23.3
+2025-07-05 01:25:02 status half-installed ngrok:arm64 3.23.3
+2025-07-05 01:25:04 status unpacked ngrok:arm64 3.23.3
+2025-07-05 01:25:04 startup packages configure
+2025-07-05 01:25:04 configure ngrok:arm64 3.23.3 <none>
+2025-07-05 01:25:04 status unpacked ngrok:arm64 3.23.3
+2025-07-05 01:25:04 status half-configured ngrok:arm64 3.23.3
+2025-07-05 01:25:04 status installed ngrok:arm64 3.23.3
+2025-07-05 02:06:06 startup packages remove
+2025-07-05 02:06:06 status installed ngrok:arm64 3.23.3
+2025-07-05 02:06:06 remove ngrok:arm64 3.23.3 <none>
+2025-07-05 02:06:06 status half-configured ngrok:arm64 3.23.3
+2025-07-05 02:06:06 status half-installed ngrok:arm64 3.23.3
+2025-07-05 02:06:06 status config-files ngrok:arm64 3.23.3
+2025-07-05 02:06:06 status not-installed ngrok:arm64 <none>
+2025-07-05 02:06:07 startup packages configure
+2025-07-05 02:06:37 startup packages remove
+2025-07-05 02:06:37 status installed apache2-data:all 2.4.62-1~deb12u2
+2025-07-05 02:06:37 remove apache2-data:all 2.4.62-1~deb12u2 <none>
+2025-07-05 02:06:37 status half-configured apache2-data:all 2.4.62-1~deb12u2
+2025-07-05 02:06:37 status half-installed apache2-data:all 2.4.62-1~deb12u2
+2025-07-05 02:06:37 status config-files apache2-data:all 2.4.62-1~deb12u2
+2025-07-05 02:06:37 status not-installed apache2-data:all <none>
+2025-07-05 02:06:37 status installed apache2-utils:arm64 2.4.62-1~deb12u2
+2025-07-05 02:06:37 remove apache2-utils:arm64 2.4.62-1~deb12u2 <none>
+2025-07-05 02:06:37 status half-configured apache2-utils:arm64 2.4.62-1~deb12u2
+2025-07-05 02:06:37 status half-installed apache2-utils:arm64 2.4.62-1~deb12u2
+2025-07-05 02:06:37 status triggers-pending man-db:arm64 2.11.2-2
+2025-07-05 02:06:38 status config-files apache2-utils:arm64 2.4.62-1~deb12u2
+2025-07-05 02:06:38 status not-installed apache2-utils:arm64 <none>
+2025-07-05 02:06:38 startup packages configure
+2025-07-05 02:06:38 trigproc man-db:arm64 2.11.2-2 <none>
+2025-07-05 02:06:38 status half-configured man-db:arm64 2.11.2-2
+2025-07-05 02:06:40 status installed man-db:arm64 2.11.2-2

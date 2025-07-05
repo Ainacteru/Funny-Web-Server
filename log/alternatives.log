@@ -34,3 +34,5 @@ update-alternatives 2025-07-04 05:26:11: run with --quiet --install /run/php/php
 update-alternatives 2025-07-04 05:26:11: auto-repair link group php-fpm.sock
 update-alternatives 2025-07-04 05:58:45: run with --quiet --install /run/php/php-fpm.sock php-fpm.sock /run/php/php8.2-fpm.sock 82
 update-alternatives 2025-07-04 05:58:45: auto-repair link group php-fpm.sock
+update-alternatives 2025-07-05 02:02:06: run with --quiet --install /run/php/php-fpm.sock php-fpm.sock /run/php/php8.2-fpm.sock 82
+update-alternatives 2025-07-05 02:02:06: auto-repair link group php-fpm.sock

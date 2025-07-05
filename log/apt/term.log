@@ -322,3 +322,67 @@ Processing triggers for man-db (2.11.2-2) ...
 /usr/bin/mandb: can't chmod /var/cache/man/ko/CACHEDIR.TAG: Operation not permitted
 Processing triggers for libc-bin (2.36-9+rpt2+deb12u10) ...
 Log ended: 2025-07-01  21:24:51
+
+Log started: 2025-07-05  01:25:01
+Selecting previously unselected package ngrok.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 132241 files and directories currently installed.)
+Preparing to unpack .../ngrok_3.23.3_arm64.deb ...
+Unpacking ngrok (3.23.3) ...
+Setting up ngrok (3.23.3) ...
+Log ended: 2025-07-05  01:25:05
+
+Log started: 2025-07-05  02:06:06
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 132244 files and directories currently installed.)
+Removing ngrok (3.23.3) ...
+[1mdpkg:[0m [1;33mwarning:[0m while removing ngrok, directory '/usr/local/bin' not empty so not removed
+Log ended: 2025-07-05  02:06:07
+
+Log started: 2025-07-05  02:06:37
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 132241 files and directories currently installed.)
+Removing apache2-data (2.4.62-1~deb12u2) ...
+Removing apache2-utils (2.4.62-1~deb12u2) ...
+Processing triggers for man-db (2.11.2-2) ...
+/usr/bin/mandb: fopen /var/cache/man/zh_CN/2867: Permission denied
+/usr/bin/mandb: can't chmod /var/cache/man/tr/CACHEDIR.TAG: Operation not permitted
+/usr/bin/mandb: can't remove /var/cache/man/tr/CACHEDIR.TAG: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/tr/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/ro/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/id/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/nl/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/sv/2867: Permission denied
+/usr/bin/mandb: can't chmod /var/cache/man/it/CACHEDIR.TAG: Operation not permitted
+/usr/bin/mandb: can't remove /var/cache/man/it/CACHEDIR.TAG: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/it/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/de/2867: Permission denied
+/usr/bin/mandb: can't chmod /var/cache/man/ru/CACHEDIR.TAG: Operation not permitted
+/usr/bin/mandb: can't remove /var/cache/man/ru/CACHEDIR.TAG: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/ru/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/fi/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/uk/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/cs/2867: Permission denied
+/usr/bin/mandb: can't chmod /var/cache/man/ja/CACHEDIR.TAG: Operation not permitted
+/usr/bin/mandb: can't remove /var/cache/man/ja/CACHEDIR.TAG: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/ja/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/hr/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/sr/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/sl/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/zh_TW/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/bg/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/fr.ISO8859-1/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/pt_BR/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/es/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/hu/2867: Permission denied
+/usr/bin/mandb: can't chmod /var/cache/man/da/CACHEDIR.TAG: Operation not permitted
+/usr/bin/mandb: can't remove /var/cache/man/da/CACHEDIR.TAG: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/da/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/pt/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/ca/2867: Permission denied
+/usr/bin/mandb: can't chmod /var/cache/man/fr/CACHEDIR.TAG: Operation not permitted
+/usr/bin/mandb: can't remove /var/cache/man/fr/CACHEDIR.TAG: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/fr/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/fr.UTF-8/2867: Permission denied
+/usr/bin/mandb: can't chmod /var/cache/man/pl/CACHEDIR.TAG: Operation not permitted
+/usr/bin/mandb: can't remove /var/cache/man/pl/CACHEDIR.TAG: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/pl/2867: Permission denied
+/usr/bin/mandb: fopen /var/cache/man/ko/2867: Permission denied
+Log ended: 2025-07-05  02:06:40
