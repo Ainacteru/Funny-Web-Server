@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZAQYxzQs7RE=",
+  "success": true,
+  "projectFilePath": "/home/rpi4/Code/dotnetStuff/funnywebserver/funnywebserver.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/system.device.gpio/4.0.1/system.device.gpio.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
