@@ -12,19 +12,19 @@
 
     <body>
 
-        <button onclick="transmit(0)" id="short">Short buzz</button>
-        <button onclick="transmit(1)"id="long">Long buzz</button>
-        <button id="writeSeq">&ensp; Write sequence &ensp;</button>
-        <button id="sendSeq">&ensp; Send sequence &ensp; </button>
-        <h4 id="seqList">Current sequence: write one idiot</h4>
+        <button onclick="transmit()" id="mainBuzz">Buzz 'em!</button>
 
+        <hr>
+        <h4>Translate to Morse</h4>
+        <input id="morseInput" type="text" size="50" value="the quick brown fox jumps over the lazy dog">
+        <button onclick="morseTranslate()">Translate & Send!</button>
+        <br><hr>
         <img src="wide.gif">
         <div style="position: fixed; bottom: -125px; right: -70px;">
             <h6 id="radioLabel"></h6>
             <img onclick = "radio()" width="232" height="364" style="scale: 0.25;"src=radio.gif>
         </div>
 
-        <script src="audios/howler.js"></script>
 		<script src="script.js"></script>
     </body>
 </html>
