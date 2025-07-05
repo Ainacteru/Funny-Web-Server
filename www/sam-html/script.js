@@ -29,7 +29,6 @@ function morseTranslate() {
 	input = input.replace(/!/b, "");
 	input = input.replace(/,/b, "");
 	input = input.replace(/-/b, "");
-	input = input.replace(/?/b, "");
 
 	input = input.replace(/ /g, "/ ");
 	input = input.replace(/a/g, ".- ");
