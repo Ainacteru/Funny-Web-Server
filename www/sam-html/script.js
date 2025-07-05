@@ -1,6 +1,4 @@
-let binarySequenceWrite = false;
-let binarySequence = [];
-let seqList = document.getElementById("seqList");
+let morseInput = document.getElementById("morseInput");
 
 let musicID = 0;
 let Caramelldansen = new Audio("audios/Caramelldansen.mp3")
@@ -21,14 +19,57 @@ let PapersPlease = new Audio("audios/PapersPlease.mp3");
 PapersPlease.loop = true;
 let radioLabel = document.getElementById("radioLabel");
 
-function transmit(value) {
-	if (binarySequenceWrite) {
-		binarySequence[binarySequence.length] = value;
-		seqList.innerHTML = "Current sequence: " + binarySequence
-	} else {
-		alert("it aint my job to get the voodoo backend workin, right?");
-	}
+function transmit() {
+	alert("WERE DOING SOMETHING :D");
 }
+
+function morseTranslate() {
+	var input = morseInput.value
+	input = input.replace(/./b, "");
+	input = input.replace(/!/b, "");
+	input = input.replace(/,/b, "");
+	input = input.replace(/-/b, "");
+	input = input.replace(/?/b, "");
+
+	input = input.replace(/ /g, "/ ");
+	input = input.replace(/a/g, ".- ");
+	input = input.replace(/b/g, "-... ");
+	input = input.replace(/c/g, "-.-. ");
+	input = input.replace(/d/g, "-.. ");
+	input = input.replace(/e/g, ". ");
+	input = input.replace(/f/g, "..-. ");
+	input = input.replace(/g/g, "--. ");
+	input = input.replace(/h/g, ".... ");
+	input = input.replace(/i/g, ".. ");
+	input = input.replace(/j/g, ".--- ");
+	input = input.replace(/k/g, "-.- ");
+	input = input.replace(/l/g, ".-.. ");
+	input = input.replace(/m/g, "-- ");
+	input = input.replace(/n/g, "-. ");
+	input = input.replace(/o/g, "--- ");
+	input = input.replace(/p/g, ".--. ");
+	input = input.replace(/q/g, "--.- ");
+	input = input.replace(/r/g, ".-. ");
+	input = input.replace(/s/g, "... ");
+	input = input.replace(/t/g, "- ");
+	input = input.replace(/u/g, "..- ");
+	input = input.replace(/v/g, "...- ");
+	input = input.replace(/w/g, ".-- ");
+	input = input.replace(/x/g, "-..- ");
+	input = input.replace(/y/g, "-.-- ");
+	input = input.replace(/z/g, "--.. ");
+	input = input.replace(/1/g, ".---- ");
+	input = input.replace(/2/g, "..--- ");
+	input = input.replace(/3/g, "...-- ");
+	input = input.replace(/4/g, "....- ");
+	input = input.replace(/5/g, "..... ");
+	input = input.replace(/6/g, "-.... ");
+	input = input.replace(/7/g, "--... ");
+	input = input.replace(/8/g, "---.. ");
+	input = input.replace(/9/g, "----. ");
+	alert(input);
+}
+
 
 function radio() {
 	switch(musicID) {
