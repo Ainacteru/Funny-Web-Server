@@ -13,7 +13,6 @@ let ThatsLife = new Audio("audios/ThatsLife.mp3");
 ThatsLife.loop = true;
 let WTWaltz = new Audio("audios/WTWaltz.mp3");
 WTWaltz.loop = true;
-let PvZLevelClear = new Audio("audios/PvZLevelClear.mp3");
 let UraniumFever = new Audio("audios/UraniumFever.mp3");
 UraniumFever.loop = true;
 let GourmetRace = new Audio("audios/GourmetRace.mp3");
@@ -64,6 +63,7 @@ function radio() {
 		case 5:
 			WTWaltz.pause();
 			WTWaltz.currentTime = 0;
+			let PvZLevelClear = new Audio("audios/PvZLevelClear.mp3");
 			PvZLevelClear.play();
 			radioLabel.innerHTML = "Playing: PvZ - Level Clear (6)";
 			break;
