@@ -25,10 +25,9 @@ function transmit() {
 
 function morseTranslate() {
 	var input = morseInput.value
-	input = input.replace(/./b, "");
-	input = input.replace(/!/b, "");
-	input = input.replace(/,/b, "");
-	input = input.replace(/-/b, "");
+	input = input.replace(/!/g, "");
+	input = input.replace(/,/g, "");
+	input = input.replace(/-/g, "");
 
 	input = input.replace(/ /g, "/ ");
 	input = input.replace(/a/g, ".- ");
@@ -103,29 +102,26 @@ function radio() {
 		case 5:
 			WTWaltz.pause();
 			WTWaltz.currentTime = 0;
-			let PvZLevelClear = new Audio("audios/PvZLevelClear.mp3");
-			PvZLevelClear.play();
-			radioLabel.innerHTML = "Playing: PvZ - Level Clear (6)";
+			UraniumFever.play();
+			radioLabel.innerHTML = "Playing: Uranium Fever (6)"
 			break;
 		case 6:
-			UraniumFever.play();
-			radioLabel.innerHTML = "Playing: Uranium Fever (7)"
-			break;
-		case 7:
 			UraniumFever.pause();
 			UraniumFever.currentTime = 0;
 			GourmetRace.play();
-			radioLabel.innerHTML = "Playing: Gourmet Race (8)";
+			radioLabel.innerHTML = "Playing: Gourmet Race (7)";
 			break;
-		case 8:
+		case 7:
 			GourmetRace.pause();
 			GourmetRace.currentTime = 0;
 			PapersPlease.play();
-			radioLabel.innerHTML = "Playing: Papers Please Theme (9)";
+			radioLabel.innerHTML = "Playing: Papers Please Theme (8)";
 			break;
-		case 9:
+		case 8:
 			PapersPlease.pause();
 			PapersPlease.currentTime = 0;
+			let PvZLevelClear = new Audio("audios/PvZLevelClear.mp3");
+			PvZLevelClear.play();
 			radioLabel.innerHTML = "";
 			break;
 	}
