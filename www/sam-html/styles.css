@@ -8,11 +8,17 @@ h1 {
     -webkit-text-stroke: 100%;
     -webkit-text-stroke-color: mintcream;
 }
+
 button {
     font-family: "Trebuchet MS", Arial, sans-serif;
     color: white;
-    background-color:goldenrod
+    background-color: #daa520
 }
+button:hover {
+    background-color: #dao520;
+    transition-duration: 0.4s;
+}
+
 h4 {
     font-family: "Trebuchet MS", Arial, sans-serif;
     font-style: oblique;
