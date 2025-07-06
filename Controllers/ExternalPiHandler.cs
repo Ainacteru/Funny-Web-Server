@@ -8,8 +8,10 @@ namespace funnywebserver.Controllers
     public class ExternalPiController : ControllerBase
     {
         private static readonly HttpClient client = new HttpClient();
-        private static readonly string remotePiUrl = "http://78.208.23.22/api/buzzer"; // Change IP for Pi B
+        private static readonly string remotePiUrl = "http://72.208.23.22:5096/api/buzzer"; // Change IP for Pi B
         
+        //curl -X POST http://72.208.23.22:5096/api/buzzer/on to test
+
         [HttpPost("{state}")]
         public async Task<IActionResult> ControlRemoteGpio(string state)
         {
