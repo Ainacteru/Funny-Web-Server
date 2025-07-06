@@ -31,3 +31,4 @@
 /home/rpi4/Code/dotnetStuff/funnywebserver/bin/Debug/net8.0/System.Device.Gpio.dll
 /home/rpi4/Code/dotnetStuff/funnywebserver/obj/Debug/net8.0/funnywebserver.csproj.AssemblyReference.cache
 /home/rpi4/Code/dotnetStuff/funnywebserver/obj/Debug/net8.0/funnyweb.20371D79.Up2Date
+/home/rpi4/Code/dotnetStuff/funnywebserver/obj/Debug/net8.0/funnywebserver.sourcelink.json
