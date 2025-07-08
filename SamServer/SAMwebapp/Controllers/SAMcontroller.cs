@@ -29,7 +29,7 @@ namespace SAMwebapp.Controllers
                 //turn ips into links
                 for (int i = 0; i < otherPis.Length; i++)
                 {
-                    otherPis[i] = $"https://{otherPis[i]}/api/buzzer";
+                    otherPis[i] = $"https://{otherPis[i]}:5096/api/buzzer";
                 }
             }
         }
