@@ -30,6 +30,7 @@ namespace SAMwebapp.Controllers
                 for (int i = 0; i < otherPis.Length; i++)
                 {
                     otherPis[i] = $"http://{otherPis[i]}:5096/api/buzzer";
+                    Console.WriteLine($"trying to connect {otherPis[i]}")
                 }
             }
         }
