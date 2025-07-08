@@ -46,11 +46,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rpi4/Code/dotnetStuff/SamServer/SAMwebapp/SAMwebapp.csproj",
-      "projectName": "SAMwebapp",
-      "projectPath": "/home/rpi4/Code/dotnetStuff/SamServer/SAMwebapp/SAMwebapp.csproj",
+      "projectUniqueName": "/home/rpi4/Code/dotnetStuff/MainWebServer/MainWebServer.csproj",
+      "projectName": "MainWebServer",
+      "projectPath": "/home/rpi4/Code/dotnetStuff/MainWebServer/MainWebServer.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/rpi4/Code/dotnetStuff/SamServer/SAMwebapp/obj/",
+      "outputPath": "/home/rpi4/Code/dotnetStuff/MainWebServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nz8WohbBIc0=",
+  "dgSpecHash": "gn8JuaFmMUQ=",
   "success": true,
-  "projectFilePath": "/home/rpi4/Code/dotnetStuff/SamServer/SAMwebapp/SAMwebapp.csproj",
+  "projectFilePath": "/home/rpi4/Code/dotnetStuff/MainWebServer/MainWebServer.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/system.device.gpio/4.0.1/system.device.gpio.4.0.1.nupkg.sha512"
   ],
