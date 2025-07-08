@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+        <title>buzzinga</title>
+        <link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<h1>Big Buzz doesn't want you to know this ONE SIMPLE TRICK! Friends HATE it!<h1>
+        <hr>
+    </head>
+
+    <body>
+
+        <button onclick="transmit()" id="mainBuzz">Buzz 'em!</button>
+        <br><br>
+        <img onmousedown="SPLAT()" height="200" src="why did you make me this way.png">
+
+        <hr>
+        <h4>Translate Morse (space is "/")</h4>
+        <input id="morseInput" type="text" size="50" value="the quick brown fox jumps over the lazy dog">
+        <br><br>
+        <button onclick="encodeMorse()">Translate To Morse</button>
+        <a href="https://morsecode.world/international/translator.html"><button>button that takes you to a morse code decoder bc i couldnt do it</button></a>
+        <h5 id="translation">Translation: none yet idiot you havent CLICKED THE BUTTON</h5>
+        <img onmousedown="SPLAT()" src="wide.gif">
+
+        <h6 id="radioLabel"></h6>
+        <img onclick = "radio()" width="232" height="364" style="position: fixed; bottom: -120px; right: -70px; scale: 0.25"src=radio.gif>
+
+		<script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+body {
+  background-color:rgb(208, 227, 255)
+}
+h1 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 100%;
+    -webkit-text-stroke-color: mintcream;
+}
+h4 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+h5 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: white;
+    background-color:#daa520;
+    
+}
+button:hover {
+    background-color: #da0520;
+	transition-duration: 0.4s;
+}
+
+#radioLabel {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-style: oblique;
+    color: rgb(116, 116, 116);
+
+    position: fixed;
+    align-self: right;
+    bottom: 90px;
+    right: 5px;
+}
+
