@@ -21,67 +21,54 @@ function transmit() {
 	alert("IM LOOKING AT YOU, GARY");
 }
 
-function morseTranslate() {
+function encodeMorse() {
 	var input = document.getElementById("morseInput").value.toLowerCase().trim();
-	input = input.replace(/!/g, "");
-	input = input.replace(/,/g, "");
-	input = input.replace(/-/g, "");
+	input = input.replaceAll(".", "  ");
+	input = input.replaceAll(",", "");
+	input = input.replaceAll("!", " ");
+	input = input.replaceAll("?", " ");
+	input = input.replaceAll(":", " ");
 
-	input = input.replaceAll("/ ", " ");
-	input = input.replace(".- ", "a");
-	input = input.replace(/b/g, "-... ");
-	input = input.replace(/c/g, "-.-. ");
-	input = input.replace(/d/g, "-.. ");
-	input = input.replace(/e/g, ". ");
-	input = input.replace(/f/g, "..-. ");
-	input = input.replace(/g/g, "--. ");
-	input = input.replace(/h/g, ".... ");
-	input = input.replace(/i/g, ".. ");
-	input = input.replace(/j/g, ".--- ");
-	input = input.replace(/k/g, "-.- ");
-	input = input.replace(/l/g, ".-.. ");
-	input = input.replace(/m/g, "-- ");
-	input = input.replace(/n/g, "-. ");
-	input = input.replace(/o/g, "--- ");
-	input = input.replace(/p/g, ".--. ");
-	input = input.replace(/q/g, "--.- ");
-	input = input.replace(/r/g, ".-. ");
-	input = input.replace(/s/g, "... ");
-	input = input.replace(/t/g, "- ");
-	input = input.replace(/u/g, "..- ");
-	input = input.replace(/v/g, "...- ");
-	input = input.replace(/w/g, ".-- ");
-	input = input.replace(/x/g, "-..- ");
-	input = input.replace(/y/g, "-.-- ");
-	input = input.replace(/z/g, "--.. ");
-	input = input.replace(/1/g, ".---- ");
-	input = input.replace(/2/g, "..--- ");
-	input = input.replace(/3/g, "...-- ");
-	input = input.replace(/4/g, "....- ");
-	input = input.replace(/5/g, "..... ");
-	input = input.replace(/6/g, "-.... ");
-	input = input.replace(/7/g, "--... ");
-	input = input.replace(/8/g, "---.. ");
-	input = input.replace(/9/g, "----. ");
-	input = input.replace(/0/g, "----- ");
+	input = input.replaceAll("/", "-..-. ");
+	input = input.replaceAll(" ", "/ ");
+	input = input.replaceAll("a", ".- ");
+	input = input.replaceAll("b", "-... ");
+	input = input.replaceAll("c", "-.-. ");
+	input = input.replaceAll("d", "-.. ");
+	input = input.replaceAll("e", ". ");
+	input = input.replaceAll("f", "..-. ");
+	input = input.replaceAll("g", "--. ");
+	input = input.replaceAll("h", ".... ");
+	input = input.replaceAll("i", ".. ");
+	input = input.replaceAll("j", ".--- ");
+	input = input.replaceAll("k", "-.- ");
+	input = input.replaceAll("l", ".-.. ");
+	input = input.replaceAll("m", "-- ");
+	input = input.replaceAll("n", "-. ");
+	input = input.replaceAll("o", "--- ");
+	input = input.replaceAll("p", ".--. ");
+	input = input.replaceAll("q", "--.- ");
+	input = input.replaceAll("r", ".-. ");
+	input = input.replaceAll("s", "... ");
+	input = input.replaceAll("t", "- ");
+	input = input.replaceAll("u", "..- ");
+	input = input.replaceAll("v", "...- ");
+	input = input.replaceAll("w", ".-- ");
+	input = input.replaceAll("x", "-..- ");
+	input = input.replaceAll("y", "-.-- ");
+	input = input.replaceAll("z", "--.. ");
+	input = input.replaceAll("1", ".---- ");
+	input = input.replaceAll("2", "..--- ");
+	input = input.replaceAll("3", "...-- ");
+	input = input.replaceAll("4", "....- ");
+	input = input.replaceAll("5", "..... ");
+	input = input.replaceAll("6", "-.... ");
+	input = input.replaceAll("7", "--... ");
+	input = input.replaceAll("8", "---.. ");
+	input = input.replaceAll("9", "----. ");
+	input = input.replaceAll("0", "----- ");
 	document.getElementById("translation").innerHTML = "Translation: " + input;
 }
-
-function decodeMorse() {
-	var message = document.getElementById("morseInput").toLowerCase().trim(); 
-	var alphabet = {  
-	
-	};
-	var messageConverted = [];
-
-	message.split("   ").map(function (word) {
-		word.split(" ").map(function (letter) {
-			messageConverted.push(alphabet[letter]);
-		});
-		messageConverted.push(" ");
-	});
-	document.getElementById("translation").innerHTML = "Translation: " + messageConverted.join("")
-};
 
 function SPLAT() {
 	const SPLAT = new Audio("audios/SPLAT.mp3");
