@@ -14,7 +14,7 @@ namespace SAMwebapp.Controllers
         private static bool initialized = false;
 
         private static readonly HttpClient client = new HttpClient();
-        private static string otherPis[] = {"192.168.0.121"};
+        private static string[] otherPis = {"192.168.0.121"};
 
 
         public SAMController()
@@ -27,7 +27,7 @@ namespace SAMwebapp.Controllers
                 initialized = true;
 
                 //turn ips into links
-                for (int i = 0; i < otherPis.Length(); i++)
+                for (int i = 0; i < otherPis.Length; i++)
                 {
                     otherPis[i] = $"https://{otherPis[i]}/api/buzzer";
                 }
@@ -35,57 +35,60 @@ namespace SAMwebapp.Controllers
         }
 
         [HttpGet("on")]
-        public IActionResult TurnOn()
+        public async Task<IActionResult> TurnOn()
         {
-            controller.Write(pin, PinValue.High); // Turn buzzer ON
+            controller.Write(pin, PinValue.High);
             Console.WriteLine("buzzer ON");
 
             foreach (var ip in otherPis)
             {
-                buzzOtherPis(ip);
+                await buzzOtherPis(ip, true);
             }
 
             return Ok("buzzer ON");
         }
 
         [HttpGet("off")]
-        public IActionResult TurnOff()
+        public async Task<IActionResult> TurnOff()
         {
-            controller.Write(pin, PinValue.Low); // Turn buzzer ON
+            controller.Write(pin, PinValue.Low);
             Console.WriteLine("buzzer OFF");
 
             foreach (var ip in otherPis)
             {
-                buzzOtherPis(ip);
+                await buzzOtherPis(ip, false);
             }
 
             return Ok("buzzer OFF");
         }
 
-        //buzzing other people
-        public void buzzOtherPis(string piIp, boolean turnOn) {
-            
-            Console.WriteLine($"Sending request to {piIp}...")
-            var response;
+
+        public async Task buzzOtherPis(string piIp, bool turnOn)
+        {
+            Console.WriteLine($"Sending request to {piIp}...");
+
             try
             {
-                if (turnOn) {
+                HttpResponseMessage response;
+                if (turnOn)
+                {
                     response = await client.GetAsync($"{piIp}/on");
-                } else {
-                    response = await client.GetAsync($"{piIp}/on");
+                }
+                else
+                {
+                    response = await client.GetAsync($"{piIp}/off");
                 }
 
                 var body = await response.Content.ReadAsStringAsync();
 
                 if (response.IsSuccessStatusCode)
-
                     Console.WriteLine($"Remote GPIO response: {body}");
                 else
                     Console.WriteLine($"Remote error: {body}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"An error occured while trying to send to this ip: {piIp} the error message is: {ex}");
+                Console.WriteLine($"An error occurred while trying to send to {piIp}: {ex}");
             }
         }
     }

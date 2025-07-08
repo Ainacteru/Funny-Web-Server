@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/rpi4/Code/dotnetStuff/funnywebserver/SamServer/SAMwebapp/SAMwebapp.csproj": {}
+    "/home/rpi4/Code/dotnetStuff/SamServer/SAMwebapp/SAMwebapp.csproj": {}
   },
   "projects": {
-    "/home/rpi4/Code/dotnetStuff/funnywebserver/SamServer/SAMwebapp/SAMwebapp.csproj": {
+    "/home/rpi4/Code/dotnetStuff/SamServer/SAMwebapp/SAMwebapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rpi4/Code/dotnetStuff/funnywebserver/SamServer/SAMwebapp/SAMwebapp.csproj",
+        "projectUniqueName": "/home/rpi4/Code/dotnetStuff/SamServer/SAMwebapp/SAMwebapp.csproj",
         "projectName": "SAMwebapp",
-        "projectPath": "/home/rpi4/Code/dotnetStuff/funnywebserver/SamServer/SAMwebapp/SAMwebapp.csproj",
+        "projectPath": "/home/rpi4/Code/dotnetStuff/SamServer/SAMwebapp/SAMwebapp.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/rpi4/Code/dotnetStuff/funnywebserver/SamServer/SAMwebapp/obj/",
+        "outputPath": "/home/rpi4/Code/dotnetStuff/SamServer/SAMwebapp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
