@@ -10,7 +10,7 @@ const button = document.getElementById("button");
 console.log(currentUrl);
 console.log("hello");
 
-const myURL = "192.168.68.96:5096ddd";
+const myURL = "192.168.68.96:5096";
 
 if (currentUrl == myURL) {
     console.log("we are at the home url, switching to 72.208.23.22:5096...")
@@ -18,6 +18,7 @@ if (currentUrl == myURL) {
     urlOn = "http://72.208.23.22:5096/api/buzzer/on";
     urlOff = "http://72.208.23.22:5096/api/buzzer/off";
 }
+
 
 
 button.addEventListener("mousedown", () => {
