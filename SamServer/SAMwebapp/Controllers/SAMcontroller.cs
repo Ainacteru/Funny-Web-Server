@@ -9,28 +9,24 @@ namespace SAMwebapp.Controllers
     [Route("api/buzzer")]
     public class SAMController : ControllerBase
     {
-        private static readonly GpioController controller = new();
-        private const int pin = 18;
         private static bool initialized = false;
+        private static readonly Buzzer buzzer = new(18);
 
         private static readonly HttpClient client = new HttpClient();
-        private static string[] otherPis = {"192.168.0.121"};
+        private static string[] otherPis = {"192.168.0.121:5096"};
 
 
         public SAMController()
         {
             if (!initialized)
             {
-                Console.WriteLine("BuzzerController initialized");
-                controller.OpenPin(pin, PinMode.Output);
-                controller.Write(pin, PinValue.Low); // Make sure it's off initially
                 initialized = true;
 
                 //turn ips into links
                 for (int i = 0; i < otherPis.Length; i++)
                 {
-                    otherPis[i] = $"http://{otherPis[i]}:5096/api/buzzer";
-                    Console.WriteLine($"trying to connect {otherPis[i]}")
+                    otherPis[i] = $"http://{otherPis[i]}/api/buzzer";
+                    Console.WriteLine($"trying to connect to {otherPis[i]}");
                 }
             }
         }
@@ -38,7 +34,7 @@ namespace SAMwebapp.Controllers
         [HttpGet("on")]
         public async Task<IActionResult> TurnOn()
         {
-            controller.Write(pin, PinValue.High);
+            buzzer.Start();
             Console.WriteLine("buzzer ON");
 
             foreach (var ip in otherPis)
@@ -52,7 +48,7 @@ namespace SAMwebapp.Controllers
         [HttpGet("off")]
         public async Task<IActionResult> TurnOff()
         {
-            controller.Write(pin, PinValue.Low);
+            buzzer.Stop();
             Console.WriteLine("buzzer OFF");
 
             foreach (var ip in otherPis)

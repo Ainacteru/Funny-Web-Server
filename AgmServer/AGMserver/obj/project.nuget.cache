@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UARX7KYey28=",
+  "dgSpecHash": "a4vC69o0lso=",
   "success": true,
   "projectFilePath": "/home/rpi4/Code/dotnetStuff/AgmServer/AGMserver/AGMserver.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/system.device.gpio/4.0.1/system.device.gpio.4.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
