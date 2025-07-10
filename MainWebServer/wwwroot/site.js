@@ -1,5 +1,5 @@
 ﻿// === Audio Setup ===
-let musicID = 0;
+let musicID = 1;
 let Caramelldansen = new Audio("audios/Caramelldansen.mp3"); Caramelldansen.loop = true;
 let DanceoftheKnights = new Audio("audios/DanceoftheKnights.mp3"); DanceoftheKnights.loop = true;
 let PortalRadio = new Audio("audios/PortalRadio.mp3"); PortalRadio.loop = true;

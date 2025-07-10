@@ -32,3 +32,13 @@
 /home/rpi4/Code/dotnetStuff/MainWebServer/obj/Debug/net8.0/MainWebServer.pdb
 /home/rpi4/Code/dotnetStuff/MainWebServer/obj/Debug/net8.0/MainWebServer.genruntimeconfig.cache
 /home/rpi4/Code/dotnetStuff/MainWebServer/obj/Debug/net8.0/ref/MainWebServer.dll
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Debug/net8.0/published/published/web.config
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Debug/net8.0/published/web.config
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Debug/net8.0/published/appsettings.Development.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Debug/net8.0/published/appsettings.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Debug/net8.0/published/MainWebServer.deps.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Debug/net8.0/published/MainWebServer.runtimeconfig.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Debug/net8.0/published/published/appsettings.Development.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Debug/net8.0/published/published/appsettings.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Debug/net8.0/published/published/MainWebServer.deps.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Debug/net8.0/published/published/MainWebServer.runtimeconfig.json
