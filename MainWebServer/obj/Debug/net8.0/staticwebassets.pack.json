@@ -5,6 +5,50 @@
       "PackagePath": "staticwebassets/MainWebServer.bundle.scp.css"
     },
     {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/audios/Caramelldansen.mp3",
+      "PackagePath": "staticwebassets/audios/Caramelldansen.mp3"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/audios/DanceoftheKnights.mp3",
+      "PackagePath": "staticwebassets/audios/DanceoftheKnights.mp3"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/audios/GourmetRace.mp3",
+      "PackagePath": "staticwebassets/audios/GourmetRace.mp3"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/audios/PapersPlease.mp3",
+      "PackagePath": "staticwebassets/audios/PapersPlease.mp3"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/audios/PortalRadio.mp3",
+      "PackagePath": "staticwebassets/audios/PortalRadio.mp3"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/audios/PvZLevelClear.mp3",
+      "PackagePath": "staticwebassets/audios/PvZLevelClear.mp3"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/audios/SPLAT.mp3",
+      "PackagePath": "staticwebassets/audios/SPLAT.mp3"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/audios/ThatsLife.mp3",
+      "PackagePath": "staticwebassets/audios/ThatsLife.mp3"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/audios/UraniumFever.mp3",
+      "PackagePath": "staticwebassets/audios/UraniumFever.mp3"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/audios/WTWaltz.mp3",
+      "PackagePath": "staticwebassets/audios/WTWaltz.mp3"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/cheatsheet.png",
+      "PackagePath": "staticwebassets/cheatsheet.png"
+    },
+    {
       "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
@@ -241,12 +285,20 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/radio.gif",
+      "PackagePath": "staticwebassets/radio.gif"
+    },
+    {
       "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/site.css",
       "PackagePath": "staticwebassets/site.css"
     },
     {
       "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/site.js",
       "PackagePath": "staticwebassets/site.js"
+    },
+    {
+      "Id": "/home/rpi4/Code/dotnetStuff/MainWebServer/wwwroot/wide.gif",
+      "PackagePath": "staticwebassets/wide.gif"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MainWebServer.Microsoft.AspNetCore.StaticWebAssets.props",

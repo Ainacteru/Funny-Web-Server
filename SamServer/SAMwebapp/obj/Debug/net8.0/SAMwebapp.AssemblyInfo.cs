@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SAMwebapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1562bd39e586a3b7b7f0dcfe4ab8e51abb4accba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef5b655ef488593d51b81731cb2729a884730c49")]
 [assembly: System.Reflection.AssemblyProductAttribute("SAMwebapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SAMwebapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
