@@ -6,7 +6,7 @@ using System.Threading;
 namespace AGMserver.Controllers
 {
     [ApiController]
-    [Route("api/buzzer")]
+    [Route("api")]
     public class AGMController : ControllerBase
     {
         private static readonly Buzzer buzzer = new(18);
@@ -21,7 +21,7 @@ namespace AGMserver.Controllers
         //     }
         // }
 
-        [HttpGet("on")]
+        [HttpGet("buzzer/on")]
         public IActionResult TurnOn()
         {
             buzzer.Start();
@@ -29,12 +29,17 @@ namespace AGMserver.Controllers
             return Ok("buzzer ON");
         }
 
-        [HttpGet("off")]
+        [HttpGet("buzzer/off")]
         public IActionResult TurnOff()
         {
             buzzer.Stop();
             Console.WriteLine("buzzer OFF");
             return Ok("buzzer OFF");
+        }
+
+        [HttpGet("active")]
+        public IActionResult isAlive() {
+            return Ok("Is Alive");
         }
     }
 

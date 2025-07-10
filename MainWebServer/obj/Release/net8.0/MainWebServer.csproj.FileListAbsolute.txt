@@ -37,3 +37,8 @@
 /home/rpi4/Code/dotnetStuff/MainWebServer/bin/Release/net8.0/published/appsettings.json
 /home/rpi4/Code/dotnetStuff/MainWebServer/bin/Release/net8.0/published/MainWebServer.deps.json
 /home/rpi4/Code/dotnetStuff/MainWebServer/bin/Release/net8.0/published/MainWebServer.runtimeconfig.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Release/net8.0/published/published/web.config
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Release/net8.0/published/published/appsettings.Development.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Release/net8.0/published/published/appsettings.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Release/net8.0/published/published/MainWebServer.deps.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/bin/Release/net8.0/published/published/MainWebServer.runtimeconfig.json

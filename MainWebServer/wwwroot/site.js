@@ -1,5 +1,5 @@
 ﻿// === Audio Setup ===
-let musicID = 1;
+let musicID = 0;
 let Caramelldansen = new Audio("audios/Caramelldansen.mp3"); Caramelldansen.loop = true;
 let DanceoftheKnights = new Audio("audios/DanceoftheKnights.mp3"); DanceoftheKnights.loop = true;
 let PortalRadio = new Audio("audios/PortalRadio.mp3"); PortalRadio.loop = true;
@@ -113,16 +113,19 @@ function encodeMorse() {
 	document.getElementById("translation").innerHTML = "Translation: " + input;
 }
 
-// === Extra effects ===
-function transmit() {
-	alert("IM LOOKING AT YOU, GARY");
-}
-
 function SPLAT() {
 	new Audio("audios/SPLAT.mp3").play();
 }
 
-// === Buzzer control ===
+
+
+
+
+
+
+
+
+// === Cool code (unstinky) ===
 const currentUrl = window.location.host;
 var urlOn = "/api/buzzer/on";
 var urlOff = "/api/buzzer/off";
@@ -132,6 +135,20 @@ const button = document.getElementById("button");
 
 console.log(currentUrl);
 console.log("hello");
+
+fetch("http://136.49.98.218/api/active", { method: httpMethod })
+	.then(response => response.text())
+	.then(text => {
+		console.log(text);
+	});
+
+fetch("http://72.208.23.22:5096/api/active", { method: httpMethod })
+.then(response => response.text())
+.then(text => {
+	console.log(text);
+});
+
+
 
 const myURL = "192.168.68.96:5096";
 if (currentUrl == myURL) {
@@ -144,7 +161,6 @@ button.addEventListener("mousedown", () => {
 	fetch(urlOn, { method: httpMethod })
 		.then(response => response.text())
 		.then(text => {
-			responseText.textContent = text;
 			console.log(text);
 		});
 });
@@ -153,7 +169,6 @@ button.addEventListener("mouseup", () => {
 	fetch(urlOff, { method: httpMethod })
 		.then(response => response.text())
 		.then(text => {
-			responseText.textContent = text;
 			console.log(text);
 		});
 });
@@ -162,7 +177,6 @@ button.addEventListener("mouseleave", () => {
 	fetch(urlOff, { method: httpMethod })
 		.then(response => response.text())
 		.then(text => {
-			responseText.textContent = text;
 			console.log(text);
 		});
 });

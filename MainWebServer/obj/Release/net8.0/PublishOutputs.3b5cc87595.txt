@@ -1,4 +1,5 @@
 /home/rpi4/Code/dotnetStuff/MainWebServer/published/MainWebServer
+/home/rpi4/Code/dotnetStuff/MainWebServer/published/published/published/web.config
 /home/rpi4/Code/dotnetStuff/MainWebServer/published/published/web.config
 /home/rpi4/Code/dotnetStuff/MainWebServer/published/appsettings.Development.json
 /home/rpi4/Code/dotnetStuff/MainWebServer/published/appsettings.json
@@ -6,6 +7,10 @@
 /home/rpi4/Code/dotnetStuff/MainWebServer/published/published/appsettings.json
 /home/rpi4/Code/dotnetStuff/MainWebServer/published/published/MainWebServer.deps.json
 /home/rpi4/Code/dotnetStuff/MainWebServer/published/published/MainWebServer.runtimeconfig.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/published/published/published/appsettings.Development.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/published/published/published/appsettings.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/published/published/published/MainWebServer.deps.json
+/home/rpi4/Code/dotnetStuff/MainWebServer/published/published/published/MainWebServer.runtimeconfig.json
 /home/rpi4/Code/dotnetStuff/MainWebServer/published/MainWebServer.dll
 /home/rpi4/Code/dotnetStuff/MainWebServer/published/MainWebServer.deps.json
 /home/rpi4/Code/dotnetStuff/MainWebServer/published/MainWebServer.runtimeconfig.json
