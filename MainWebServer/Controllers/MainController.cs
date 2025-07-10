@@ -5,7 +5,7 @@ namespace MainWebServer.Controllers
 {
     [ApiController]
     [Route("api")]
-    public class BuzzerController : ControllerBase
+    public class MainController : ControllerBase
     {
         private static readonly Buzzer buzzer = new(18);
 
@@ -24,5 +24,7 @@ namespace MainWebServer.Controllers
             Console.WriteLine("Buzzer OFF");
             return Ok("Buzzer OFF");
         }
+
+        
     }
 }

@@ -6,11 +6,13 @@ using System.Threading;
 namespace SAMwebapp.Controllers
 {
     [ApiController]
-    [Route("api/buzzer")]
+    [Route("api")]
     public class SAMController : ControllerBase
     {
         private static bool initialized = false;
         private static readonly Buzzer buzzer = new(18);
+
+        private static int globalMusicBox;
 
         private static readonly HttpClient client = new HttpClient();
         private static string[] otherPis = {"192.168.0.121:5096"};
@@ -31,7 +33,12 @@ namespace SAMwebapp.Controllers
             }
         }
 
-        [HttpGet("on")]
+        [HttpGet("active")]
+        public IActionResult isAlive() {
+            return Ok("Is Alive");
+        }
+
+        [HttpGet("buzzer/on")]
         public async Task<IActionResult> TurnOn()
         {
             buzzer.Start();
@@ -45,7 +52,7 @@ namespace SAMwebapp.Controllers
             return Ok("buzzer ON");
         }
 
-        [HttpGet("off")]
+        [HttpGet("buzzer/off")]
         public async Task<IActionResult> TurnOff()
         {
             buzzer.Stop();
