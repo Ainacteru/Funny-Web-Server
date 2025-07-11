@@ -64,53 +64,35 @@ function radio() {
 	if (musicID > 8) musicID = 0;
 }
 
+
+const alphabet = [
+	"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+	"n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
+	" ", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"
+  ];
+  
+  const morse = [
+	".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---",
+	"-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-",
+	"..-", "...-", ".--", "-..-", "-.--", "--..", "/", ".----", "..---",
+	"...--", "....-", ".....", "-....", "--...", "---..", "----.", "-----"
+  ];
+  
 // === Morse code encoder ===
 function encodeMorse() {
 	let input = document.getElementById("morseInput").value.toLowerCase().trim();
-	input = input.replaceAll(".", "  ")
-		.replaceAll(",", "")
-		.replaceAll("!", " ")
-		.replaceAll("?", " ")
-		.replaceAll(":", " ")
-		.replaceAll("/", "-..-. ")
-		.replaceAll(" ", "/ ")
-		.replaceAll("a", ".- ")
-		.replaceAll("b", "-... ")
-		.replaceAll("c", "-.-. ")
-		.replaceAll("d", "-.. ")
-		.replaceAll("e", ". ")
-		.replaceAll("f", "..-. ")
-		.replaceAll("g", "--. ")
-		.replaceAll("h", ".... ")
-		.replaceAll("i", ".. ")
-		.replaceAll("j", ".--- ")
-		.replaceAll("k", "-.- ")
-		.replaceAll("l", ".-.. ")
-		.replaceAll("m", "-- ")
-		.replaceAll("n", "-. ")
-		.replaceAll("o", "--- ")
-		.replaceAll("p", ".--. ")
-		.replaceAll("q", "--.- ")
-		.replaceAll("r", ".-. ")
-		.replaceAll("s", "... ")
-		.replaceAll("t", "- ")
-		.replaceAll("u", "..- ")
-		.replaceAll("v", "...- ")
-		.replaceAll("w", ".-- ")
-		.replaceAll("x", "-..- ")
-		.replaceAll("y", "-.-- ")
-		.replaceAll("z", "--.. ")
-		.replaceAll("1", ".---- ")
-		.replaceAll("2", "..--- ")
-		.replaceAll("3", "...-- ")
-		.replaceAll("4", "....- ")
-		.replaceAll("5", "..... ")
-		.replaceAll("6", "-.... ")
-		.replaceAll("7", "--... ")
-		.replaceAll("8", "---.. ")
-		.replaceAll("9", "----. ")
-		.replaceAll("0", "----- ");
-	document.getElementById("translation").innerHTML = "Translation: " + input;
+	let output = "";
+
+	for (let char of input) {
+		let index = alphabet.indexOf(char);
+		if (index !== -1) {
+			output += morse[index] + " ";
+		} else {
+			output += "? "; // for unsupported characters
+		}
+	}
+
+	document.getElementById("translation").innerHTML = "Translation: " + output;
 }
 
 function SPLAT() {
