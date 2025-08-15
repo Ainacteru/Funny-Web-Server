@@ -3,6 +3,9 @@ using System;
 using System.Device.Gpio;
 using System.Threading;
 
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
 namespace SAMwebapp.Controllers
 {
     [ApiController]
@@ -12,6 +15,12 @@ namespace SAMwebapp.Controllers
         private static readonly GpioController controller = new();
         private const int pin = 18;
         private static bool initialized = false;
+<<<<<<< Updated upstream
+=======
+        private static readonly Buzzer buzzer = new(18);
+
+        // private static int globalMusicID = 8;
+>>>>>>> Stashed changes
 
         private static readonly HttpClient client = new HttpClient();
         private static string[] otherPis = {"192.168.0.121"};
@@ -29,7 +38,12 @@ namespace SAMwebapp.Controllers
                 //turn ips into links
                 for (int i = 0; i < otherPis.Length; i++)
                 {
+<<<<<<< Updated upstream
                     otherPis[i] = $"https://{otherPis[i]}/api/buzzer";
+=======
+                    otherPis[i] = $"http://{otherPis[i]}/api";
+                    Console.WriteLine($"trying to connect to {otherPis[i]}");
+>>>>>>> Stashed changes
                 }
             }
         }
@@ -91,6 +105,30 @@ namespace SAMwebapp.Controllers
                 Console.WriteLine($"An error occurred while trying to send to {piIp}: {ex}");
             }
         }
+
+        /*
+        [HttpGet("musicNext")]
+        public IActionResult musicNext()
+        {
+            globalMusicID++;
+            if(globalMusicID > 8)
+            {
+                globalMusicID = 0;
+            }
+
+            string json = JsonSerializer.Serialize(globalMusicID);
+            System.IO.File.WriteAllText(@"/home/ntbean/Funny-Web-Server/SamServer/SAMwebapp/wwwroot/musicsettings.json", json);
+
+            Console.WriteLine("music is different now lmao: song " + globalMusicID);
+            return Ok(globalMusicID);
+        }
+
+        
+        [HttpGet("musicCheck")]
+        public IActionResult musicCheck() {
+            return Ok("song is " + globalMusicID);
+        }
+        */
     }
 
 }

@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SAMwebapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1562bd39e586a3b7b7f0dcfe4ab8e51abb4accba")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b759b59fd8cc3bca7d599e267e77e759f24aaccf")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("SAMwebapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SAMwebapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
