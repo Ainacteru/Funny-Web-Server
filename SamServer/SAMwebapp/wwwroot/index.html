@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+        <title>buzzinga</title>
+        <link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+		<h1>Big Buzz doesn't want you to know this ONE SIMPLE TRICK! Friends HATE it!<h1>
+        <hr>
+    </head>
+
+    <body>
+
+        <button id="button">Buzz 'em!</button>
+        <h5 id="response"></h5>
+        <br><br>
+        <img onmousedown="SPLAT()" height="200" src="cheatsheet.png">
+
+        <hr>
+        <h4>Translate Morse (space is "/")</h4>
+        <input id="morseInput" type="text" size="50" value="the quick brown fox jumps over the lazy dog">
+        <br><br>
+        <button onclick="encodeMorse()">Translate To Morse</button>
+        <a target="_blank" href="https://morsecode.world/international/translator.html"><button>button that takes you to a morse code decoder bc i couldnt do it</button></a>
+        <h5 id="translation">Translation: none yet idiot you havent CLICKED THE BUTTON</h5>
+        <img onmousedown="SPLAT()" src="wide.GIF">
+        <hr>
+        
+        <h2>Extras!!!!!!!!!!!!!!!!!!!!!!!!!!!</h2>
+        <a href="http://72.208.23.22:5096/savoy/logos/2021/savoy/rc5/savoy.html"><h4>savory ballroom mm mm mm</h4></a>
+
+        <h6 id="radioLabel"></h6>
+        <img onclick="radio()" width="232" height="364" style="position: fixed; bottom: -120px; right: -70px; scale: 0.25"src="radio.gif">
+        <!img id="radio" width="232" height="364" style="position: fixed; bottom: -120px; right: -70px; scale: 0.25"src="radio.gif">
+
+		<script src="script.js"></script>
+        <script src="site.js?v=<?= Date.now() ?>"></script>
+    </body>
+</html>
