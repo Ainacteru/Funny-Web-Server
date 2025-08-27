@@ -1,27 +1,8 @@
 let musicID = 0;
-let Caramelldansen = new Audio("audios/Caramelldansen.mp3")
-Caramelldansen.loop = true;
-let DanceoftheKnights = new Audio("audios/DanceoftheKnights.mp3");
-DanceoftheKnights.loop = true;
-let PortalRadio = new Audio("audios/PortalRadio.mp3");
-PortalRadio.loop = true;
-let ThatsLife = new Audio("audios/ThatsLife.mp3");
-ThatsLife.loop = true;
-let WTWaltz = new Audio("audios/WTWaltz.mp3");
-WTWaltz.loop = true;
-let UraniumFever = new Audio("audios/UraniumFever.mp3");
-UraniumFever.loop = true;
-let GourmetRace = new Audio("audios/GourmetRace.mp3");
-GourmetRace.loop = true;
-let PapersPlease = new Audio("audios/PapersPlease.mp3");
-PapersPlease.loop = true;
-let BeiMirBistDuSchoen = new Audio("audios/BeiMirBistDuSchoen.mp3");
-BeiMirBistDuSchoen.loop = true;
-let radioLabel = document.getElementById("radioLabel");
+let songToPlay;
+console.log("musicID: " + musicID);
 
-function transmit() {
-	alert("IM LOOKING AT YOU, GARY");
-}
+const radioLabel = document.getElementById("radioLabel");
 
 const alphabet = [
 	"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
@@ -29,12 +10,41 @@ const alphabet = [
 	" ", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"
   ];
   
-  const morse = [
+const morse = [
 	".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---",
 	"-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-",
 	"..-", "...-", ".--", "-..-", "-.--", "--..", "/", ".----", "..---",
 	"...--", "....-", ".....", "-....", "--...", "---..", "----.", "-----"
   ];
+
+const songs = [
+	"Caramelldansen.mp3",
+	"DanceoftheKnights.mp3",
+	"PortalRadio.mp3",
+	"ThatsLife.mp3",
+	"WTWaltz.mp3",
+	"UraniumFever.mp3",
+	"GourmetRace.mp3",
+	"PapersPlease.mp3",
+	"BeiMirBistDuSchoen.mp3",
+	"JustTheTwoOfUs.mp3"
+]
+
+const songNames = [
+	"Caramelldansen (1)",
+	"Dance of the Knights (2)",
+	"Portal Radio (3)",
+	"That's Life (4)",
+	"Waltz of the Tornado (5)",
+	"Uranium Fever (6)",
+	"Gourmet Race (7)",
+	"Papers Please Theme (8)",
+	"Bei Mir Bist Du Schoen (9)",
+	"Just the Two of Us (10)"
+]
+
+console.log("songs.length: " + songs.length);
+console.log("songNames.length: " + songNames.length);
 
 function encodeMorse() {
 	let input = document.getElementById("morseInput").value.toLowerCase().trim();
@@ -48,7 +58,7 @@ function encodeMorse() {
 			output += "? "; // for unsupported characters
 		}
 	}
-	document.getElementById("translation").innerHTML = "Translation: " + input;
+	document.getElementById("translation").innerHTML = "Translation: " + output;
 }
 
 function SPLAT() {
@@ -57,71 +67,41 @@ function SPLAT() {
 }
 
 function radio() {
-	console.log(musicID);
-	switch(musicID) {
+	if(songToPlay != null) {
+		songToPlay.pause()
+	}
+	
+	if(musicID == songs.length) {
+		let PvZLevelClear = new Audio("audios/PvZLevelClear.mp3");
+		PvZLevelClear.play();
+		radioLabel.innerHTML = "";
+		musicID = 0;
+		return;
+	}
+
+	console.log("current musicID: " + musicID);
+	songToPlay = new Audio("audios/" + songs[musicID]);
+	songToPlay.loop = true;
+	songToPlay.play();
+	radioLabel.innerHTML = "Playing: " + songNames[musicID];
+	radioEasterEggs();
+
+	musicID++;
+}
+
+function radioEasterEggs() {
+	switch (musicID) {
 		case 0:
-			Caramelldansen.play();
-			radioLabel.innerHTML = "Playing: Caramelldansen (1)";
-			break;
-		case 1:
-			Caramelldansen.pause();
-			Caramelldansen.currentTime = 0;
-			DanceoftheKnights.play();
-			radioLabel.innerHTML = "Playing: Dance of the Knights (2)";
+			document.getElementById("linker").href = "http://72.208.23.22:5096/easter-eggs/caramelldansen-lyrics.txt";
 			break;
 		case 2:
-			DanceoftheKnights.pause();
-			DanceoftheKnights.currentTime = 0;
-			PortalRadio.play();
-			radioLabel.innerHTML = "Playing: Portal 1 Radio (3)";
+			document.getElementById("linker").href = "https://www.youtube.com/watch?v=2wOHxAHPHqU%t=0";
 			break;
 		case 3:
-			PortalRadio.pause();
-			PortalRadio.currentTime = 0;
-			ThatsLife.play();
-			radioLabel.innerHTML = "Playing: That's Life (4)";
+			document.getElementById("linker").href = "https://www.youtube.com/watch?v=mQIZ-Esbg_c";
 			break;
-		case 4:
-			ThatsLife.pause();
-			ThatsLife.currentTime = 0;
-			WTWaltz.play();
-			radioLabel.innerHTML = "Playing: Waltz of the Tornado (5)";
+		default:
+			document.getElementById("linker").href = "http://72.208.23.22:5096/audios/" + songs[musicID];
 			break;
-		case 5:
-			WTWaltz.pause();
-			WTWaltz.currentTime = 0;
-			UraniumFever.play();
-			radioLabel.innerHTML = "Playing: Uranium Fever (6)"
-			break;
-		case 6:
-			UraniumFever.pause();
-			UraniumFever.currentTime = 0;
-			GourmetRace.play();
-			radioLabel.innerHTML = "Playing: Gourmet Race (7)";
-			break;
-		case 7:
-			GourmetRace.pause();
-			GourmetRace.currentTime = 0;
-			PapersPlease.play();
-			radioLabel.innerHTML = "Playing: Papers Please Theme (8)";
-			break;
-		case 8:
-			console.log("whyyyyy");
-			PapersPlease.pause();
-			PapersPlease.currentTime = 0;
-			BeiMirBistDuSchoen.play();
-			radioLabel.innerHTML = "Playing: Bei Mir Bist Du Schoen (9)";
-			break;
-		case 9:
-			BeiMirBistDuSchoen.pause();
-			BeiMirBistDuSchoen.currentTime = 0;
-			let PvZLevelClear = new Audio("audios/PvZLevelClear.mp3");
-			PvZLevelClear.play();
-			radioLabel.innerHTML = "";
-			break;
-	}
-	musicID++;
-	if(musicID > 9) {
-		musicID = 0;
 	}
 }

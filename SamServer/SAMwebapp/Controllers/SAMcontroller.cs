@@ -15,12 +15,8 @@ namespace SAMwebapp.Controllers
         private static readonly GpioController controller = new();
         private const int pin = 18;
         private static bool initialized = false;
-<<<<<<< Updated upstream
-=======
-        private static readonly Buzzer buzzer = new(18);
 
         // private static int globalMusicID = 8;
->>>>>>> Stashed changes
 
         private static readonly HttpClient client = new HttpClient();
         private static string[] otherPis = {"192.168.0.121"};
@@ -38,12 +34,8 @@ namespace SAMwebapp.Controllers
                 //turn ips into links
                 for (int i = 0; i < otherPis.Length; i++)
                 {
-<<<<<<< Updated upstream
-                    otherPis[i] = $"https://{otherPis[i]}/api/buzzer";
-=======
                     otherPis[i] = $"http://{otherPis[i]}/api";
                     Console.WriteLine($"trying to connect to {otherPis[i]}");
->>>>>>> Stashed changes
                 }
             }
         }
