@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mdeFke8wMHk=",
+  "dgSpecHash": "EigMiIUPYNw=",
   "success": true,
-  "projectFilePath": "/home/ntbean/Funny-Web-Server/SamServer/SAMwebapp/SAMwebapp.csproj",
+  "projectFilePath": "C:\\Users\\user\\ComputerStuff\\Funny-Web-Server\\SamServer\\SAMwebapp\\SAMwebapp.csproj",
   "expectedPackageFiles": [
-    "/home/ntbean/.nuget/packages/system.device.gpio/4.0.1/system.device.gpio.4.0.1.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\system.device.gpio\\4.0.1\\system.device.gpio.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

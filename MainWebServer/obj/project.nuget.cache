@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gn8JuaFmMUQ=",
+  "dgSpecHash": "/I9/rsrkhzk=",
   "success": true,
-  "projectFilePath": "/home/rpi4/Code/dotnetStuff/MainWebServer/MainWebServer.csproj",
+  "projectFilePath": "C:\\Users\\user\\ComputerStuff\\Funny-Web-Server\\MainWebServer\\MainWebServer.csproj",
   "expectedPackageFiles": [
-    "/root/.nuget/packages/system.device.gpio/4.0.1/system.device.gpio.4.0.1.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\system.device.gpio\\4.0.1\\system.device.gpio.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }
