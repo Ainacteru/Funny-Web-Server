@@ -28,6 +28,7 @@ const songs = [
 	"PapersPlease.mp3",
 	"BeiMirBistDuSchoen.mp3",
 	"JustTheTwoOfUs.mp3"
+	"PEPSIMAAAN.mp3"
 ]
 
 const songNames = [
@@ -40,7 +41,8 @@ const songNames = [
 	"Gourmet Race (7)",
 	"Papers Please Theme (8)",
 	"Bei Mir Bist Du Schoen (9)",
-	"Just the Two of Us (10)"
+	"Just the Two of Us (10)",
+	"Pepsiman Theme (11)"
 ]
 
 console.log("songs.length: " + songs.length);
@@ -104,4 +106,5 @@ function radioEasterEggs() {
 			document.getElementById("linker").href = "http://72.208.23.22:5096/audios/" + songs[musicID];
 			break;
 	}
+
 }
